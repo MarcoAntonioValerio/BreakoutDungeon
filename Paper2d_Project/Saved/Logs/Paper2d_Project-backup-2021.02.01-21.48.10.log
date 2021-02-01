@@ -1,0 +1,1832 @@
+﻿Log file open, 02/01/21 21:11:29
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Paper2d_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.325808
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin BlockoutToolsPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.51.0
+LogInit: Build: ++UE4+Release-4.26-CL-14830424
+LogInit: Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Dec  1 2020 15:13:26
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=mAvvius -epicuserid=1118738a97954902ab03aa9e7dbe70e8 -epiclocale=en
+LogInit: Base Directory: D:/Programs/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:577][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.01-21.11.30:577][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.02.01-21.11.30:578][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:578][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:586][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.01-21.11.30:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.01-21.11.30:587][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.01-21.11.30:588][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.01-21.11.30:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.01-21.11.30:588][  0]LogHAL: Display: Platform has ~ 32 GB [34153750528 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.01-21.11.30:588][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.01-21.11.30:588][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.01-21.11.30:588][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.01-21.11.30:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.01-21.11.30:590][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.01-21.11.30:591][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.01-21.11.30:591][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.01-21.11.30:591][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.01-21.11.30:591][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/Unreal Engine/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.01-21.11.30:591][  0]LogInit: Computer: DESKTOP-CBKA3I9
+[2021.02.01-21.11.30:591][  0]LogInit: User: marco
+[2021.02.01-21.11.30:591][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.01-21.11.30:591][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.01-21.11.30:591][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2021.02.01-21.11.30:591][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.01-21.11.30:591][  0]LogMemory: Process Physical Memory: 138.07 MB used, 138.07 MB peak
+[2021.02.01-21.11.30:591][  0]LogMemory: Process Virtual Memory: 110.81 MB used, 110.81 MB peak
+[2021.02.01-21.11.30:591][  0]LogMemory: Physical Memory: 9625.00 MB used,  22946.55 MB free, 32571.55 MB total
+[2021.02.01-21.11.30:591][  0]LogMemory: Virtual Memory: 134192064.00 MB used,  25660.11 MB free, 134217728.00 MB total
+[2021.02.01-21.11.30:597][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.01-21.11.30:653][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.01-21.11.30:654][  0]LogInit: Using OS detected language (en-GB).
+[2021.02.01-21.11.30:654][  0]LogInit: Using OS detected locale (en-GB).
+[2021.02.01-21.11.30:657][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.02.01-21.11.30:860][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.01-21.11.30:891][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.01-21.11.30:910][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.01-21.11.30:910][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.01-21.11.31:149][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2021.02.01-21.11.31:149][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.01-21.11.31:149][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.01-21.11.31:149][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.01-21.11.31:238][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2021.02.01-21.11.31:239][  0]LogD3D11RHI:       8031/0/16285 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.01-21.11.31:263][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.02.01-21.11.31:263][  0]LogD3D11RHI:       128/0/16285 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.02.01-21.11.31:265][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.01-21.11.31:265][  0]LogD3D11RHI:       0/0/16285 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.01-21.11.31:265][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.01-21.11.31:272][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.01-21.11.31:272][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.01-21.11.31:272][  0]LogWindows: EnumDisplayDevices:
+[2021.02.01-21.11.31:272][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.02.01-21.11.31:272][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.02.01-21.11.31:273][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.02.01-21.11.31:273][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.02.01-21.11.31:273][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.02.01-21.11.31:274][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.02.01-21.11.31:274][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2021.02.01-21.11.31:274][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.02.01-21.11.31:274][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2021.02.01-21.11.31:274][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.02.01-21.11.31:274][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.02.01-21.11.31:274][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.02.01-21.11.31:325][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.01-21.11.31:326][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.01-21.11.31:326][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.01-21.11.31:342][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.01-21.11.31:343][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.02.01-21.11.31:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.01-21.11.31:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.01-21.11.31:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.01-21.11.31:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.01-21.11.31:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.01-21.11.31:724][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.01-21.11.31:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.01-21.11.31:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.01-21.11.31:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.01-21.11.31:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.01-21.11.31:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.01-21.11.31:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.01-21.11.31:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.01-21.11.31:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.02.01-21.11.31:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.02.01-21.11.31:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.02.01-21.11.31:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.02.01-21.11.31:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.01-21.11.31:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.01-21.11.31:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.01-21.11.31:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.01-21.11.31:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.01-21.11.31:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.01-21.11.31:856][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.01-21.11.31:864][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.01-21.11.31:926][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.02.01-21.11.31:926][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../Projects/Unreal Engine/Paper2d_Project/Intermediate/Shaders/WorkingDirectory/22760/).
+[2021.02.01-21.11.31:926][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marco/AppData/Local/Temp/UnrealShaderWorkingDir/6547845A40D7B05BF3B0DFB3FFC98F48/'.
+[2021.02.01-21.11.31:927][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.01-21.11.31:927][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.01-21.11.32:800][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.01-21.11.32:851][  0]LogDerivedDataCache: Loaded boot cache 0.05s 81MB C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.01-21.11.32:851][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.02.01-21.11.32:900][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Unreal Engine/Paper2d_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.01-21.11.32:900][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.01-21.11.32:900][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Unreal Engine/Paper2d_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.01-21.11.32:900][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.01-21.11.32:912][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.01-21.11.32:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.01-21.11.32:912][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.01-21.11.32:917][  0]LogDerivedDataCache: Speed tests for C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.02.01-21.11.32:917][  0]LogDerivedDataCache: Display: Performance to C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=910.48MBs, RandomWriteSpeed=227.64MBs. Assigned SpeedClass 'Local'
+[2021.02.01-21.11.32:918][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.01-21.11.32:918][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.01-21.11.32:918][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.01-21.11.32:960][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.01-21.11.32:961][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.01-21.11.32:985][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.02.01-21.11.33:191][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.01-21.11.33:191][  0]LogInit: Active device profile: [00000273F159DA00][00000273F146E7C0 49] Windows
+[2021.02.01-21.11.33:192][  0]LogInit: Profiles: [00000273F159DA00][00000273F146E7C0 49] Windows, [00000273F1566300][00000273F1476940 49] WindowsNoEditor, [00000273F159DC00][00000273F147AAC0 49] WindowsServer, [00000273F1564E00][00000273F147EC40 49] WindowsClient, [00000273F159CF00][00000273F1482DC0 49] IOS, [00000273F1567500][00000273F1486F40 49] iPadAir, [00000273F159F100][00000273F148B0C0 49] iPadAir2, [00000273F1522800][00000273F1493380 49] IPadPro, [00000273F1522900][00000273F148F3C0 49] iPadAir3, [00000273F159D100][00000273F1497540 49] iPadAir4, [00000273F1523F00][00000273F1473680 49] iPadMini2, [00000273F159CC00][00000273F149B7C0 49] iPadMini3, [00000273F1521900][00000273F149F900 49] iPadMini4, [00000273F159EA00][00000273F14A7A80 49] iPadMini5, [00000273F152E100][00000273F14AFD40 49] iPhone6, [00000273F152E200][00000273F14AA0C0 49] iPodTouch6, [00000273F1566100][00000273F14B6380 49] iPhone7, [00000273F1564100][00000273F14B23C0 49] iPodTouch7, [00000273F152F900][00000273F14BA540 49] iPhone5S, [00000273F1566C00][00000273F14BE6C0 49] iPhone6Plus, [00000273F152D700][00000273F14C2840 49] iPhone6S, [00000273F1565D00][00000273F14C69C0 49] iPhone6SPlus, [00000273F152C700][00000273F14CAB40 49] iPhone7Plus, [00000273F1565200][00000273F14CECC0 49] iPhoneSE, [00000273F152F400][00000273F14D2E40 49] iPhone8, [00000273F1565B00][00000273F14D6FC0 49] iPhone8Plus, [00000273F152D500][00000273F14DB140 49] iPhoneX, [00000273F1567200][00000273F285B2C0 49] iPhoneXS, [00000273F152EE00][00000273F285F440 49] iPhoneXSMax, [00000273F1566E00][00000273F28635C0 49] iPhoneXR, [00000273F152CB00][00000273F14A3700 49] iPhone11, [00000273F1565300][00000273F2867840 49] iPhone11Pro, [00000273F152DC00][00000273F286B980 49] iPhone11ProMax, [00000273F1564900][00000273F286FAC0 49] iPhoneSE2, [00000273F152CA00][00000273F2877C40 49] iPhone12Mini, [00000273F1565800][00000273F287A100 49] iPhone12, [00000273F152F700][00000273F287E280 49] iPhone12Pro, [00000273F159C900][00000273F2882400 49] iPhone12ProMax, [00000273F1565C00][00000273F2886580 49] iPadPro105, [00000273F159E300][00000273F288A700 49] iPadPro129, [00000273F152FD00][00000273F288E880 49] iPadPro97, [00000273F159D400][00000273F2892A00 49] iPadPro2_129, [00000273F152ED00][00000273F2896B80 49] iPad5, [00000273F159FC00][00000273F289AD00 49] iPad6, [00000273F152FE00][00000273F289EE80 49] iPad7, [00000273F159C700][00000273F28A3000 49] iPad8, [00000273F152C200][00000273F28A7180 49] iPadPro11, [00000273F159CB00][00000273F28AB300 49] iPadPro2_11, [00000273F152F200][00000273F28AF480 49] iPadPro3_129, [00000273F159EE00][00000273F28B3600 49] iPadPro4_129, [00000273F152F000][00000273F2873740 49] AppleTV, [00000273F159F400][00000273F28B7880 49] AppleTV4K, [00000273F152D900][00000273F28BB9C0 49] TVOS, [00000273F159D200][00000273F28BFB00 49] Mac, [00000273F152D000][00000273F28C7C80 49] MacClient, [00000273F159C400][00000273F28CA140 49] MacNoEditor, [00000273F152DA00][00000273F28CE2C0 49] MacServer, [00000273F159DD00][00000273F28D2440 49] Linux, [00000273F152C400][00000273F28D65C0 49] LinuxNoEditor, [00000273F159EB00][00000273F28DA740 49] LinuxAArch64NoEditor, [00000273F152E700][00000273F28DE8C0 49] LinuxClient, [00000273F159DF00][00000273F28E2A40 49] LinuxAArch64Client, [00000273F152EC00][00000273F28E6BC0 49] LinuxServer, [00000273F159FB00][00000273F28EAD40 49] LinuxAArch64Server, [00000273F152FF00][00000273E6F28EC0 49] Android, [00000273F159E900][00000273E6F2D040 49] Android_Low, [00000273F152EB00][00000273E6F311C0 49] Android_Mid, [00000273F159F300][00000273E6F35340 49] Android_High, [00000273F152C600][00000273E6F394C0 49] Android_Default, [00000273F159EF00][00000273E6F3D640 49] Android_Adreno4xx, [00000273F152C800][00000273E6F417C0 49] Android_Adreno5xx_Low, [00000273F159E200][00000273F28C3900 49] Android_Adreno5xx, [00000273F152E500][00000273E6F45A40 49] Android_Adreno6xx, [00000273F159C100][00000273E6F49B80 49] Android_Adreno6xx_Vulkan, [00000273F152FA00][00000273E6F51D00 49] Android_Mali_T6xx, [00000273F159D500][00000273E6F541C0 49] Android_Mali_T7xx, [00000273F152DF00][00000273E6F58340 49] Android_Mali_T8xx, [00000273F159FA00][00000273E6F5C4C0 49] Android_Mali_G71, [00000273F152F600][00000273E6F60640 49] Android_Mali_G72, [00000273F159E000][00000273E6F647C0 49] Android_Mali_G72_Vulkan, [00000273F152D400][00000273E6F68940 49] Android_Mali_G76, [00000273F159F200][00000273E6F6CAC0 49] Android_Mali_G76_Vulkan, [00000273F152E600][00000273E6F70C40 49] Android_Mali_G77, [00000273F159C500][00000273E6F74DC0 49] Android_Mali_G77_Vulkan, [00000273F152E000][00000273E6F78F40 49] Android_Vulkan_SM5, [00000273F1522C00][00000273E6F7D0C0 49] Android_PowerVR_G6xxx, [00000273F1564500][00000273E6F81240 49] Android_PowerVR_GT7xxx, [00000273F1520600][00000273E6F853C0 49] Android_PowerVR_GE8xxx, [00000273F1566600][00000273E6F89540 49] Android_PowerVR_GM9xxx, [00000273F1520D00][00000273E6F8D6C0 49] Android_PowerVR_GM9xxx_Vulkan, [00000273F1564D00][00000273E6F91840 49] Android_TegraK1, [00000273F1522F00][00000273E6F4D980 49] Android_Unknown_Vulkan, [00000273F1566A00][00000273E6F95AC0 49] Lumin, [00000273F1522000][00000273E6F99C00 49] Lumin_Desktop, [00000273F1567400][00000273E6FA00C0 49] HoloLens, 
+[2021.02.01-21.11.33:296][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.01-21.11.33:296][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.01-21.11.33:296][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.01-21.11.33:296][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.01-21.11.33:296][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.01-21.11.33:315][  0]LogNetVersion: Paper2d_Project 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1504522356)
+[2021.02.01-21.11.33:758][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.02.01-21.11.33:893][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 1 prioritized culture(s) in 0.135123 seconds
+[2021.02.01-21.11.33:899][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.02.01-21.11.33:899][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.02.01-21.11.33:899][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.01-21.11.34:266][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.01-21.11.34:272][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.01-21.11.34:345][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.34:345][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.34:349][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.34:350][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.34:367][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.34:376][  0]LogUProjectInfo: Found projects:
+[2021.02.01-21.11.35:493][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.01-21.11.35:511][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.01-21.11.35:511][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.01-21.11.35:556][  0]LogCollectionManager: Loaded 0 collections in 0.000618 seconds
+[2021.02.01-21.11.35:574][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal Engine/Paper2d_Project/Saved/Collections/' took 0.00s
+[2021.02.01-21.11.35:574][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal Engine/Paper2d_Project/Content/Developers/marco/Collections/' took 0.00s
+[2021.02.01-21.11.35:574][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal Engine/Paper2d_Project/Content/Collections/' took 0.00s
+[2021.02.01-21.11.35:574][  0]LogOcInput: OculusInput pre-init called
+[2021.02.01-21.11.35:809][  0]LogEngine: Initializing Engine...
+[2021.02.01-21.11.36:093][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.02.01-21.11.36:111][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.01-21.11.36:160][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.01-21.11.36:260][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.01-21.11.36:267][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.01-21.11.36:284][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.02.01-21.11.36:287][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.02.01-21.11.36:287][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.11.36:287][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.11.36:287][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.11.36:287][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.11.36:303][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.11.36:303][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.11.36:395][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.11.36:402][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.11.36:404][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.11.36:404][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.11.36:405][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.11.36:405][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.11.36:405][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.11.36:406][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.11.36:406][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.11.36:406][  0]LogInit: FAudioDevice initialized.
+[2021.02.01-21.11.36:406][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.02.01-21.11.36:406][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.01-21.11.36:457][  0]LogDerivedDataCache: Saved boot cache 0.05s 81MB C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.01-21.11.36:458][  0]LogInit: Texture streaming: Enabled
+[2021.02.01-21.11.36:469][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.0-14830424+++UE4+Release-4.26
+[2021.02.01-21.11.36:475][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.01-21.11.36:475][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.01-21.11.36:487][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.01-21.11.36:531][  0]LogInit: Transaction tracking system initialized
+[2021.02.01-21.11.36:549][  0]BlueprintLog: New page: Editor Load
+[2021.02.01-21.11.36:689][  0]LocalizationService: Localization service is disabled
+[2021.02.01-21.11.36:844][  0]TimingProfiler: Initialize
+[2021.02.01-21.11.36:844][  0]TimingProfiler: OnSessionChanged
+[2021.02.01-21.11.36:844][  0]LoadingProfiler: Initialize
+[2021.02.01-21.11.36:844][  0]LoadingProfiler: OnSessionChanged
+[2021.02.01-21.11.36:844][  0]NetworkingProfiler: Initialize
+[2021.02.01-21.11.36:844][  0]NetworkingProfiler: OnSessionChanged
+[2021.02.01-21.11.36:844][  0]MemoryProfiler: Initialize
+[2021.02.01-21.11.36:844][  0]MemoryProfiler: OnSessionChanged
+[2021.02.01-21.11.37:221][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal Engine/Paper2d_Project/Content/' took 0.02s
+[2021.02.01-21.11.37:221][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.02.01-21.11.37:221][  0]LogCook: Display: Mobile HDR setting 0
+[2021.02.01-21.11.38:219][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.01-21.11.38:219][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.01-21.11.38:468][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.01-21.11.38:468][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.01-21.11.38:482][  0]SourceControl: Source control is disabled
+[2021.02.01-21.11.38:482][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.904
+[2021.02.01-21.11.38:482][  0]Cmd: MAP LOAD FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Content/lvl_Breakout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.01-21.11.38:482][  0]LightingResults: New page: Lighting Build
+[2021.02.01-21.11.38:483][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.11.38:483][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.11.38:483][  0]MapCheck: New page: Map Check
+[2021.02.01-21.11.38:483][  0]LightingResults: New page: Lighting Build
+[2021.02.01-21.11.38:493][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.02.01-21.11.39:113][  0]LogStaticMesh: Building static mesh Sphere...
+[2021.02.01-21.11.39:301][  0]LogStaticMesh: Built static mesh [0.22s] /Game/Assets/Sphere.Sphere
+[2021.02.01-21.11.39:386][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'lvl_Breakout'.
+[2021.02.01-21.11.39:387][  0]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.11.39:744][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.01-21.11.39:754][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.02.01-21.11.39:770][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.01-21.11.39:771][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.103ms to complete.
+[2021.02.01-21.11.39:771][  0]LogFileHelpers: Loading map 'lvl_Breakout' took 1.289
+[2021.02.01-21.11.39:773][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.195
+[2021.02.01-21.11.40:900][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.11.40:918][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.11.40:924][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.11.40:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.11.41:302][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3602 classes and 862 folders.
+[2021.02.01-21.11.41:487][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.02.01-21.11.41:713][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.01-21.11.41:713][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:713][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.01-21.11.41:713][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.02.01-21.11.41:728][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.01-21.11.41:728][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:728][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.01-21.11.41:728][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.02.01-21.11.41:741][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.02.01-21.11.41:741][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:741][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.02.01-21.11.41:741][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.02.01-21.11.41:753][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.01-21.11.41:753][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:753][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.01-21.11.41:753][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.02.01-21.11.41:756][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.01-21.11.41:756][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:757][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.01-21.11.41:757][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.02.01-21.11.41:759][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.01-21.11.41:759][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:759][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.01-21.11.41:759][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.02.01-21.11.41:761][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.01-21.11.41:761][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:761][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.01-21.11.41:761][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.02.01-21.11.41:763][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.01-21.11.41:763][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:763][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.01-21.11.41:763][  0]LogPakFile: OnPakFileMounted2Time == 0.000061
+[2021.02.01-21.11.41:776][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.01-21.11.41:777][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:777][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.01-21.11.41:777][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2021.02.01-21.11.41:820][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.01-21.11.41:820][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:820][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.01-21.11.41:820][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
+[2021.02.01-21.11.41:822][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.01-21.11.41:822][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:822][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.01-21.11.41:822][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2021.02.01-21.11.41:824][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.01-21.11.41:824][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:825][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.01-21.11.41:825][  0]LogPakFile: OnPakFileMounted2Time == 0.000079
+[2021.02.01-21.11.41:828][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.01-21.11.41:828][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:828][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.01-21.11.41:828][  0]LogPakFile: OnPakFileMounted2Time == 0.000086
+[2021.02.01-21.11.41:830][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.01-21.11.41:830][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:830][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.01-21.11.41:830][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
+[2021.02.01-21.11.41:832][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.01-21.11.41:833][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:833][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.01-21.11.41:833][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
+[2021.02.01-21.11.41:835][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.01-21.11.41:835][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:835][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.01-21.11.41:835][  0]LogPakFile: OnPakFileMounted2Time == 0.000099
+[2021.02.01-21.11.41:837][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.01-21.11.41:837][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:837][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.01-21.11.41:837][  0]LogPakFile: OnPakFileMounted2Time == 0.000102
+[2021.02.01-21.11.41:839][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.01-21.11.41:839][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:839][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.01-21.11.41:839][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
+[2021.02.01-21.11.41:856][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.01-21.11.41:856][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:856][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.01-21.11.41:856][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2021.02.01-21.11.41:859][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.01-21.11.41:859][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:859][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.01-21.11.41:859][  0]LogPakFile: OnPakFileMounted2Time == 0.000120
+[2021.02.01-21.11.41:868][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.01-21.11.41:868][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:868][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.01-21.11.41:868][  0]LogPakFile: OnPakFileMounted2Time == 0.000124
+[2021.02.01-21.11.41:880][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.01-21.11.41:881][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:881][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.01-21.11.41:881][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2021.02.01-21.11.41:884][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.02.01-21.11.41:884][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:884][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.02.01-21.11.41:884][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2021.02.01-21.11.41:886][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.01-21.11.41:886][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:886][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.01-21.11.41:886][  0]LogPakFile: OnPakFileMounted2Time == 0.000136
+[2021.02.01-21.11.41:893][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.01-21.11.41:893][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:894][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.01-21.11.41:894][  0]LogPakFile: OnPakFileMounted2Time == 0.000143
+[2021.02.01-21.11.41:905][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.01-21.11.41:905][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.01-21.11.41:905][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.01-21.11.41:905][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2021.02.01-21.11.42:496][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.01-21.11.42:551][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.01-21.11.43:604][  0]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.11.43:616][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.01-21.11.43:690][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.01-21.11.43:722][  0]LogSlate: Took 0.018428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.01-21.11.44:230][  0]LogRenderer: Reallocating scene render targets to support 1492x684 Format 10 NumSamples 1 (Frame:1).
+[2021.02.01-21.11.45:000][  0]LogSlate: Took 0.014345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.01-21.11.45:610][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.01-21.11.45:610][  0]LogLoad: (Engine Initialization) Total time: 17.03 seconds
+[2021.02.01-21.11.45:610][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.01-21.11.45:610][  0]LogInit: First time updating LLM stats...
+[2021.02.01-21.11.45:719][  0]LogAssetRegistry: Asset discovery search completed in 12.7351 seconds
+[2021.02.01-21.11.45:720][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.02.01-21.11.45:882][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.01-21.11.46:707][  4]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.11.46:994][  4]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.01-21.25.32:325][474]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.25.34:733][608]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.25.34:772][608]LogAssetEditorSubsystem: Opening Asset editor for PhysicalMaterial /Game/Blueprints/PM_Bouncy.PM_Bouncy
+[2021.02.01-21.25.34:813][608]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.26.31:129][568]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.26.31:152][568]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Ball_2.BP_Ball_2
+[2021.02.01-21.26.31:956][568]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.02.01-21.26.33:598][568]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.01-21.26.33:994][569]LogSlate: Took 0.007804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.01-21.26.40:183][914]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.26.51:543][548]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate5)
+[2021.02.01-21.26.55:090][755]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate4)
+[2021.02.01-21.26.57:766][915]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate3)
+[2021.02.01-21.26.59:709][ 31]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate2)
+[2021.02.01-21.27.02:266][184]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate12)
+[2021.02.01-21.27.04:892][341]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate10)
+[2021.02.01-21.27.07:351][488]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate6)
+[2021.02.01-21.27.10:246][661]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.27.10:389][661]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.01-21.27.10:390][661]LogPlayLevel: [PlayLevel] Compiling BP_Ball_2 before play...
+[2021.02.01-21.27.10:527][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.02.01-21.27.10:528][661]LogPlayLevel: PlayLevel: Blueprint regeneration took 139 ms (1 blueprints)
+[2021.02.01-21.27.10:551][661]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:27:10)
+[2021.02.01-21.27.10:564][661]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.01-21.27.10:575][661]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.01-21.27.10:637][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.27.10:675][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037468s)
+[2021.02.01-21.27.10:687][661]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.27.10:696][661]LogPlayLevel: PIE: World Init took: (0.021171s)
+[2021.02.01-21.27.10:697][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.059462s)
+[2021.02.01-21.27.10:714][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.02.01-21.27.10:718][661]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.27.10:718][661]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.27.10:718][661]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.27.10:718][661]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.27.10:719][661]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.27.10:723][661]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.27.10:723][661]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.27.10:745][661]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.27.10:746][661]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.27.10:746][661]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.27.10:746][661]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.27.10:746][661]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.27.10:746][661]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.27.10:746][661]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.27.10:760][661]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.27.10:760][661]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.27.10:760][661]LogInit: FAudioDevice initialized.
+[2021.02.01-21.27.10:760][661]LogAudio: Display: Audio Device (ID: 2) registered with world 'lvl_Breakout'.
+[2021.02.01-21.27.10:787][661]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.27.10:924][661]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.27.10:924][661]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.27.10:924][661]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.27.10
+[2021.02.01-21.27.10:942][661]LogWorld: Bringing up level for play took: 0.005995
+[2021.02.01-21.27.10:950][661]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.02.01-21.27.11:036][661]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.02.01-21.27.11:114][661]PIE: Server logged in
+[2021.02.01-21.27.11:135][661]PIE: Play in editor total start time 0.883 seconds.
+[2021.02.01-21.27.11:138][661]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.27.22:013][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.27.22:014][285]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.27.22:014][285]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.27.22:014][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.27.22:033][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.27.22:045][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.27.22:068][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.27.22:069][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.27.22:070][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.27.22:120][285]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.02.01-21.27.22:129][285]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.27.22:153][285]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.27.22:568][285]LogSlate: Took 0.030869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.01-21.27.22:595][286]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.02.01-21.27.23:101][315]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.27.24:163][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.02.01-21.27.24:247][377]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.27.24:274][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.01-21.27.24:310][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.02.01-21.27.24:399][377]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/lvl_Breakout45B01A914E75871B62D32682577F4EDE.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.01-21.27.24:412][377]LogFileHelpers: Saving map 'lvl_Breakout' took 0.139
+[2021.02.01-21.27.24:508][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball_2" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Blueprints/BP_Ball_2.uasset" SILENT=true
+[2021.02.01-21.27.24:581][377]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/BP_Ball_2DDAACF7549790AAF8B801A845C44224B.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Blueprints/BP_Ball_2.uasset'
+[2021.02.01-21.27.24:597][377]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.01-21.27.24:597][377]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.01-21.27.24:598][377]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball_2.BP_Ball_2
+[2021.02.01-21.27.25:487][431]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.27.25:494][431]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.28.50:748][859]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box3)
+[2021.02.01-21.28.51:306][872]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box3)
+[2021.02.01-21.28.52:924][969]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box3)
+[2021.02.01-21.29.06:886][797]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.29.06:895][797]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /BlockoutToolsPlugin/Blueprints/Blockout_Box.Blockout_Box
+[2021.02.01-21.29.30:336][158]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.29.31:260][213]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.29.39:346][691]LogSlate: Window 'Blockout_Box' being destroyed
+[2021.02.01-21.29.39:359][691]LogSlate: Window 'Blockout_Box' being destroyed
+[2021.02.01-21.29.39:425][691]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.29.39:426][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.29.39:563][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.02.01-21.29.39:563][691]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.29.39:563][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.29.42:176][846]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box3)
+[2021.02.01-21.29.43:920][941]Cmd: DELETE
+[2021.02.01-21.29.43:928][941]Cmd: ACTOR DELETE
+[2021.02.01-21.29.44:276][941]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2021.02.01-21.29.44:349][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.02.01-21.29.44:351][941]LogEditorActor: Deleted 1 Actors (0.146 secs)
+[2021.02.01-21.29.44:890][974]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box)
+[2021.02.01-21.29.44:998][980]Cmd: DELETE
+[2021.02.01-21.29.44:998][980]Cmd: ACTOR DELETE
+[2021.02.01-21.29.44:999][980]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2021.02.01-21.29.45:038][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.02.01-21.29.45:039][980]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2021.02.01-21.29.46:013][ 39]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box2)
+[2021.02.01-21.29.46:118][ 45]Cmd: DELETE
+[2021.02.01-21.29.46:118][ 45]Cmd: ACTOR DELETE
+[2021.02.01-21.29.46:119][ 45]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2021.02.01-21.29.46:134][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.02.01-21.29.46:135][ 45]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2021.02.01-21.29.47:231][111]LogEditorViewport: Clicking on Actor (LMB): Blockout_Box_C (Blockout_Box4)
+[2021.02.01-21.29.47:386][120]Cmd: DELETE
+[2021.02.01-21.29.47:386][120]Cmd: ACTOR DELETE
+[2021.02.01-21.29.47:387][120]LogEditorActor: Deleted Actor: Blockout_Box_C
+[2021.02.01-21.29.47:401][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.02.01-21.29.47:402][120]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2021.02.01-21.30.02:185][  7]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.02.01-21.32.26:177][126]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.26:238][126]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Projects\Unreal Engine\BreakoutstyleGame\Gym.png)
+[2021.02.01-21.32.26:315][126]LogTexture: Display: Building textures: Gym (AutoDXT, 1920X1080)
+[2021.02.01-21.32.30:752][266]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.33:980][446]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.36:551][600]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.37:639][663]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.39:959][801]LogTexture: Display: Building textures: Gym (BGRA8, 1920X1080)
+[2021.02.01-21.32.40:848][851]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.41:263][875]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.41:546][892]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.45:895][143]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.32.45:919][143]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Assets/Gym_Sprite.Gym_Sprite
+[2021.02.01-21.32.46:141][143]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.33.43:076][518]Cmd: TRANSACTION UNDO
+[2021.02.01-21.33.43:076][518]LogEditorTransaction: Undo Modification in Viewport
+[2021.02.01-21.33.43:432][518]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.34.05:485][829]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.34.37:635][740]Cmd: TRANSACTION UNDO
+[2021.02.01-21.34.37:635][740]LogEditorTransaction: Undo Add Box Shape
+[2021.02.01-21.34.37:645][740]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.35.43:394][664]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:403][664]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:404][664]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:419][665]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:436][666]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:453][667]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:469][668]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:470][668]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:487][669]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:503][670]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:520][671]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:537][672]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:553][673]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:570][674]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:587][675]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:604][676]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:621][677]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:636][678]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:653][679]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:669][680]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:686][681]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:704][682]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:720][683]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:736][684]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:753][685]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:770][686]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:787][687]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:803][688]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:820][689]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:837][690]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:854][691]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:870][692]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:886][693]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:902][694]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:919][695]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:937][696]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:953][697]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:969][698]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.43:986][699]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:003][700]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:020][701]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:037][702]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:053][703]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:069][704]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:086][705]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:103][706]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:120][707]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:136][708]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:153][709]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:169][710]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:186][711]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:203][712]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:220][713]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:236][714]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:253][715]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:270][716]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:287][717]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:303][718]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:320][719]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:336][720]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:353][721]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:370][722]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:387][723]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:404][724]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:419][725]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:436][726]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:453][727]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:469][728]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:486][729]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:503][730]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:519][731]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:536][732]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:553][733]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:569][734]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:586][735]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:603][736]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:620][737]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:636][738]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:653][739]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:669][740]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:686][741]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:704][742]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:720][743]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:736][744]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:753][745]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:770][746]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:787][747]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:803][748]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:820][749]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:836][750]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:853][751]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:869][752]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:886][753]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:903][754]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:919][755]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:936][756]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:953][757]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:969][758]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.44:986][759]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:003][760]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:019][761]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:036][762]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:052][763]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:069][764]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:086][765]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:102][766]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:120][767]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:136][768]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:153][769]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:169][770]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:186][771]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:203][772]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:219][773]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:236][774]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:253][775]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:270][776]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:287][777]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:303][778]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:320][779]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:336][780]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:353][781]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:370][782]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:386][783]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:402][784]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:419][785]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:436][786]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:453][787]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:469][788]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:486][789]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:503][790]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.45:519][791]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:079][944]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:088][944]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:098][945]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:115][946]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:131][947]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:148][948]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:150][948]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:151][948]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:166][949]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:183][950]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:199][951]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:216][952]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:232][953]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:250][954]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:266][955]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:282][956]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:300][957]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:316][958]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:333][959]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:349][960]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:366][961]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:383][962]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:399][963]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:416][964]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:433][965]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:450][966]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:466][967]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:483][968]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:499][969]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:516][970]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:533][971]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:549][972]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:566][973]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:583][974]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:599][975]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:616][976]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:634][977]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:650][978]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:666][979]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:683][980]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:700][981]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:716][982]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:732][983]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:749][984]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:768][985]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:783][986]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:800][987]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:817][988]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:832][989]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:849][990]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:866][991]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:883][992]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:899][993]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:916][994]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:933][995]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:949][996]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:967][997]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.48:983][998]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:000][999]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:016][  0]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:033][  1]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:049][  2]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:066][  3]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:083][  4]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:100][  5]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:117][  6]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:133][  7]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:150][  8]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:166][  9]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:183][ 10]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:200][ 11]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:217][ 12]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:233][ 13]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:249][ 14]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:267][ 15]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:283][ 16]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:300][ 17]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:316][ 18]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:333][ 19]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:350][ 20]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.35.49:366][ 21]Cmd: TRANSACTION UNDO
+[2021.02.01-21.35.49:366][ 21]LogEditorTransaction: Undo Add Vertex to Polygon
+[2021.02.01-21.35.49:376][ 21]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.36.02:224][783]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:240][784]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:257][785]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:274][786]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:290][787]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:307][788]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:323][789]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:340][790]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:357][791]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:373][792]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:391][793]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:407][794]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:424][795]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:440][796]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:457][797]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:474][798]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:490][799]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:507][800]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:523][801]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:540][802]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:558][803]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:574][804]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:591][805]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:607][806]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:623][807]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:640][808]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:657][809]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:674][810]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:691][811]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.02:707][812]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.14:455][516]Cmd: TRANSACTION UNDO
+[2021.02.01-21.36.14:455][516]LogEditorTransaction: Undo Add Box Shape
+[2021.02.01-21.36.14:464][516]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.36.17:297][677]Cmd: TRANSACTION UNDO
+[2021.02.01-21.36.17:297][677]LogEditorTransaction: Undo Add Box Shape
+[2021.02.01-21.36.21:580][933]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:596][934]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:613][935]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:630][936]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:648][937]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:663][938]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:679][939]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:696][940]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:713][941]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:730][942]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:747][943]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:763][944]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:779][945]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:796][946]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:813][947]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:830][948]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:846][949]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:863][950]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.21:879][951]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:054][ 57]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:072][ 58]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:088][ 59]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:103][ 60]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:120][ 61]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:137][ 62]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:154][ 63]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:170][ 64]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:187][ 65]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:204][ 66]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:220][ 67]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:238][ 68]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:254][ 69]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:270][ 70]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:287][ 71]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:304][ 72]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:321][ 73]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:337][ 74]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:354][ 75]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:370][ 76]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:387][ 77]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:412][ 78]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:414][ 78]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:415][ 78]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:429][ 79]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:446][ 80]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:462][ 81]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:478][ 82]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:495][ 83]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:511][ 84]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:528][ 85]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:545][ 86]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.36.57:561][ 87]Cmd: TRANSACTION UNDO
+[2021.02.01-21.36.57:562][ 87]LogEditorTransaction: Undo Modification in Viewport
+[2021.02.01-21.36.57:573][ 87]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.15:622][158]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:638][159]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:655][160]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:672][161]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:689][162]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:705][163]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:722][164]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:739][165]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:755][166]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:773][167]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:789][168]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:806][169]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:822][170]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.15:839][171]LogGeomTools: Triangulation of poly failed.
+[2021.02.01-21.37.17:878][290]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.17:905][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Gym_Sprite" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Assets/Gym_Sprite.uasset" SILENT=true
+[2021.02.01-21.37.17:909][290]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Gym_SpriteFDA7F84E4918EEA42A797887D5D3559D.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Assets/Gym_Sprite.uasset'
+[2021.02.01-21.37.17:932][290]AssetCheck: New page: Asset Save: Gym_Sprite
+[2021.02.01-21.37.17:932][290]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Gym_Sprite.Gym_Sprite
+[2021.02.01-21.37.19:788][401]LogSlate: Window 'Gym_Sprite' being destroyed
+[2021.02.01-21.37.19:796][401]LogSlate: Window 'Gym_Sprite' being destroyed
+[2021.02.01-21.37.19:799][401]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.37.19:799][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.37.21:572][506]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.23:364][603]LogEditorViewport: Clicking Background
+[2021.02.01-21.37.27:886][874]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.02.01-21.37.39:815][584]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.42:392][738]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.37.42:401][738]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.01-21.37.42:402][738]LogPlayLevel: [PlayLevel] Compiling Blockout_Box before play...
+[2021.02.01-21.37.42:425][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.02.01-21.37.42:435][738]LogPlayLevel: PlayLevel: Blueprint regeneration took 33 ms (1 blueprints)
+[2021.02.01-21.37.42:435][738]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:37:42)
+[2021.02.01-21.37.42:435][738]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.37.42:437][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001873s)
+[2021.02.01-21.37.42:438][738]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.37.42:438][738]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.02.01-21.37.42:438][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002904s)
+[2021.02.01-21.37.42:453][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.02.01-21.37.42:453][738]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.37.42:454][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.37.42:454][738]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.37.42:454][738]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.37.42:459][738]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.37.42:459][738]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.37.42:485][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.37.42:485][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.37.42:499][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.37.42:499][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.37.42:499][738]LogInit: FAudioDevice initialized.
+[2021.02.01-21.37.42:499][738]LogAudio: Display: Audio Device (ID: 3) registered with world 'lvl_Breakout'.
+[2021.02.01-21.37.42:580][738]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.37.42:582][738]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.37.42:582][738]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.37.42:582][738]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.37.42
+[2021.02.01-21.37.42:582][738]LogWorld: Bringing up level for play took: 0.001137
+[2021.02.01-21.37.42:582][738]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.01-21.37.42:585][738]PIE: Server logged in
+[2021.02.01-21.37.42:585][738]PIE: Play in editor total start time 0.189 seconds.
+[2021.02.01-21.37.42:586][738]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.37.46:788][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.37.46:788][986]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.37.46:789][986]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.37.46:789][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.37.46:798][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.37.46:810][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.37.46:824][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.37.46:824][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.37.46:825][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.37.46:842][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.02.01-21.37.46:849][986]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.46:869][986]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.37.46:928][987]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.01-21.37.48:268][ 63]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.37.48:282][ 63]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.38.03:103][938]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.06:350][132]LogEditorViewport: Clicking Background
+[2021.02.01-21.38.06:928][166]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.02.01-21.38.16:430][733]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.38.16:439][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.01-21.38.16:439][733]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:38:16)
+[2021.02.01-21.38.16:439][733]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.38.16:441][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001863s)
+[2021.02.01-21.38.16:442][733]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.38.16:547][733]LogPlayLevel: PIE: World Init took: (0.105598s)
+[2021.02.01-21.38.16:547][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.107633s)
+[2021.02.01-21.38.16:562][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.02.01-21.38.16:566][733]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.38.16:566][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.38.16:566][733]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.38.16:566][733]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.38.16:570][733]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.38.16:570][733]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.38.16:592][733]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.38.16:592][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.38.16:592][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.38.16:592][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.38.16:593][733]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.38.16:593][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.38.16:593][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.38.16:607][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.38.16:607][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.38.16:607][733]LogInit: FAudioDevice initialized.
+[2021.02.01-21.38.16:607][733]LogAudio: Display: Audio Device (ID: 4) registered with world 'lvl_Breakout'.
+[2021.02.01-21.38.16:614][733]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.38.16:616][733]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.38.16:616][733]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.38.16:616][733]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.38.16
+[2021.02.01-21.38.16:617][733]LogWorld: Bringing up level for play took: 0.001070
+[2021.02.01-21.38.16:617][733]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.02.01-21.38.16:630][733]PIE: Server logged in
+[2021.02.01-21.38.16:631][733]PIE: Play in editor total start time 0.197 seconds.
+[2021.02.01-21.38.16:631][733]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.38.18:898][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.38.18:898][867]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.38.18:898][867]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.38.18:898][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.38.18:904][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.38.18:917][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.38.18:931][867]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.01-21.38.18:931][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.38.18:932][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.38.18:946][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.38.18:949][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.02.01-21.38.18:957][867]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.18:981][867]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.19:039][868]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.02.01-21.38.20:489][950]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.38.20:502][950]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.38.26:360][302]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.02.01-21.38.27:828][390]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.02.01-21.38.30:294][531]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.30:369][531]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.40:103][531]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.02.01-21.38.40:244][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.02.01-21.38.40:260][531]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.40:273][531]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Background_Sprite_Blueprint.Background_Sprite_Blueprint
+[2021.02.01-21.38.40:308][531]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.43:776][704]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.43:882][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.02.01-21.38.43:890][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.02.01-21.38.43:897][704]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/lvl_Breakout_Auto14223CB404B104B55ADF06F897FA63B14.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto1.umap'
+[2021.02.01-21.38.43:898][704]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.034
+[2021.02.01-21.38.43:898][704]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2021.02.01-21.38.43:898][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/BlockoutToolsPlugin/Blueprints/Blockout_Box] ([1] browsable assets)...
+[2021.02.01-21.38.43:898][704]OBJ SavePackage: Finished generating thumbnails for package [/BlockoutToolsPlugin/Blueprints/Blockout_Box]
+[2021.02.01-21.38.43:926][704]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Blockout_Box_Auto1182B106947E2BD8A4EA08EB7ADE22C92.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Autosaves/BlockoutToolsPlugin/Blueprints/Blockout_Box_Auto1.uasset'
+[2021.02.01-21.38.43:940][704]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Gym] ([1] browsable assets)...
+[2021.02.01-21.38.43:943][704]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Gym.Gym]
+[2021.02.01-21.38.43:943][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Gym]
+[2021.02.01-21.38.43:943][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Gym" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Autosaves/Game/Assets/Gym_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.02.01-21.38.43:962][704]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Gym_Auto1597E1F974704240C910EC3828BB6C6B5.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Autosaves/Game/Assets/Gym_Auto1.uasset'
+[2021.02.01-21.38.43:978][704]LogFileHelpers: Auto-saving content packages took 0.080
+[2021.02.01-21.38.44:906][755]LogRenderer: Reallocating scene render targets to support 1492x832 Format 10 NumSamples 1 (Frame:222).
+[2021.02.01-21.38.46:429][843]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.47:152][886]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.47:825][926]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.51:247][130]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.38.53:887][286]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.39.17:033][642]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.39.27:369][260]LogEditorTransaction: Undo Modify Component(s)
+[2021.02.01-21.39.27:407][260]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.39.39:241][953]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.39.51:345][672]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.40.20:174][385]LogEditorTransaction: Undo Set Vector Property
+[2021.02.01-21.40.20:190][385]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.40.26:399][742]LogEditorTransaction: Undo Set Vector Property
+[2021.02.01-21.40.26:406][742]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.40.48:478][ 46]BlueprintLog: New page: Compile Background_Sprite_Blueprint
+[2021.02.01-21.40.48:567][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.02.01-21.40.49:090][ 70]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.40.49:116][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Background_Sprite_Blueprint" FILE="../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Assets/Background_Sprite_Blueprint.uasset" SILENT=true
+[2021.02.01-21.40.49:136][ 70]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/Paper2d_Project/Saved/Background_Sprite_BlueprintD45D3D9B409CB0C88EDB1BA881C8965C.tmp' to '../../../../../Projects/Unreal Engine/Paper2d_Project/Content/Assets/Background_Sprite_Blueprint.uasset'
+[2021.02.01-21.40.49:155][ 70]AssetCheck: New page: Asset Save: Background_Sprite_Blueprint
+[2021.02.01-21.40.49:155][ 70]LogContentValidation: Display: Validating Blueprint /Game/Assets/Background_Sprite_Blueprint.Background_Sprite_Blueprint
+[2021.02.01-21.41.00:125][677]LogSlate: Window 'Background_Sprite_Blueprint' being destroyed
+[2021.02.01-21.41.00:131][677]LogSlate: Window 'Background_Sprite_Blueprint' being destroyed
+[2021.02.01-21.41.00:135][677]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.41.00:135][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.41.02:535][819]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.02.01-21.41.06:246][ 19]Cmd: TRANSACTION UNDO
+[2021.02.01-21.41.06:246][ 19]LogEditorTransaction: Undo Clicking on Actors
+[2021.02.01-21.41.06:258][ 19]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.07:143][ 60]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.02.01-21.41.11:431][313]Cmd: TRANSACTION UNDO
+[2021.02.01-21.41.11:431][313]LogEditorTransaction: Undo Move Actors
+[2021.02.01-21.41.11:467][313]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.22:624][976]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.41.22:633][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.01-21.41.22:633][976]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:41:22)
+[2021.02.01-21.41.22:633][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.41.22:635][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001860s)
+[2021.02.01-21.41.22:636][976]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.41.22:636][976]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2021.02.01-21.41.22:636][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002872s)
+[2021.02.01-21.41.22:654][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.02.01-21.41.22:658][976]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.41.22:658][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.41.22:658][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.41.22:659][976]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.41.22:659][976]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.41.22:663][976]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.41.22:663][976]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.41.22:687][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.41.22:687][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.41.22:700][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.41.22:701][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.41.22:701][976]LogInit: FAudioDevice initialized.
+[2021.02.01-21.41.22:701][976]LogAudio: Display: Audio Device (ID: 5) registered with world 'lvl_Breakout'.
+[2021.02.01-21.41.22:708][976]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.41.22:710][976]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.41.22:710][976]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.41.22:710][976]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.41.22
+[2021.02.01-21.41.22:711][976]LogWorld: Bringing up level for play took: 0.001127
+[2021.02.01-21.41.22:711][976]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.01-21.41.22:841][976]PIE: Server logged in
+[2021.02.01-21.41.22:842][976]PIE: Play in editor total start time 0.214 seconds.
+[2021.02.01-21.41.22:843][976]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.41.26:648][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.41.26:648][202]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.41.26:648][202]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.41.26:649][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.41.26:659][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.41.26:696][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.41.26:710][202]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.01-21.41.26:710][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.41.26:711][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.41.26:726][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.41.26:729][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.02.01-21.41.26:738][202]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.26:759][202]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.26:827][203]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.02.01-21.41.28:703][304]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.41.28:716][304]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.41.45:087][283]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.45:109][283]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Background_Sprite_Blueprint.Background_Sprite_Blueprint
+[2021.02.01-21.41.45:133][283]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.41.57:140][972]LogSlate: Window 'Background_Sprite_Blueprint' being destroyed
+[2021.02.01-21.41.57:153][972]LogSlate: Window 'Background_Sprite_Blueprint' being destroyed
+[2021.02.01-21.41.57:156][972]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.41.57:156][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.42.04:823][427]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.42.14:304][995]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.42.39:803][520]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.02.01-21.42.46:767][912]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.42.49:830][ 95]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.42.49:839][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.01-21.42.49:839][ 95]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:42:49)
+[2021.02.01-21.42.49:839][ 95]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.42.49:841][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002000s)
+[2021.02.01-21.42.49:842][ 95]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.42.49:842][ 95]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2021.02.01-21.42.49:843][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003273s)
+[2021.02.01-21.42.49:862][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.02.01-21.42.49:868][ 95]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.01-21.42.49:868][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.42.49:868][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.42.49:868][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.42.49:868][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.42.49:869][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.42.49:869][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.42.49:869][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.42.49:869][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.42.49:869][ 95]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.42.49:869][ 95]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.42.49:873][ 95]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.42.49:873][ 95]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.42.49:895][ 95]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.42.49:895][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.42.49:895][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.42.49:895][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.42.49:896][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.42.49:896][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.42.49:896][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.42.49:909][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.42.49:909][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.42.49:909][ 95]LogInit: FAudioDevice initialized.
+[2021.02.01-21.42.49:909][ 95]LogAudio: Display: Audio Device (ID: 6) registered with world 'lvl_Breakout'.
+[2021.02.01-21.42.49:917][ 95]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.42.49:919][ 95]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.42.49:919][ 95]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.42.49:919][ 95]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.42.49
+[2021.02.01-21.42.49:919][ 95]LogWorld: Bringing up level for play took: 0.001133
+[2021.02.01-21.42.49:919][ 95]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.02.01-21.42.49:921][ 95]PIE: Server logged in
+[2021.02.01-21.42.49:922][ 95]PIE: Play in editor total start time 0.088 seconds.
+[2021.02.01-21.42.49:923][ 95]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.42.52:448][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.42.52:448][244]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.42.52:448][244]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.42.52:448][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.42.52:454][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.42.52:461][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.42.52:475][244]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.01-21.42.52:475][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.42.52:476][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.42.52:490][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.42.52:494][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.02.01-21.42.52:502][244]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.42.52:523][244]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.42.52:577][245]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.02.01-21.42.55:120][390]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.42.55:133][390]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.43.07:964][157]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.43.08:286][175]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.43.37:648][911]LogEditorViewport: Clicking on Actor (LMB): Background_Sprite_Blueprint_C (Background_Sprite_Blueprint)
+[2021.02.01-21.43.37:719][914]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2021.02.01-21.44.01:170][307]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.44.01:192][307]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Assets/Gym_Sprite.Gym_Sprite
+[2021.02.01-21.44.01:216][307]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.44.27:434][867]LogSlate: Window 'Gym_Sprite' being destroyed
+[2021.02.01-21.44.27:447][867]LogSlate: Window 'Gym_Sprite' being destroyed
+[2021.02.01-21.44.27:451][867]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.44.27:451][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.44.31:062][ 83]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate9)
+[2021.02.01-21.45.10:665][439]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.01-21.45.10:674][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.01-21.45.10:674][439]PIE: New page: PIE session: lvl_Breakout (1 Feb 2021, 21:45:10)
+[2021.02.01-21.45.10:674][439]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.45.10:676][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
+[2021.02.01-21.45.10:677][439]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.01-21.45.10:677][439]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2021.02.01-21.45.10:677][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003093s)
+[2021.02.01-21.45.10:698][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.02.01-21.45.10:706][439]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.01-21.45.10:706][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.01-21.45.10:706][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.01-21.45.10:707][439]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.01-21.45.10:707][439]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.01-21.45.10:711][439]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.01-21.45.10:711][439]LogAudioMixer: Display: 1: FrontRight
+[2021.02.01-21.45.10:734][439]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.01-21.45.10:734][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.01-21.45.10:734][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.01-21.45.10:734][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.01-21.45.10:734][439]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.01-21.45.10:735][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.01-21.45.10:735][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.01-21.45.10:748][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.01-21.45.10:748][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.01-21.45.10:748][439]LogInit: FAudioDevice initialized.
+[2021.02.01-21.45.10:748][439]LogAudio: Display: Audio Device (ID: 7) registered with world 'lvl_Breakout'.
+[2021.02.01-21.45.10:758][439]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.01-21.45.10:760][439]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.45.10:760][439]PIE: Warning: Invalid Simulate Options: Body (BP_Ball_3.Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.01-21.45.10:760][439]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.01-21.45.10
+[2021.02.01-21.45.10:760][439]LogWorld: Bringing up level for play took: 0.001095
+[2021.02.01-21.45.10:761][439]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.01-21.45.10:763][439]PIE: Server logged in
+[2021.02.01-21.45.10:763][439]PIE: Play in editor total start time 0.094 seconds.
+[2021.02.01-21.45.10:764][439]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.01-21.45.13:808][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.45.13:808][619]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.01-21.45.13:808][619]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.45.13:808][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.45.13:816][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.01-21.45.13:824][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.45.13:838][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.01-21.45.13:838][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.45.13:839][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.01-21.45.13:854][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.01-21.45.13:856][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.02.01-21.45.13:865][619]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.45.13:877][619]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.45.13:924][620]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.01-21.45.15:058][682]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.45.15:074][682]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.45.25:307][294]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.45.31:934][690]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.45.31:942][690]LogSlate: Window 'Message Log' being destroyed
+[2021.02.01-21.45.38:754][ 97]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.45.45:719][514]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.45.51:493][855]LogEditorViewport: Clicking Background
+[2021.02.01-21.45.52:032][886]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.01-21.45.52:849][886]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.818 s
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: === Handled ensure: ===
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: 
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Collision/CollisionConversions.cpp] [Line: 195]
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: SetHitResultFromShapeAndFaceIndex hit shape with invalid userData
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: Stack: 
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb337b6799 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb32131529 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb320f6fc7 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb320d1f5c UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb32150453 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb321bc2e4 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb321a0ad8 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb4bfb8ba4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb4bfb8a2a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb4bfb8f15 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb4c4e0e1b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb2efd3f29 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb32dd7368 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb6c71f6d4 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb6c453038 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb6c4d6aff UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb6c4bfd18 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb6c4b312f UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb8abebcf4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb8abd9197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb8abee379 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb8abd4310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffbd6655c1d USER32.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffbd6655612 USER32.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffb8abef904 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ff7c3a487e7 UE4Editor.exe!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ff7c3a6113c UE4Editor.exe!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ff7c3a6121a UE4Editor.exe!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ff7c3a7527d UE4Editor.exe!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ff7c3a77faa UE4Editor.exe!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffbd6287c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: [Callstack] 0x00007ffbd724d4d1 ntdll.dll!UnknownFunction []
+[2021.02.01-21.45.52:850][886]LogOutputDevice: Error: 
+[2021.02.01-21.45.52:855][886]LogStats:                SubmitErrorReport -  0.000 s
+[2021.02.01-21.46.03:055][886]LogStats:                    SendNewReport - 10.200 s
+[2021.02.01-21.46.03:055][886]LogStats:             FDebug::EnsureFailed - 11.024 s
+[2021.02.01-21.46.03:056][886]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (Wall)
+[2021.02.01-21.46.03:126][886]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.21:642][998]LogEditorViewport: Clicking Background
+[2021.02.01-21.46.22:046][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (Wall)
+[2021.02.01-21.46.23:427][104]Cmd: DELETE
+[2021.02.01-21.46.23:427][104]Cmd: ACTOR DELETE
+[2021.02.01-21.46.23:428][104]LogEditorActor: Deleted Actor: BP_Crate_C
+[2021.02.01-21.46.23:444][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.01-21.46.23:449][104]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.02.01-21.46.38:559][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.02.01-21.46.38:607][999]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.39:637][999]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.01-21.46.39:652][999]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.39:701][999]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.39:723][999]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.39:762][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.02.01-21.46.39:784][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.02.01-21.46.39:800][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.02.01-21.46.47:805][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.02.01-21.46.51:540][695]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.46.51:561][695]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Wall.BP_Wall
+[2021.02.01-21.46.51:586][695]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.10:407][789]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.39:506][528]BlueprintLog: New page: Compile BP_Wall
+[2021.02.01-21.47.39:538][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.02.01-21.47.40:683][595]LogSlate: Window 'BP_Wall' being destroyed
+[2021.02.01-21.47.40:696][595]LogSlate: Window 'BP_Wall' being destroyed
+[2021.02.01-21.47.40:699][595]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.02.01-21.47.40:699][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.01-21.47.47:099][977]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.47:121][977]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_BouncyMaster.M_BouncyMaster
+[2021.02.01-21.47.47:152][977]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 3 classes and 0 folders.
+[2021.02.01-21.47.47:506][977]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.47.48:349][977]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.48:500][977]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.02.01-21.47.48:517][977]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.02.01-21.47.50:694][ 75]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.51:086][ 93]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.02.01-21.47.55:173][333]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.02.01-21.47.55:174][333]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.02.01-21.47.55:174][333]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.02.01-21.47.55:174][333]MaterialEditorStats: Texture samplers: 2/16
+[2021.02.01-21.47.57:936][452]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.47.59:272][532]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.47.59:279][532]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.02.01-21.47.59:286][532]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.02.01-21.48.00:068][568]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.02.01-21.48.00:642][596]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.02.01-21.48.00:643][596]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.02.01-21.48.00:643][596]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.02.01-21.48.00:643][596]MaterialEditorStats: Texture samplers: 2/16
+[2021.02.01-21.48.00:973][615]LogMaterialEditor: Saving and Compiling material M_BouncyMaster
+[2021.02.01-21.48.01:459][615]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.02.01-21.48.01:482][615]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.02.01-21.48.01:482][615]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.01-21.48.01:526][615]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.01-21.48.01:644][615]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2021.02.01-21.48.01:706][615]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2021.02.01-21.48.02:288][615]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2021.02.01-21.48.02:566][615]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.02.01-21.48.02:566][615]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2021.02.01-21.48.02:566][615]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.01-21.48.02:566][615]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2021.02.01-21.48.02:566][615]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.02.01-21.48.04:511][615]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.02.01-21.48.10:357][615]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.01-21.48.10:357][615]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.02.01-21.48.10:388][615]LogWindows: Error: === Critical error: ===
+[2021.02.01-21.48.10:388][615]LogWindows: Error: 
+[2021.02.01-21.48.10:388][615]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 907] 
+[2021.02.01-21.48.10:388][615]LogWindows: Error: Rendering thread exception:
+[2021.02.01-21.48.10:388][615]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+[2021.02.01-21.48.10:388][615]LogWindows: Error: 
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb23c0fe0a UE4Editor-Paper2D.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb32861a5c UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb3282410d UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb3282d456 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6d16ed11 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6d16f0fe UE4Editor-Core.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6e65a422 UE4Editor-RenderCore.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6e662af4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6d6c7cdb UE4Editor-Core.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffb6d6c0970 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffbd6287c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: [Callstack] 0x00007ffbd724d4d1 ntdll.dll!UnknownFunction []
+[2021.02.01-21.48.10:388][615]LogWindows: Error: 
+[2021.02.01-21.48.10:388][615]LogWindows: Error: 
+[2021.02.01-21.48.10:389][615]LogWindows: Error: 
+[2021.02.01-21.48.10:389][615]LogWindows: Error: 
+[2021.02.01-21.48.10:442][615]LogExit: Executing StaticShutdownAfterError
+[2021.02.01-21.48.10:459][615]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.02.01-21.48.10:459][615]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.02.01-21.48.10:485][615]Log file closed, 02/01/21 21:48:10
