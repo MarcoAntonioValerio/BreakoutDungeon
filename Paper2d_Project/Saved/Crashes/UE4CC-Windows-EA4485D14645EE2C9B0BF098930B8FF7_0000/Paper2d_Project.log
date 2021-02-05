@@ -1,0 +1,1480 @@
+﻿Log file open, 02/05/21 10:55:43
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Paper2d_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.199796
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin BlockoutToolsPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15228867
+LogInit: Engine Version: 4.26.1-15228867+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Jan 28 2021 07:07:34
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=mAvvius -epicuserid=1118738a97954902ab03aa9e7dbe70e8 -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:916][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.05-10.55.43:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.05-10.55.43:921][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.05-10.55.43:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.05-10.55.43:921][  0]LogHAL: Display: Platform has ~ 16 GB [16925786112 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.05-10.55.43:921][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.05-10.55.43:921][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Scalability.ini]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.05-10.55.43:922][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Config/Windows/Engine.ini]
+[2021.02.05-10.55.43:922][  0]LogInit: Computer: DESKTOP-19QO3SS
+[2021.02.05-10.55.43:922][  0]LogInit: User: marco
+[2021.02.05-10.55.43:922][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.05-10.55.43:922][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.05-10.55.43:922][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.02.05-10.55.43:922][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.05-10.55.43:922][  0]LogMemory: Process Physical Memory: 137.24 MB used, 137.25 MB peak
+[2021.02.05-10.55.43:922][  0]LogMemory: Process Virtual Memory: 109.93 MB used, 109.93 MB peak
+[2021.02.05-10.55.43:922][  0]LogMemory: Physical Memory: 9833.45 MB used,  6308.24 MB free, 16141.69 MB total
+[2021.02.05-10.55.43:922][  0]LogMemory: Virtual Memory: 134212224.00 MB used,  5505.30 MB free, 134217728.00 MB total
+[2021.02.05-10.55.43:926][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.05-10.55.43:955][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.05-10.55.43:956][  0]LogInit: Using OS detected language (en-US).
+[2021.02.05-10.55.43:956][  0]LogInit: Using OS detected locale (en-GB).
+[2021.02.05-10.55.43:959][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.05-10.55.44:106][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.05-10.55.44:114][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.05-10.55.44:126][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.05-10.55.44:126][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.05-10.55.44:259][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.05-10.55.44:259][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.05-10.55.44:259][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.05-10.55.44:259][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.05-10.55.44:364][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.02.05-10.55.44:365][  0]LogD3D11RHI:       5991/0/8070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.05-10.55.44:379][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.02.05-10.55.44:379][  0]LogD3D11RHI:       128/0/8070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.02.05-10.55.44:381][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.05-10.55.44:381][  0]LogD3D11RHI:       0/0/8070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.05-10.55.44:381][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.05-10.55.44:385][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.05-10.55.44:385][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.05-10.55.44:385][  0]LogWindows: EnumDisplayDevices:
+[2021.02.05-10.55.44:385][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.02.05-10.55.44:386][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.02.05-10.55.44:386][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.02.05-10.55.44:386][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.02.05-10.55.44:386][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.02.05-10.55.44:386][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.02.05-10.55.44:386][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.02.05-10.55.44:461][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.05-10.55.44:461][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.05-10.55.44:461][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.05-10.55.44:482][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.05-10.55.44:484][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.02.05-10.55.45:164][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.05-10.55.45:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.05-10.55.45:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.05-10.55.45:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.05-10.55.45:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.05-10.55.45:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.05-10.55.45:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.05-10.55.45:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.05-10.55.45:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.05-10.55.45:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.05-10.55.45:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.05-10.55.45:272][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.05-10.55.45:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.05-10.55.45:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.05-10.55.45:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.02.05-10.55.45:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.02.05-10.55.45:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.02.05-10.55.45:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.02.05-10.55.45:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.05-10.55.45:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.05-10.55.45:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.05-10.55.45:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.05-10.55.45:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.05-10.55.45:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.05-10.55.45:366][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.05-10.55.45:372][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.05-10.55.45:426][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.02.05-10.55.45:426][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Intermediate/Shaders/WorkingDirectory/10800/).
+[2021.02.05-10.55.45:426][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marco/AppData/Local/Temp/UnrealShaderWorkingDir/41BDDD4E4DB6074A46A83BA497098829/'.
+[2021.02.05-10.55.45:427][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.05-10.55.45:427][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.05-10.55.46:144][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.05-10.55.46:217][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.05-10.55.46:230][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.05-10.55.46:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.05-10.55.46:231][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.05-10.55.46:238][  0]LogDerivedDataCache: Speed tests for C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.02.05-10.55.46:238][  0]LogDerivedDataCache: Display: Performance to C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1041.78MBs, RandomWriteSpeed=149.93MBs. Assigned SpeedClass 'Local'
+[2021.02.05-10.55.46:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.05-10.55.46:239][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.05-10.55.46:239][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.05-10.55.46:287][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.05-10.55.46:288][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.05-10.55.46:310][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.02.05-10.55.46:550][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.05-10.55.46:550][  0]LogInit: Active device profile: [0000027CBA953000][0000027CBB9FF300 49] Windows
+[2021.02.05-10.55.46:550][  0]LogInit: Profiles: [0000027CBA953000][0000027CBB9FF300 49] Windows, [0000027CBA905200][0000027CBBA0D480 49] WindowsNoEditor, [0000027CBA951200][0000027CBBA035C0 49] WindowsServer, [0000027CBA906900][0000027CBBA11700 49] WindowsClient, [0000027CBA953100][0000027CBBA19840 49] IOS, [0000027CBA905000][0000027CBBA1D980 49] iPadAir, [0000027CBA951700][0000027CBBA25B00 49] iPadAir2, [0000027CBA784700][0000027CBBA32100 49] IPadPro, [0000027CBA784800][0000027CBBA28140 49] iPadAir3, [0000027CBA950E00][0000027CBBA402C0 49] iPadAir4, [0000027CBA786F00][0000027CBBA44440 49] iPadMini2, [0000027CBA953F00][0000027CBBA485C0 49] iPadMini3, [0000027CBA784B00][0000027CBBA4C740 49] iPadMini4, [0000027CBA952B00][0000027CBBA568C0 49] iPadMini5, [0000027CBA5E7F00][0000027CBBA5EB80 49] iPhone6, [0000027CBA5E7E00][0000027CBBA5ABC0 49] iPodTouch6, [0000027CBA907300][0000027CBBA66E80 49] iPhone7, [0000027CBA787100][0000027CBBA62EC0 49] iPodTouch7, [0000027CBA5E5500][0000027CBBAF7040 49] iPhone5S, [0000027CBA785100][0000027CBBB3D1C0 49] iPhone6Plus, [0000027CBA5E4E00][0000027CBC97D340 49] iPhone6S, [0000027CBA785F00][0000027CBC99B4C0 49] iPhone6SPlus, [0000027CBA5E5300][0000027CBC9AF640 49] iPhone7Plus, [0000027CBA785000][0000027CBBA21780 49] iPhoneSE, [0000027CBA5E6900][0000027CBC9C38C0 49] iPhone8, [0000027CBA786C00][0000027CBC9C7A00 49] iPhone8Plus, [0000027CBA5E5700][0000027CBC9CFB80 49] iPhoneX, [0000027CBA787F00][0000027CBC9D3D00 49] iPhoneXS, [0000027CBA5E6100][0000027CBC9D61C0 49] iPhoneXSMax, [0000027CBA787000][0000027CBC9DA340 49] iPhoneXR, [0000027CBA5E5E00][0000027CBC9DE4C0 49] iPhone11, [0000027CBA784D00][0000027CBC9E2640 49] iPhone11Pro, [0000027CBA5E5D00][0000027CBC9E67C0 49] iPhone11ProMax, [0000027CBA786D00][0000027CBC9EA940 49] iPhoneSE2, [0000027CBA5E6800][0000027CBC9EEAC0 49] iPhone12Mini, [0000027CBA785600][0000027CBC9F2C40 49] iPhone12, [0000027CBA5E5400][0000027CBC9F6DC0 49] iPhone12Pro, [0000027CBA784900][0000027CBC9FAF40 49] iPhone12ProMax, [0000027CBA5E7300][0000027CBC9FF0C0 49] iPadPro105, [0000027CBA786E00][0000027CBCA03240 49] iPadPro129, [0000027CBA5E5A00][0000027CBCA073C0 49] iPadPro97, [0000027CBA786000][0000027CBCA0B540 49] iPadPro2_129, [0000027CBA5E6E00][0000027CBCA0F6C0 49] iPad5, [0000027CBA787A00][0000027CBC9CB800 49] iPad6, [0000027CBA5E4A00][0000027CBCA13940 49] iPad7, [0000027CBA786400][0000027CBCA17A80 49] iPad8, [0000027CBA5E4700][0000027CBCA1FC00 49] iPadPro11, [0000027CBA784F00][0000027CBCA220C0 49] iPadPro2_11, [0000027CBA5E5100][0000027CBCA26240 49] iPadPro3_129, [0000027CBA785300][0000027CBCA2A3C0 49] iPadPro4_129, [0000027CBA5E4D00][0000027CBCA2E540 49] AppleTV, [0000027CBA787E00][0000027CBCA326C0 49] AppleTV4K, [0000027CBA5E4200][0000027CBCA36840 49] TVOS, [0000027CBA787700][0000027CBCA3A9C0 49] Mac, [0000027CBA5E5200][0000027CBCA3EB40 49] MacClient, [0000027CBA786A00][0000027CBCA42CC0 49] MacNoEditor, [0000027CBA786600][0000027CBCA46E40 49] MacServer, [0000027CBA905900][0000027CBCA4AFC0 49] Linux, [0000027CBA9F8800][0000027CBCA4F140 49] LinuxNoEditor, [0000027CBA904A00][0000027CBCA532C0 49] LinuxAArch64NoEditor, [0000027CBA9F9000][0000027CBCA57440 49] LinuxClient, [0000027CBA905100][0000027CBCA5B5C0 49] LinuxAArch64Client, [0000027CBA9F8500][0000027CBCA5F740 49] LinuxServer, [0000027CBA906B00][0000027CBCA1B880 49] LinuxAArch64Server, [0000027CBA5E6A00][0000027CBCA639C0 49] Android, [0000027CBA905800][0000027CBCA67B00 49] Android_Low, [0000027CBA5E6B00][0000027CBCA6BC40 49] Android_Mid, [0000027CBA904300][0000027CBCA72100 49] Android_High, [0000027CBA5E5C00][0000027CBCA76280 49] Android_Default, [0000027CBA904E00][0000027CBCA7A400 49] Android_Adreno4xx, [0000027CBA5E6C00][0000027CBCA7E580 49] Android_Adreno5xx_Low, [0000027CBA906A00][0000027CBCA82700 49] Android_Adreno5xx, [0000027CBA5E6600][0000027CBCA86880 49] Android_Adreno6xx, [0000027CBA904F00][0000027CBCA8AA00 49] Android_Adreno6xx_Vulkan, [0000027CBA5E4600][0000027CBCA8EB80 49] Android_Mali_T6xx, [0000027CBA904C00][0000027CBCA92D00 49] Android_Mali_T7xx, [0000027CBA5E7000][0000027CBCA96E80 49] Android_Mali_T8xx, [0000027CBA906800][0000027CBCA9B000 49] Android_Mali_G71, [0000027CBA5E5000][0000027CBCA9F180 49] Android_Mali_G72, [0000027CBA907C00][0000027CBCAA3300 49] Android_Mali_G72_Vulkan, [0000027CBA5E4F00][0000027CBCAA7480 49] Android_Mali_G76, [0000027CBA905A00][0000027CBCAAB600 49] Android_Mali_G76_Vulkan, [0000027CBA5E4B00][0000027CBCAAF780 49] Android_Mali_G77, [0000027CBA907900][0000027CBCA6F8C0 49] Android_Mali_G77_Vulkan, [0000027CBA5E6200][0000027CBCAB3A00 49] Android_Vulkan_SM5, [0000027CBA906E00][0000027CBCAB7B40 49] Android_PowerVR_G6xxx, [0000027CBA5E4800][0000027CBCABBC80 49] Android_PowerVR_GT7xxx, [0000027CBA904B00][0000027CBCAC2140 49] Android_PowerVR_GE8xxx, [0000027CBA5E4300][0000027CBCAC62C0 49] Android_PowerVR_GM9xxx, [0000027CBA905500][0000027CBCACA440 49] Android_PowerVR_GM9xxx_Vulkan, [0000027CBA5E6F00][0000027CBCACE5C0 49] Android_TegraK1, [0000027CBA906400][0000027CBCAD2740 49] Android_Unknown_Vulkan, [0000027CBA5E7500][0000027CBCAD68C0 49] Lumin, [0000027CBA906300][0000027CBCADAA40 49] Lumin_Desktop, [0000027CBA5E7C00][0000027CBCADEBC0 49] HoloLens, 
+[2021.02.05-10.55.46:702][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.05-10.55.46:702][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.05-10.55.46:702][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.05-10.55.46:702][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.05-10.55.46:702][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.05-10.55.46:729][  0]LogNetVersion: Paper2d_Project 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1504522356)
+[2021.02.05-10.55.47:237][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.02.05-10.55.47:296][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 1 prioritized culture(s) in 0.058125 seconds
+[2021.02.05-10.55.47:302][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.02.05-10.55.47:302][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.02.05-10.55.47:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.05-10.55.47:559][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.05-10.55.47:563][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.05-10.55.47:701][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.47:701][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.47:705][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.47:711][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.47:716][  0]LogUProjectInfo: Found projects:
+[2021.02.05-10.55.47:720][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.05-10.55.47:720][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.05-10.55.47:729][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.49:773][  0]LogTexture: Display: Building textures: T_Blockout_Grid (BGRA8, 2048X2048)
+[2021.02.05-10.55.49:773][  0]LogMaterial: Display: Missing cached shader map for material M_BlockoutTools_Grid, compiling. 
+[2021.02.05-10.55.49:844][  0]LogMaterial: Display: Missing cached shader map for material M_BlockoutTools_Custom, compiling. 
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 63
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 55
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 47
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 39
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 31
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2021.02.05-10.55.49:902][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2021.02.05-10.55.49:902][  0]LogTexture: Display: Building textures: T_Blockout_Actor_Icon (AutoDXT, 128X128)
+[2021.02.05-10.55.49:902][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.05-10.55.49:919][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 63
+[2021.02.05-10.55.49:919][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.05-10.55.49:919][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.05-10.55.50:196][  0]LogOcInput: OculusInput pre-init called
+[2021.02.05-10.55.50:211][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.05-10.55.50:211][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.05-10.55.50:221][  0]LogCollectionManager: Loaded 0 collections in 0.001701 seconds
+[2021.02.05-10.55.50:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Collections/' took 0.01s
+[2021.02.05-10.55.50:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Developers/marco/Collections/' took 0.01s
+[2021.02.05-10.55.50:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Collections/' took 0.00s
+[2021.02.05-10.55.50:306][  0]LogEngine: Initializing Engine...
+[2021.02.05-10.55.50:307][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.05-10.55.50:307][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.05-10.55.50:307][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.05-10.55.50:444][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.05-10.55.50:450][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.05-10.55.50:464][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.02.05-10.55.50:469][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.02.05-10.55.50:469][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-10.55.50:469][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-10.55.50:469][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-10.55.50:469][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-10.55.50:486][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-10.55.50:486][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-10.55.50:582][  0]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-10.55.50:588][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-10.55.50:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-10.55.50:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-10.55.50:591][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-10.55.50:591][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-10.55.50:591][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-10.55.50:592][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-10.55.50:592][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-10.55.50:592][  0]LogInit: FAudioDevice initialized.
+[2021.02.05-10.55.50:593][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.02.05-10.55.50:593][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.05-10.55.50:659][  0]LogDerivedDataCache: Saved boot cache 0.07s 100MB C:/Users/marco/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.05-10.55.50:661][  0]LogInit: Texture streaming: Enabled
+[2021.02.05-10.55.50:673][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
+[2021.02.05-10.55.50:678][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.05-10.55.50:678][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.05-10.55.50:682][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.05-10.55.50:856][  0]LogInit: Transaction tracking system initialized
+[2021.02.05-10.55.50:883][  0]BlueprintLog: New page: Editor Load
+[2021.02.05-10.55.51:103][  0]LocalizationService: Localization service is disabled
+[2021.02.05-10.55.51:136][  0]TimingProfiler: Initialize
+[2021.02.05-10.55.51:136][  0]TimingProfiler: OnSessionChanged
+[2021.02.05-10.55.51:136][  0]LoadingProfiler: Initialize
+[2021.02.05-10.55.51:136][  0]LoadingProfiler: OnSessionChanged
+[2021.02.05-10.55.51:136][  0]NetworkingProfiler: Initialize
+[2021.02.05-10.55.51:136][  0]NetworkingProfiler: OnSessionChanged
+[2021.02.05-10.55.51:136][  0]MemoryProfiler: Initialize
+[2021.02.05-10.55.51:136][  0]MemoryProfiler: OnSessionChanged
+[2021.02.05-10.55.51:238][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.05-10.55.51:239][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.05-10.55.51:349][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.02.05-10.55.51:349][  0]LogCook: Display: Mobile HDR setting 0
+[2021.02.05-10.55.51:654][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/' took 0.00s
+[2021.02.05-10.55.51:654][  0]LogStaticMesh: Building static mesh SM_Blockout_Box...
+[2021.02.05-10.55.51:657][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Box.SM_Blockout_Box
+[2021.02.05-10.55.51:679][  0]LogStaticMesh: Building static mesh SM_Blockout_Cone_Q4...
+[2021.02.05-10.55.51:685][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cone_Q4.SM_Blockout_Cone_Q4
+[2021.02.05-10.55.51:686][  0]LogStaticMesh: Building static mesh SM_Blockout_Cone_Q3...
+[2021.02.05-10.55.51:691][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cone_Q3.SM_Blockout_Cone_Q3
+[2021.02.05-10.55.51:692][  0]LogStaticMesh: Building static mesh SM_Blockout_Cone_Q2...
+[2021.02.05-10.55.51:696][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cone_Q2.SM_Blockout_Cone_Q2
+[2021.02.05-10.55.51:697][  0]LogStaticMesh: Building static mesh SM_Blockout_Cone_Q1...
+[2021.02.05-10.55.51:700][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cone_Q1.SM_Blockout_Cone_Q1
+[2021.02.05-10.55.51:727][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Outer_Q4...
+[2021.02.05-10.55.51:731][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Outer_Q4.SM_Blockout_Curved_Corner_Outer_Q4
+[2021.02.05-10.55.51:732][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Outer_Q3...
+[2021.02.05-10.55.51:735][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Outer_Q3.SM_Blockout_Curved_Corner_Outer_Q3
+[2021.02.05-10.55.51:736][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Outer_Q2...
+[2021.02.05-10.55.51:740][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Outer_Q2.SM_Blockout_Curved_Corner_Outer_Q2
+[2021.02.05-10.55.51:741][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Outer_Q1...
+[2021.02.05-10.55.51:744][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Outer_Q1.SM_Blockout_Curved_Corner_Outer_Q1
+[2021.02.05-10.55.51:745][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Inner_Q4...
+[2021.02.05-10.55.51:749][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Inner_Q4.SM_Blockout_Curved_Corner_Inner_Q4
+[2021.02.05-10.55.51:750][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Inner_Q3...
+[2021.02.05-10.55.51:753][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Inner_Q3.SM_Blockout_Curved_Corner_Inner_Q3
+[2021.02.05-10.55.51:755][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Inner_Q1...
+[2021.02.05-10.55.51:758][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Inner_Q1.SM_Blockout_Curved_Corner_Inner_Q1
+[2021.02.05-10.55.51:759][  0]LogStaticMesh: Building static mesh SM_Blockout_Curved_Corner_Inner_Q2...
+[2021.02.05-10.55.51:763][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Curved_Corner_Inner_Q2.SM_Blockout_Curved_Corner_Inner_Q2
+[2021.02.05-10.55.51:783][  0]LogStaticMesh: Building static mesh SM_Blockout_Cylinder_Q2...
+[2021.02.05-10.55.51:786][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cylinder_Q2.SM_Blockout_Cylinder_Q2
+[2021.02.05-10.55.51:787][  0]LogStaticMesh: Building static mesh SM_Blockout_Cylinder_Q1...
+[2021.02.05-10.55.51:790][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cylinder_Q1.SM_Blockout_Cylinder_Q1
+[2021.02.05-10.55.51:791][  0]LogStaticMesh: Building static mesh SM_Blockout_Cylinder_Q4...
+[2021.02.05-10.55.51:799][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cylinder_Q4.SM_Blockout_Cylinder_Q4
+[2021.02.05-10.55.51:800][  0]LogStaticMesh: Building static mesh SM_Blockout_Cylinder_Q3...
+[2021.02.05-10.55.51:805][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Cylinder_Q3.SM_Blockout_Cylinder_Q3
+[2021.02.05-10.55.51:900][  0]LogStaticMesh: Building static mesh SM_Blockout_Railing_Pole...
+[2021.02.05-10.55.51:904][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Railing_Pole.SM_Blockout_Railing_Pole
+[2021.02.05-10.55.51:904][  0]LogStaticMesh: Building static mesh SM_Blockout_Railing_Open...
+[2021.02.05-10.55.51:909][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Railing_Open.SM_Blockout_Railing_Open
+[2021.02.05-10.55.51:910][  0]LogStaticMesh: Building static mesh SM_Blockout_Railing_Closed...
+[2021.02.05-10.55.51:916][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Railing_Closed.SM_Blockout_Railing_Closed
+[2021.02.05-10.55.51:929][  0]LogStaticMesh: Building static mesh SM_Blockout_Ramp...
+[2021.02.05-10.55.51:932][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Ramp.SM_Blockout_Ramp
+[2021.02.05-10.55.51:958][  0]LogStaticMesh: Building static mesh SM_Blockout_Box_Right...
+[2021.02.05-10.55.51:960][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Box_Right.SM_Blockout_Box_Right
+[2021.02.05-10.55.51:961][  0]LogStaticMesh: Building static mesh SM_Blockout_Box_Centered...
+[2021.02.05-10.55.51:964][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Box_Centered.SM_Blockout_Box_Centered
+[2021.02.05-10.55.51:988][  0]LogStaticMesh: Building static mesh SM_Blockout_Sphere_Q4...
+[2021.02.05-10.55.52:026][  0]LogStaticMesh: Built static mesh [0.04s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Sphere_Q4.SM_Blockout_Sphere_Q4
+[2021.02.05-10.55.52:044][  0]LogStaticMesh: Building static mesh SM_Blockout_Sphere_Q3...
+[2021.02.05-10.55.52:058][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Sphere_Q3.SM_Blockout_Sphere_Q3
+[2021.02.05-10.55.52:063][  0]LogStaticMesh: Building static mesh SM_Blockout_Sphere_Q2...
+[2021.02.05-10.55.52:070][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Sphere_Q2.SM_Blockout_Sphere_Q2
+[2021.02.05-10.55.52:075][  0]LogStaticMesh: Building static mesh SM_Blockout_Sphere_Q1...
+[2021.02.05-10.55.52:079][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Sphere_Q1.SM_Blockout_Sphere_Q1
+[2021.02.05-10.55.52:081][  0]LogStaticMesh: Building static mesh SM_Blockout_Hemisphere_Q4...
+[2021.02.05-10.55.52:100][  0]LogStaticMesh: Built static mesh [0.02s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Hemisphere_Q4.SM_Blockout_Hemisphere_Q4
+[2021.02.05-10.55.52:105][  0]LogStaticMesh: Building static mesh SM_Blockout_Hemisphere_Q3...
+[2021.02.05-10.55.52:112][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Hemisphere_Q3.SM_Blockout_Hemisphere_Q3
+[2021.02.05-10.55.52:115][  0]LogStaticMesh: Building static mesh SM_Blockout_Hemisphere_Q1...
+[2021.02.05-10.55.52:119][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Hemisphere_Q1.SM_Blockout_Hemisphere_Q1
+[2021.02.05-10.55.52:120][  0]LogStaticMesh: Building static mesh SM_Blockout_Hemisphere_Q2...
+[2021.02.05-10.55.52:126][  0]LogStaticMesh: Built static mesh [0.01s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Hemisphere_Q2.SM_Blockout_Hemisphere_Q2
+[2021.02.05-10.55.52:184][  0]LogStaticMesh: Building static mesh SM_Blockout_Step_Sloped_Centered...
+[2021.02.05-10.55.52:186][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Sloped_Centered.SM_Blockout_Step_Sloped_Centered
+[2021.02.05-10.55.52:187][  0]LogStaticMesh: Building static mesh SM_Blockout_Step_Box_Centered...
+[2021.02.05-10.55.52:190][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box_Centered.SM_Blockout_Step_Box_Centered
+[2021.02.05-10.55.52:227][  0]LogStaticMesh: Building static mesh SM_Blockout_Step_Box...
+[2021.02.05-10.55.52:230][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Box.SM_Blockout_Step_Box
+[2021.02.05-10.55.52:230][  0]LogStaticMesh: Building static mesh SM_Blockout_Step_Sloped_Linear...
+[2021.02.05-10.55.52:234][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Step_Sloped_Linear.SM_Blockout_Step_Sloped_Linear
+[2021.02.05-10.55.52:303][  0]LogStaticMesh: Building static mesh SM_Blockout_Tube_Q4...
+[2021.02.05-10.55.52:307][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Tube_Q4.SM_Blockout_Tube_Q4
+[2021.02.05-10.55.52:308][  0]LogStaticMesh: Building static mesh SM_Blockout_Tube_Q3...
+[2021.02.05-10.55.52:311][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Tube_Q3.SM_Blockout_Tube_Q3
+[2021.02.05-10.55.52:312][  0]LogStaticMesh: Building static mesh SM_Blockout_Tube_Q2...
+[2021.02.05-10.55.52:315][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Tube_Q2.SM_Blockout_Tube_Q2
+[2021.02.05-10.55.52:316][  0]LogStaticMesh: Building static mesh SM_Blockout_Tube_Q1...
+[2021.02.05-10.55.52:319][  0]LogStaticMesh: Built static mesh [0.00s] /BlockoutToolsPlugin/Meshes/SM_Blockout_Tube_Q1.SM_Blockout_Tube_Q1
+[2021.02.05-10.55.52:356][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.05-10.55.52:356][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.05-10.55.52:733][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.05-10.55.52:733][  0]LogImageWrapper: Warning: PNG Warning: iCCP: CRC error
+[2021.02.05-10.55.52:733][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.02.05-10.55.52:739][  0]SourceControl: Source control is disabled
+[2021.02.05-10.55.52:739][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.628
+[2021.02.05-10.55.52:739][  0]Cmd: MAP LOAD FILE="../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.05-10.55.52:740][  0]LightingResults: New page: Lighting Build
+[2021.02.05-10.55.52:741][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-10.55.52:741][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-10.55.52:742][  0]MapCheck: New page: Map Check
+[2021.02.05-10.55.52:742][  0]LightingResults: New page: Lighting Build
+[2021.02.05-10.55.52:756][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.02.05-10.55.52:951][  0]LogTexture: Display: Building textures: Ball (BGRA8, 96X94)
+[2021.02.05-10.55.52:951][  0]LogTexture: Display: Building textures: Sword_SwingingDown (BGRA8, 128X132)
+[2021.02.05-10.55.52:951][  0]LogTexture: Display: Building textures: 0x72_16x16DungeonTileset_v1 (BGRA8, 256X160)
+[2021.02.05-10.55.52:951][  0]LogTexture: Display: Building textures: Gym (BGRA8, 1920X1080)
+[2021.02.05-10.55.52:951][  0]LogStaticMesh: Building static mesh Sphere...
+[2021.02.05-10.55.52:976][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Sphere.Sphere
+[2021.02.05-10.55.52:984][  0]LogMaterial: Display: Missing cached shader map for material M_BouncyMaster, compiling. 
+[2021.02.05-10.55.52:995][  0]LogMaterial: Display: Missing cached shader map for material wire_027177027, compiling. 
+[2021.02.05-10.55.53:007][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'lvl_Breakout'.
+[2021.02.05-10.55.53:016][  0]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-10.55.53:038][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.05-10.55.53:053][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.02.05-10.55.53:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.05-10.55.53:053][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.329ms to complete.
+[2021.02.05-10.55.53:054][  0]LogFileHelpers: Loading map 'lvl_Breakout' took 0.314
+[2021.02.05-10.55.53:057][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.945
+[2021.02.05-10.55.53:191][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.55.53:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.55.53:214][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.55.53:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.55.53:250][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0141 seconds. Added 3602 classes and 862 folders.
+[2021.02.05-10.55.53:254][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.02.05-10.55.53:259][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-10.55.53:259][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:259][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-10.55.53:259][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.02.05-10.55.53:261][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.05-10.55.53:261][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:261][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.05-10.55.53:261][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.02.05-10.55.53:265][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.02.05-10.55.53:265][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:265][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.02.05-10.55.53:266][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.02.05-10.55.53:268][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-10.55.53:268][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:268][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-10.55.53:268][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.02.05-10.55.53:270][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.05-10.55.53:270][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:270][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.05-10.55.53:270][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.02.05-10.55.53:272][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.05-10.55.53:272][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:272][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.05-10.55.53:272][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.02.05-10.55.53:274][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.05-10.55.53:274][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:274][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.05-10.55.53:274][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.02.05-10.55.53:276][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.05-10.55.53:277][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:277][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.05-10.55.53:277][  0]LogPakFile: OnPakFileMounted2Time == 0.000058
+[2021.02.05-10.55.53:279][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-10.55.53:279][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:279][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-10.55.53:279][  0]LogPakFile: OnPakFileMounted2Time == 0.000063
+[2021.02.05-10.55.53:281][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.05-10.55.53:281][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:281][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.05-10.55.53:281][  0]LogPakFile: OnPakFileMounted2Time == 0.000069
+[2021.02.05-10.55.53:283][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.05-10.55.53:283][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:283][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.05-10.55.53:283][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
+[2021.02.05-10.55.53:285][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-10.55.53:285][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:285][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-10.55.53:286][  0]LogPakFile: OnPakFileMounted2Time == 0.000081
+[2021.02.05-10.55.53:287][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-10.55.53:287][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:287][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-10.55.53:287][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2021.02.05-10.55.53:290][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-10.55.53:290][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:290][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-10.55.53:290][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2021.02.05-10.55.53:292][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.05-10.55.53:292][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:292][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.05-10.55.53:292][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
+[2021.02.05-10.55.53:295][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-10.55.53:295][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:295][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-10.55.53:295][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2021.02.05-10.55.53:297][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.05-10.55.53:297][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:297][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.05-10.55.53:297][  0]LogPakFile: OnPakFileMounted2Time == 0.000123
+[2021.02.05-10.55.53:300][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-10.55.53:300][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:300][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-10.55.53:300][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2021.02.05-10.55.53:302][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-10.55.53:302][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:302][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-10.55.53:302][  0]LogPakFile: OnPakFileMounted2Time == 0.000133
+[2021.02.05-10.55.53:305][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-10.55.53:305][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:305][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-10.55.53:305][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2021.02.05-10.55.53:307][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.05-10.55.53:307][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:307][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.05-10.55.53:307][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2021.02.05-10.55.53:309][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.05-10.55.53:309][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:309][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.05-10.55.53:309][  0]LogPakFile: OnPakFileMounted2Time == 0.000151
+[2021.02.05-10.55.53:312][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.02.05-10.55.53:312][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:312][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.02.05-10.55.53:312][  0]LogPakFile: OnPakFileMounted2Time == 0.000157
+[2021.02.05-10.55.53:314][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.05-10.55.53:314][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:314][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.05-10.55.53:314][  0]LogPakFile: OnPakFileMounted2Time == 0.000163
+[2021.02.05-10.55.53:316][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.05-10.55.53:316][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:316][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.05-10.55.53:317][  0]LogPakFile: OnPakFileMounted2Time == 0.000169
+[2021.02.05-10.55.53:319][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.05-10.55.53:319][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.05-10.55.53:319][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.05-10.55.53:319][  0]LogPakFile: OnPakFileMounted2Time == 0.000176
+[2021.02.05-10.55.53:414][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.02.05-10.55.53:417][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
+[2021.02.05-10.55.53:497][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.05-10.55.53:500][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.05-10.55.53:509][  0]LogSlate: Took 0.002845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.05-10.55.53:648][  0]LogRenderer: Reallocating scene render targets to support 1168x600 Format 10 NumSamples 1 (Frame:1).
+[2021.02.05-10.55.53:688][  0]LogSlate: Took 0.000871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.05-10.55.53:716][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.05-10.55.55:555][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.02.05-10.55.55:555][  0]LogLoad: (Engine Initialization) Total time: 12.44 seconds
+[2021.02.05-10.55.55:555][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.05-10.55.55:555][  0]LogInit: First time updating LLM stats...
+[2021.02.05-10.55.55:611][  0]LogAssetRegistry: Asset discovery search completed in 9.3013 seconds
+[2021.02.05-10.55.55:613][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.02.05-10.55.55:689][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.05-10.55.55:815][  2]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 79
+[2021.02.05-10.55.56:115][  2]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 69
+[2021.02.05-10.55.56:123][  2]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 60
+[2021.02.05-10.55.56:292][  5]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 52
+[2021.02.05-10.55.56:350][  5]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 45
+[2021.02.05-10.55.57:951][ 79]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 39
+[2021.02.05-10.55.58:106][ 88]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 34
+[2021.02.05-10.55.59:070][144]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 29
+[2021.02.05-10.56.00:005][199]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 25
+[2021.02.05-10.56.00:573][233]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2021.02.05-10.56.00:926][254]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2021.02.05-10.56.01:060][262]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 15
+[2021.02.05-10.56.02:163][328]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2021.02.05-10.56.02:211][331]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.02.05-10.56.02:477][347]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2021.02.05-10.56.02:960][376]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2021.02.05-10.56.03:161][388]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2021.02.05-10.56.03:292][396]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2021.02.05-10.56.03:410][403]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.02.05-10.56.03:428][404]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.02.05-10.56.03:638][416]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2021.02.05-10.56.03:878][428]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2021.02.05-10.56.07:799][662]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-10.56.07:805][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-10.56.07:805][662]PIE: New page: PIE session: lvl_Breakout (5 Feb 2021, 10:56:07)
+[2021.02.05-10.56.07:806][662]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.05-10.56.07:807][662]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.05-10.56.07:807][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-10.56.07:809][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002152s)
+[2021.02.05-10.56.07:810][662]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-10.56.07:810][662]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2021.02.05-10.56.07:810][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003022s)
+[2021.02.05-10.56.07:814][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.02.05-10.56.07:815][662]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-10.56.07:815][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-10.56.07:815][662]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-10.56.07:815][662]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-10.56.07:817][662]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-10.56.07:817][662]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-10.56.07:837][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-10.56.07:837][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-10.56.07:850][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-10.56.07:850][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-10.56.07:850][662]LogInit: FAudioDevice initialized.
+[2021.02.05-10.56.07:850][662]LogAudio: Display: Audio Device (ID: 2) registered with world 'lvl_Breakout'.
+[2021.02.05-10.56.07:857][662]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.05-10.56.07:859][662]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.05-10.56.07
+[2021.02.05-10.56.07:859][662]LogWorld: Bringing up level for play took: 0.001136
+[2021.02.05-10.56.07:859][662]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.02.05-10.56.07:862][662]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2021.02.05-10.56.07:863][662]PIE: Server logged in
+[2021.02.05-10.56.07:863][662]PIE: Play in editor total start time 0.06 seconds.
+[2021.02.05-10.56.07:864][662]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.05-10.56.10:459][816]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-10.56.12:724][952]LogBlueprintUserMessages: [BP_Player_C_0] Ball Catcher
+[2021.02.05-10.56.13:476][997]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-10.56.18:331][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.56.18:331][286]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-10.56.18:331][286]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-10.56.18:331][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-10.56.18:338][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-10.56.18:339][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-10.56.18:343][286]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.05-10.56.18:343][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-10.56.18:344][286]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-10.56.18:363][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-10.56.18:364][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.02.05-10.56.18:397][288]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.02.05-11.12.50:875][917]LogEditorViewport: Clicking on Actor (LMB): BP_Crate_C (BP_Crate10)
+[2021.02.05-11.13.07:098][793]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.02.05-11.13.07:106][793]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.02.05-11.13.07:115][793]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.02.05-11.13.29:036][109]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PARENT_BreakableObject
+[2021.02.05-11.13.29:043][109]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.02.05-11.13.33:740][390]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
+[2021.02.05-11.13.33:911][390]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.02.05-11.13.35:533][435]LogSlate: Took 0.002490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.05-11.14.27:714][736]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-11.14.27:747][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.02.05-11.15.32:618][608]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-11.15.32:646][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.02.05-11.15.36:841][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Crate.BP_Crate
+[2021.02.05-11.15.37:175][852]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.05-11.16.14:011][ 31]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-11.16.14:044][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.02.05-11.17.43:396][364]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.02.05-11.17.47:802][625]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-11.17.47:843][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.02.05-11.23.10:092][363]Cmd: TRANSACTION UNDO
+[2021.02.05-11.23.10:092][363]LogEditorTransaction: Undo Add Variable
+[2021.02.05-11.36.33:731][578]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{72bb0d58-d9e8-44c0-a9eb-99952a88d502}.
+[2021.02.05-11.36.33:731][578]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-11.36.33:746][578]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-11.36.33:746][578]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-11.36.39:075][594]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{742f0659-7489-445f-8af9-6d189209493e}.
+[2021.02.05-11.36.39:075][594]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-11.36.39:105][594]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-11.36.39:106][594]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.05.08:463][472]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{72bb0d58-d9e8-44c0-a9eb-99952a88d502}.
+[2021.02.05-13.05.08:463][472]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-13.05.08:565][472]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.05.08:565][472]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.05.13:495][487]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{742f0659-7489-445f-8af9-6d189209493e}.
+[2021.02.05-13.05.13:495][487]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-13.05.13:527][487]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.05.13:527][487]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.36.04:479][189]LogRenderer: Reallocating scene render targets to support 1168x940 Format 10 NumSamples 1 (Frame:15039).
+[2021.02.05-13.36.06:181][288]LogSlate: Window 'BP_Crate' being destroyed
+[2021.02.05-13.37.46:581][283]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-13.37.46:595][283]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.05-13.37.46:598][283]LogPlayLevel: [PlayLevel] Compiling BP_PARENT_BreakableObject before play...
+[2021.02.05-13.37.46:730][283]LogUObjectHash: Compacting FUObjectHashTables data took   7.48ms
+[2021.02.05-13.37.46:733][283]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2021.02.05-13.37.46:733][283]PIE: New page: PIE session: lvl_Breakout (5 Feb 2021, 13:37:46)
+[2021.02.05-13.37.46:734][283]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.37.46:738][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004155s)
+[2021.02.05-13.37.46:739][283]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-13.37.46:740][283]LogPlayLevel: PIE: World Init took: (0.002433s)
+[2021.02.05-13.37.46:740][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.006828s)
+[2021.02.05-13.37.46:761][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.02.05-13.37.46:761][283]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-13.37.46:761][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-13.37.46:761][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-13.37.46:762][283]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-13.37.46:762][283]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-13.37.46:764][283]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.37.46:764][283]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.37.46:788][283]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-13.37.46:788][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-13.37.46:788][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-13.37.46:788][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-13.37.46:789][283]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-13.37.46:789][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-13.37.46:789][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-13.37.46:808][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-13.37.46:808][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-13.37.46:808][283]LogInit: FAudioDevice initialized.
+[2021.02.05-13.37.46:808][283]LogAudio: Display: Audio Device (ID: 3) registered with world 'lvl_Breakout'.
+[2021.02.05-13.37.46:824][283]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.05-13.37.46:827][283]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.05-13.37.46
+[2021.02.05-13.37.46:827][283]LogWorld: Bringing up level for play took: 0.001976
+[2021.02.05-13.37.46:827][283]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.05-13.37.46:831][283]PIE: Server logged in
+[2021.02.05-13.37.46:832][283]PIE: Play in editor total start time 0.241 seconds.
+[2021.02.05-13.37.46:833][283]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.05-13.37.50:975][529]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.37.53:242][665]LogBlueprintUserMessages: [BP_Player_C_0] Ball Catcher
+[2021.02.05-13.37.53:926][706]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:926][706]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:943][707]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:943][707]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:959][708]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:959][708]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:976][709]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:976][709]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:992][710]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.53:992][710]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.54:009][711]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.54:009][711]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.54:026][712]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.54:026][712]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.54:042][713]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.37.56:943][887]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.57:043][893]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.37.59:960][ 68]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:060][ 74]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:476][ 99]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:477][ 99]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:510][101]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:577][105]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:943][127]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.00:943][127]LogBlueprintUserMessages: [BP_Player_C_0] Hello
+[2021.02.05-13.38.02:484][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.02:484][217]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.38.02:484][217]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-13.38.02:485][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.02:504][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-13.38.02:517][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.02:535][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.02:535][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.02:537][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.02:569][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.02.05-13.38.02:608][218]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.05-13.38.09:997][297]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-13.38.10:003][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-13.38.10:003][297]PIE: New page: PIE session: lvl_Breakout (5 Feb 2021, 13:38:10)
+[2021.02.05-13.38.10:004][297]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.38.10:006][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001959s)
+[2021.02.05-13.38.10:006][297]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-13.38.10:008][297]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2021.02.05-13.38.10:008][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.004366s)
+[2021.02.05-13.38.10:028][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.02.05-13.38.10:029][297]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-13.38.10:029][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-13.38.10:029][297]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-13.38.10:029][297]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-13.38.10:031][297]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.38.10:031][297]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.38.10:052][297]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-13.38.10:053][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-13.38.10:053][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-13.38.10:053][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-13.38.10:053][297]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-13.38.10:053][297]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-13.38.10:053][297]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-13.38.10:054][297]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-13.38.10:054][297]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-13.38.10:054][297]LogInit: FAudioDevice initialized.
+[2021.02.05-13.38.10:054][297]LogAudio: Display: Audio Device (ID: 4) registered with world 'lvl_Breakout'.
+[2021.02.05-13.38.10:069][297]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.05-13.38.10:071][297]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.05-13.38.10
+[2021.02.05-13.38.10:071][297]LogWorld: Bringing up level for play took: 0.001261
+[2021.02.05-13.38.10:071][297]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.02.05-13.38.10:073][297]PIE: Server logged in
+[2021.02.05-13.38.10:073][297]PIE: Play in editor total start time 0.071 seconds.
+[2021.02.05-13.38.10:074][297]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.05-13.38.11:377][373]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.38.16:061][654]LogBlueprintUserMessages: [BP_Player_C_0] Ball Catcher
+[2021.02.05-13.38.16:894][704]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.38.20:381][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.20:381][911]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.38.20:381][911]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-13.38.20:381][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.20:389][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-13.38.20:397][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.20:414][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.20:414][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.20:415][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.20:441][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.02.05-13.38.20:465][912]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.02.05-13.38.21:835][994]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-13.38.21:841][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.05-13.38.21:841][994]PIE: New page: PIE session: lvl_Breakout (5 Feb 2021, 13:38:21)
+[2021.02.05-13.38.21:841][994]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.38.21:843][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2021.02.05-13.38.21:844][994]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-13.38.21:844][994]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2021.02.05-13.38.21:844][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002813s)
+[2021.02.05-13.38.21:863][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.02.05-13.38.21:863][994]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-13.38.21:863][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-13.38.21:863][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-13.38.21:864][994]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-13.38.21:864][994]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-13.38.21:866][994]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.38.21:866][994]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.38.21:886][994]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-13.38.21:886][994]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-13.38.21:886][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-13.38.21:886][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-13.38.21:887][994]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-13.38.21:887][994]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-13.38.21:887][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-13.38.21:899][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-13.38.21:899][994]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-13.38.21:899][994]LogInit: FAudioDevice initialized.
+[2021.02.05-13.38.21:899][994]LogAudio: Display: Audio Device (ID: 5) registered with world 'lvl_Breakout'.
+[2021.02.05-13.38.21:912][994]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.05-13.38.21:914][994]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.05-13.38.21
+[2021.02.05-13.38.21:914][994]LogWorld: Bringing up level for play took: 0.001058
+[2021.02.05-13.38.21:914][994]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.05-13.38.21:917][994]PIE: Server logged in
+[2021.02.05-13.38.21:918][994]PIE: Play in editor total start time 0.078 seconds.
+[2021.02.05-13.38.21:918][994]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.05-13.38.23:645][ 98]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.38.26:312][258]LogBlueprintUserMessages: [BP_Player_C_0] Ball Catcher
+[2021.02.05-13.38.27:695][341]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.38.37:645][938]LogBlueprintUserMessages: [BP_Player_C_0] Ball Catcher
+[2021.02.05-13.38.38:812][  8]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-13.38.41:250][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.41:250][152]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-13.38.41:250][152]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-13.38.41:250][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.41:262][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.05-13.38.41:270][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-13.38.41:287][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.05-13.38.41:287][152]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.41:288][152]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.05-13.38.41:317][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.02.05-13.38.41:341][153]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.05-13.42.58:632][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.02.05-13.42.58:651][402]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto1E745083340397D3E0D98F489A5CF4927.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto1.umap'
+[2021.02.05-13.42.58:655][402]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.043
+[2021.02.05-13.42.58:655][402]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2021.02.05-13.42.58:655][402]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Crate] ([1] browsable assets)...
+[2021.02.05-13.42.58:655][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Crate]
+[2021.02.05-13.42.58:665][402]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_Crate_Auto102E0790C4B570DA2272ECE904145B8C1.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Crate_Auto1.uasset'
+[2021.02.05-13.42.58:666][402]LogFileHelpers: Auto-saving content packages took 0.011
+[2021.02.05-13.45.10:097][621]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.45.10:100][621]LogBlueprint: Warning: [AssetLog] /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject (no disk path found): [Compiler] On Component End Overlap (Box)  does not have a valid matching component!
+[2021.02.05-13.45.10:102][621]LogBlueprint: Error: [AssetLog] /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject (no disk path found): [Compiler] Failed to resolve term  Value generated from expanding Increment Int  passed into  Target generated from expanding Increment Int
+[2021.02.05-13.45.10:132][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.05-13.45.10:163][621]LogSlate: Took 0.001010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.05-13.45.36:689][212]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.45.36:691][212]LogBlueprint: Warning: [AssetLog] /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject (no disk path found): [Compiler] On Component End Overlap (Box)  does not have a valid matching component!
+[2021.02.05-13.45.36:725][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.02.05-13.46.04:480][540]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{72bb0d58-d9e8-44c0-a9eb-99952a88d502}.
+[2021.02.05-13.46.04:480][540]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-13.46.04:633][540]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.46.04:633][540]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.46.15:187][572]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{742f0659-7489-445f-8af9-6d189209493e}.
+[2021.02.05-13.46.15:187][572]LogAudioMixer: Resetting audio stream to device id 
+[2021.02.05-13.46.15:528][572]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-13.46.15:529][572]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-13.47.53:731][193]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.47.53:734][193]LogBlueprint: Warning: [AssetLog] /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject (no disk path found): [Compiler] On Component End Overlap (Box)  does not have a valid matching component!
+[2021.02.05-13.47.53:764][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.02.05-13.48.40:086][683]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.48.40:088][683]LogBlueprint: Warning: [AssetLog] /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject (no disk path found): [Compiler] On Component End Overlap (Box)  does not have a valid matching component!
+[2021.02.05-13.48.40:117][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.02.05-13.49.49:328][821]LogEditorTransaction: Undo Move Nodes
+[2021.02.05-13.49.53:852][ 89]LogEditorTransaction: Undo Move Nodes
+[2021.02.05-13.51.19:631][739]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.51.19:663][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.02.05-13.51.33:528][568]Cmd: DELETE
+[2021.02.05-13.51.33:528][568]Cmd: ACTOR DELETE
+[2021.02.05-13.51.33:542][568]LogEditorActor: Deleted Actor: BP_PARENT_BreakableObject_C
+[2021.02.05-13.51.33:562][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.02.05-13.51.33:563][568]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2021.02.05-13.52.02:877][324]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.52.02:911][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.02.05-13.53.03:325][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.02.05-13.53.03:336][566]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto21B5C81684EA85D9BA1AF308C72117CD9.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto2.umap'
+[2021.02.05-13.53.03:337][566]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.033
+[2021.02.05-13.53.03:337][566]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.02.05-13.56.34:268][621]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-13.56.34:300][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.02.05-14.01.00:596][453]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.05-14.01.00:969][454]LogSlate: Took 0.010633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NotoColorEmoji.ttf' (7610K)
+[2021.02.05-14.01.00:979][454]LogSlate: Took 0.004132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.02.05-14.01.00:979][454]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '? (U+dffe)'
+[2021.02.05-14.01.00:986][454]LogSlate: Took 0.005892 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.02.05-14.03.03:768][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.02.05-14.03.03:776][810]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto3B740A00C49E1840CF6001B840E642EE4.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto3.umap'
+[2021.02.05-14.03.03:777][810]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.033
+[2021.02.05-14.03.03:777][810]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.02.05-14.03.03:778][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([1] browsable assets)...
+[2021.02.05-14.03.03:778][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.05-14.03.03:825][810]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto36BE7E0F648D6DCAECD578C88FE5C4487.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2021.02.05-14.03.03:826][810]LogFileHelpers: Auto-saving content packages took 0.049
+[2021.02.05-14.03.31:283][208]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-14.03.31:283][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-14.03.33:440][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.02.05-14.03.33:440][334]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.02.05-14.03.33:440][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.05-14.03.48:684][243]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.03.48:728][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.02.05-14.13.04:202][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.02.05-14.13.04:213][805]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto4AE2ED8684EE4242EFA647D9AB1CE2D97.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto4.umap'
+[2021.02.05-14.13.04:215][805]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.033
+[2021.02.05-14.13.04:215][805]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.02.05-14.15.45:318][100]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.15.45:359][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.02.05-14.19.14:455][641]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.19.14:492][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.02.05-14.23.43:065][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.02.05-14.23.43:076][742]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto519051CFA4F028A780EE0BDA9DF8DD9BC.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto5.umap'
+[2021.02.05-14.23.43:077][742]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.029
+[2021.02.05-14.23.43:077][742]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.029
+[2021.02.05-14.27.41:534][ 28]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.27.41:574][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.02.05-14.31.05:288][522]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.31.05:327][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.02.05-14.33.43:687][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.02.05-14.33.43:697][559]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto6F4D25C264D70A7FB80A40B8117F5D1D6.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto6.umap'
+[2021.02.05-14.33.43:699][559]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.033
+[2021.02.05-14.33.43:699][559]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.02.05-14.34.42:002][ 56]LogEditorTransaction: Undo Move Node
+[2021.02.05-14.35.10:741][773]LogSlate: Window 'Color Picker' being destroyed
+[2021.02.05-14.36.21:376][329]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.36.21:415][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.02.05-14.36.23:640][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.02.05-14.36.25:236][460]LogSlate: Window 'Save Content' being destroyed
+[2021.02.05-14.36.27:565][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.02.05-14.36.27:602][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.02.05-14.36.27:610][599]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout39A69E1142C9E8D9962EEE9F49AB9AD0.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.05-14.36.27:633][599]LogFileHelpers: Saving map 'lvl_Breakout' took 0.046
+[2021.02.05-14.36.27:633][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.05-14.36.27:677][599]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerEA183B5E4E23E008205B8EA0A24A2C7E.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.05-14.36.27:678][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Crate" FILE="../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Crate.uasset" SILENT=true
+[2021.02.05-14.36.27:684][599]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_CrateE2F9872944AAFD657404BF876F5C67E9.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Crate.uasset'
+[2021.02.05-14.36.27:705][599]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PARENT_BreakableObjectAA429C0E473FCF80F70E26BE3CEFC900.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_PARENT_BreakableObject.uasset'
+[2021.02.05-14.36.27:725][599]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Crate.BP_Crate
+[2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
+[2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.05-14.39.48:023][596]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PARENT_BreakableObject09367F9B40781529F2B57088A5639F1E.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_PARENT_BreakableObject.uasset'
+[2021.02.05-14.39.48:033][596]AssetCheck: New page: Asset Save: BP_PARENT_BreakableObject
+[2021.02.05-14.39.48:033][596]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
+[2021.02.05-14.39.50:683][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.02.05-14.39.50:715][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.02.05-14.39.50:723][754]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout96E7131449FEEB71E8D1499FF158EAE2.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.05-14.39.50:729][754]LogFileHelpers: Saving map 'lvl_Breakout' took 0.030
+[2021.02.05-14.39.50:737][754]AssetCheck: New page: Asset Save: lvl_Breakout
+[2021.02.05-14.39.50:737][754]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.05-14.40.17:902][413]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.40.17:939][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.02.05-14.40.37:448][579]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PARENT_BreakableObject39E417794EC7086417BDA29365390748.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_PARENT_BreakableObject.uasset'
+[2021.02.05-14.40.37:456][579]AssetCheck: New page: Asset Save: BP_PARENT_BreakableObject
+[2021.02.05-14.40.37:456][579]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
+[2021.02.05-14.44.48:652][824]BlueprintLog: New page: Compile BP_PARENT_BreakableObject
+[2021.02.05-14.44.48:692][824]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.02.05-14.49.51:028][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.02.05-14.49.51:039][318]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto7D325E8FF42622A716453398E45A8B3B3.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto7.umap'
+[2021.02.05-14.49.51:041][318]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.037
+[2021.02.05-14.49.51:041][318]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2021.02.05-14.49.51:042][318]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PARENT_BreakableObject] ([2] browsable assets)...
+[2021.02.05-14.49.51:042][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PARENT_BreakableObject]
+[2021.02.05-14.49.51:064][318]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PARENT_BreakableObject_Auto76BF5D92A4D23B9A16D133BB094127F91.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_PARENT_BreakableObject_Auto7.uasset'
+[2021.02.05-14.49.51:066][318]LogFileHelpers: Auto-saving content packages took 0.024
+[2021.02.05-15.13.36:882][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.02.05-15.13.39:961][205]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.05-15.13.40:014][205]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Crate.BP_Crate
+[2021.02.05-15.13.40:556][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.02.05-15.13.40:595][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.02.05-15.13.40:612][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.02.05-15.13.40:628][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.02.05-15.13.50:566][795]LogContentBrowser: Deferred new asset file creation: BP_PARENT_BreakableObject_Child
+[2021.02.05-15.13.50:588][795]LogContentBrowser: Creating deferred item: BP_PARENT_BreakableObject_Child
+[2021.02.05-15.13.57:274][197]LogContentBrowser: Attempting asset rename: BP_PARENT_BreakableObject_Child -> BP_Crate
+[2021.02.05-15.13.57:278][197]LogContentBrowser: End creating deferred item BP_PARENT_BreakableObject_Child
+[2021.02.05-15.14.17:494][409]LogContentBrowser: Attempting asset rename: BP_Crate -> BP_BO_Crate
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.SKEL_BP_BO_Crate_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.SKEL_BP_BO_Crate_C' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate_C' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:508][409]LogMetaData: Removing '/Game/Blueprints/BP_BO_Crate.BP_BO_Crate:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/BP_Crate.PackageMetaData'
+[2021.02.05-15.14.17:527][409]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_BO_Crate22DB903342818993327AAD8EA37CF028.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_BO_Crate.uasset'
+[2021.02.05-15.14.17:529][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Crate" FILE="../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Crate.uasset" SILENT=true
+[2021.02.05-15.14.17:529][409]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_CrateB42BFBD14491CF1274644E974A5FA092.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Crate.uasset'
+[2021.02.05-15.14.17:558][409]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.05-15.14.17:558][409]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Crate.BP_Crate_C
+[2021.02.05-15.14.17:558][409]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_BO_Crate.BP_BO_Crate
+[2021.02.05-15.14.17:558][409]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Crate.BP_Crate
+[2021.02.05-15.14.17:558][409]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Crate.Default__BP_Crate_C
+[2021.02.05-15.14.19:895][549]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_BO_Crate.BP_BO_Crate
+[2021.02.05-15.14.54:701][615]LogEditorViewport: Clicking on Actor (LMB): Background_Sprite_Blueprint_C (Background_Sprite_Blueprint)
+[2021.02.05-15.14.55:335][652]LogEditorViewport: Clicking on Actor (LMB): BP_BO_Crate_C (BP_BO_Crate)
+[2021.02.05-15.14.59:485][900]Cmd: DELETE
+[2021.02.05-15.14.59:485][900]Cmd: ACTOR DELETE
+[2021.02.05-15.14.59:487][900]LogEditorActor: Deleted Actor: BP_BO_Crate_C
+[2021.02.05-15.14.59:508][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.02.05-15.14.59:510][900]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.02.05-15.15.00:400][954]LogEditorViewport: Clicking on Actor (LMB): BP_PARENT_BreakableObject_C (BP_PARENT_BreakableObject)
+[2021.02.05-15.15.02:395][ 73]Cmd: DELETE
+[2021.02.05-15.15.02:395][ 73]Cmd: ACTOR DELETE
+[2021.02.05-15.15.02:396][ 73]LogEditorActor: Deleted Actor: BP_PARENT_BreakableObject_C
+[2021.02.05-15.15.02:414][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.02.05-15.15.02:415][ 73]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.02.05-15.15.30:631][765]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_2_C (BP_Ball_2)
+[2021.02.05-15.15.37:175][157]LogEditorViewport: Clicking on Actor (LMB): BP_BO_Crate_C (BP_BO_Crate)
+[2021.02.05-15.15.39:844][316]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.05-15.15.39:852][316]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.05-15.15.39:853][316]LogPlayLevel: [PlayLevel] Compiling BP_PARENT_BreakableObject before play...
+[2021.02.05-15.15.39:853][316]LogPlayLevel: [PlayLevel]   Compiling BP_BO_Crate as a dependent...
+[2021.02.05-15.15.39:910][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.02.05-15.15.39:911][316]LogPlayLevel: PlayLevel: Blueprint regeneration took 58 ms (2 blueprints)
+[2021.02.05-15.15.39:911][316]PIE: New page: PIE session: lvl_Breakout (5 Feb 2021, 15:15:39)
+[2021.02.05-15.15.39:912][316]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.05-15.15.39:913][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001345s)
+[2021.02.05-15.15.39:914][316]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.05-15.15.39:914][316]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2021.02.05-15.15.39:914][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002521s)
+[2021.02.05-15.15.39:932][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.02.05-15.15.39:932][316]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.05-15.15.39:932][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.05-15.15.39:932][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.05-15.15.39:933][316]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.05-15.15.39:933][316]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.05-15.15.39:935][316]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.05-15.15.39:935][316]LogAudioMixer: Display: 1: FrontRight
+[2021.02.05-15.15.39:956][316]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2021.02.05-15.15.39:957][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.05-15.15.39:957][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.05-15.15.39:957][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.05-15.15.39:958][316]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.05-15.15.39:958][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.05-15.15.39:958][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.05-15.15.39:971][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.05-15.15.39:971][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.05-15.15.39:971][316]LogInit: FAudioDevice initialized.
+[2021.02.05-15.15.39:971][316]LogAudio: Display: Audio Device (ID: 6) registered with world 'lvl_Breakout'.
+[2021.02.05-15.15.39:985][316]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.05-15.15.39:987][316]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.05-15.15.39
+[2021.02.05-15.15.39:987][316]LogWorld: Bringing up level for play took: 0.000682
+[2021.02.05-15.15.39:987][316]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.05-15.15.39:989][316]PIE: Server logged in
+[2021.02.05-15.15.39:990][316]PIE: Play in editor total start time 0.141 seconds.
+[2021.02.05-15.15.39:990][316]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.05-15.15.41:386][400]LogBlueprintUserMessages: [BP_Player_C_0] Fire
+[2021.02.05-15.15.41:872][429]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+BP_PARENT_BreakableObject_C.BndEvt__Box_Collision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
+
+[2021.02.05-15.15.42:444][429]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.572 s
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: === Handled ensure: ===
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: 
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Blueprint.cpp] [Line: 903]
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: Type mismatch: Expected BP_PARENT_BreakableObject_C, Found REINST_BP_PARENT_BreakableObject_C_277
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: Stack: 
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff6598ed07 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff642a7824 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff70dc46fe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff7123c46a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72acbf71 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72ae0740 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72ab238d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72ab1794 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff728226a4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72ab0ef3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff63fac125 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff63ea0ecb UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff643dec83 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff64425319 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff6440a11c UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff64d75b4b UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff64d64fb3 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff64d53dce UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff647308dd UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72eaed11 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72eaf0fe UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff72ec092d UE4Editor-Core.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff65190ffe UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff6519793a UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff648b886f UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff648c3cf0 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff709794d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fff71294206 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007ff740359bda UE4Editor.exe!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007ff7403711ac UE4Editor.exe!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007ff74037128a UE4Editor.exe!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007ff7403852ed UE4Editor.exe!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007ff74038801a UE4Editor.exe!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fffdc6e7034 KERNEL32.DLL!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: [Callstack] 0x00007fffdde7d0d1 ntdll.dll!UnknownFunction []
+[2021.02.05-15.15.42:445][429]LogOutputDevice: Error: 
