@@ -1315,3 +1315,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Crate.BP_Crate
 [2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
 [2021.02.05-14.36.27:725][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.05-14.39.48:023][596]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/BP_PARENT_BreakableObject09367F9B40781529F2B57088A5639F1E.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_PARENT_BreakableObject.uasset'
+[2021.02.05-14.39.48:033][596]AssetCheck: New page: Asset Save: BP_PARENT_BreakableObject
+[2021.02.05-14.39.48:033][596]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PARENT_BreakableObject.BP_PARENT_BreakableObject
+[2021.02.05-14.39.50:683][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.02.05-14.39.50:715][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.02.05-14.39.50:723][754]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout96E7131449FEEB71E8D1499FF158EAE2.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.05-14.39.50:729][754]LogFileHelpers: Saving map 'lvl_Breakout' took 0.030
+[2021.02.05-14.39.50:737][754]AssetCheck: New page: Asset Save: lvl_Breakout
+[2021.02.05-14.39.50:737][754]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
