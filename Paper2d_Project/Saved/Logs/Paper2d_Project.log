@@ -8293,3 +8293,116 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.08-13.43.58:987][830]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2021.02.08-13.44.05:943][ 78]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
 [2021.02.08-13.44.07:236][152]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.02.08-13.48.14:044][414]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.48.28:506][272]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.48.30:159][369]BlueprintLog: New page: Compile BP_Player
+[2021.02.08-13.48.30:224][369]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2021.02.08-13.48.31:394][432]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.08-13.48.31:405][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.08-13.48.31:405][432]PIE: New page: PIE session: lvl_Breakout (8 Feb 2021, 13:48:31)
+[2021.02.08-13.48.31:405][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.08-13.48.31:407][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001825s)
+[2021.02.08-13.48.31:407][432]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.08-13.48.31:408][432]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2021.02.08-13.48.31:408][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003034s)
+[2021.02.08-13.48.31:443][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.02.08-13.48.31:444][432]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.08-13.48.31:444][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.08-13.48.31:444][432]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.08-13.48.31:444][432]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.08-13.48.31:450][432]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.08-13.48.31:450][432]LogAudioMixer: Display: 1: FrontRight
+[2021.02.08-13.48.31:476][432]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.08-13.48.31:476][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.08-13.48.31:476][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.08-13.48.31:476][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.08-13.48.31:477][432]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.08-13.48.31:477][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.08-13.48.31:477][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.08-13.48.31:495][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.08-13.48.31:495][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.08-13.48.31:495][432]LogInit: FAudioDevice initialized.
+[2021.02.08-13.48.31:495][432]LogAudio: Display: Audio Device (ID: 54) registered with world 'lvl_Breakout'.
+[2021.02.08-13.48.31:519][432]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.48.31:522][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-13.48.31:523][432]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.08-13.48.31:526][432]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.08-13.48.31
+[2021.02.08-13.48.31:527][432]LogWorld: Bringing up level for play took: 0.002948
+[2021.02.08-13.48.31:527][432]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2021.02.08-13.48.31:535][432]PIE: Server logged in
+[2021.02.08-13.48.31:538][432]PIE: Play in editor total start time 0.139 seconds.
+[2021.02.08-13.48.31:539][432]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.08-13.48.52:874][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-13.48.52:874][675]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.08-13.48.52:875][675]LogSlate: Window 'Paper2d_Project Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.02.08-13.48.52:891][675]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.08-13.48.52:891][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-13.48.52:934][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.08-13.48.52:951][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-13.48.52:986][675]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.08-13.48.52:986][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.08-13.48.52:987][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.08-13.48.53:013][675]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2021.02.08-13.48.53:100][676]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2021.02.08-13.49.34:420][142]BlueprintLog: New page: Compile BP_Player
+[2021.02.08-13.49.34:486][142]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.02.08-13.49.35:298][184]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.49.35:313][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.08-13.49.35:366][184]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player65CB32304B6BAEFC2A74F3B2E5EE20BE.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.08-13.49.35:391][184]AssetCheck: New page: Asset Save: BP_Player
+[2021.02.08-13.49.35:391][184]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.08-13.49.43:647][667]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2021.02.08-13.49.43:647][667]LogSlate: The tab "MyBlueprint" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.02.08-13.50.01:382][704]BlueprintLog: New page: Compile BP_Player
+[2021.02.08-13.50.01:449][704]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.02.08-13.50.08:551][113]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.50.11:601][294]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.50.11:909][294]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.08-13.50.53:870][777]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.50.59:945][132]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.51.02:246][266]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.53.30:503][418]BlueprintLog: New page: Compile BP_Player
+[2021.02.08-13.53.30:571][418]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.02.08-13.54.11:429][378]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.54.20:489][405]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.54.20:540][405]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2021.02.08-13.54.20:546][405]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto27302D3C3469D4536B5C64096B925F9EB.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto2.umap'
+[2021.02.08-13.54.20:547][405]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.042
+[2021.02.08-13.54.20:547][405]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2021.02.08-13.54.20:547][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.08-13.54.20:547][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.08-13.54.20:596][405]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto23A10249C449FBCBC9DE99383DEA770E7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto2.uasset'
+[2021.02.08-13.54.20:597][405]LogFileHelpers: Auto-saving content packages took 0.050
+[2021.02.08-13.56.26:096][448]LogEditorTransaction: Undo Move Node
+[2021.02.08-13.56.26:131][448]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-13.57.19:340][268]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.08-13.57.19:347][268]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.08-14.04.11:981][ 77]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-14.04.21:033][104]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-14.04.21:119][104]LogUObjectHash: Compacting FUObjectHashTables data took  11.11ms
+[2021.02.08-14.04.21:122][104]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.069
+[2021.02.08-14.04.21:123][104]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.08-14.04.21:123][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.08-14.04.21:208][104]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto3F6B1067843852D190FA801BBD1F65C89.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2021.02.08-14.04.21:209][104]LogFileHelpers: Auto-saving content packages took 0.086
+[2021.02.08-14.19.07:967][251]BlueprintLog: New page: Compile BP_Player
+[2021.02.08-14.19.08:028][251]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2021.02.08-14.19.23:667][506]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-14.19.25:473][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.02.08-14.19.25:478][600]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.08-14.19.25:492][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.08-14.19.25:521][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.08-14.19.25:527][600]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_BreakoutB3DF1E5946CA1FA96A60ADB43E199682.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.08-14.19.25:533][600]LogFileHelpers: Saving map 'lvl_Breakout' took 0.040
+[2021.02.08-14.19.25:533][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.08-14.19.25:581][600]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player7D76777745FA9958D9407684FC2A69E3.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.08-14.19.25:596][600]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.08-14.19.25:596][600]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.08-14.19.25:596][600]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
