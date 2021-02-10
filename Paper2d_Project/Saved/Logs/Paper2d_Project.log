@@ -8005,3 +8005,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.10-14.34.24:530][958]AssetCheck: New page: Asset Save: multiple assets
 [2021.02.10-14.34.24:530][958]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
 [2021.02.10-14.34.24:530][958]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.10-14.37.31:084][840]BlueprintLog: New page: Compile BP_Player
+[2021.02.10-14.37.31:138][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.02.10-14.37.32:731][925]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.10-14.37.33:822][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.02.10-14.37.33:827][988]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.10-14.37.33:853][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.10-14.37.33:875][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.02.10-14.37.33:882][988]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout34696E554581430ECCA82A8F4509B5C7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.10-14.37.33:888][988]LogFileHelpers: Saving map 'lvl_Breakout' took 0.035
+[2021.02.10-14.37.33:888][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.10-14.37.33:966][988]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player1AB341F645DD3239CBE3349EAC41783F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.10-14.37.33:984][988]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-14.37.33:984][988]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.10-14.37.33:984][988]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
