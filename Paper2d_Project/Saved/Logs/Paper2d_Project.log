@@ -1769,3 +1769,1404 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.17-12.23.19:976][ 44]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player276AA42B40CF85643DC8A4A41F32ADFD.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
 [2021.02.17-12.23.19:984][ 44]AssetCheck: New page: Asset Save: BP_Player
 [2021.02.17-12.23.19:984][ 44]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.17-12.30.02:490][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-12.30.02:490][513]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-12.30.02:490][513]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-12.30.02:490][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-12.30.02:542][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-12.30.02:546][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-12.30.02:564][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-12.30.02:564][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-12.30.02:565][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-12.30.02:583][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.02.17-12.30.02:592][513]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-12.30.02:760][514]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.02.17-12.30.04:831][630]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-12.30.04:841][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-12.30.04:841][630]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 12:30:04)
+[2021.02.17-12.30.04:841][630]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-12.30.04:843][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001821s)
+[2021.02.17-12.30.04:845][630]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-12.30.04:845][630]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2021.02.17-12.30.04:845][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002993s)
+[2021.02.17-12.30.04:862][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.02.17-12.30.04:863][630]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-12.30.04:863][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-12.30.04:863][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-12.30.04:864][630]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-12.30.04:864][630]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-12.30.04:868][630]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-12.30.04:868][630]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-12.30.04:890][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-12.30.04:890][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-12.30.04:904][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-12.30.04:904][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-12.30.04:904][630]LogInit: FAudioDevice initialized.
+[2021.02.17-12.30.04:904][630]LogAudio: Display: Audio Device (ID: 12) registered with world 'lvl_Breakout'.
+[2021.02.17-12.30.04:913][630]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-12.30.04:915][630]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-12.30.04
+[2021.02.17-12.30.04:915][630]LogWorld: Bringing up level for play took: 0.000817
+[2021.02.17-12.30.04:915][630]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.02.17-12.30.04:917][630]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-12.30.04:917][630]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-12.30.04:918][630]PIE: Server logged in
+[2021.02.17-12.30.04:918][630]PIE: Play in editor total start time 0.082 seconds.
+[2021.02.17-12.30.04:918][630]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-12.30.04:919][630]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.10:807][983]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.10:807][983]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.11:323][ 14]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.30.11:323][ 14]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-12.30.11:857][ 46]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.11:857][ 46]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.12:390][ 78]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.14:357][196]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.14:357][196]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.14:874][227]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.30.14:874][227]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-12.30.15:891][288]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.30.15:907][289]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-12.30.16:507][325]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.16:507][325]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.17:040][357]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.18:507][445]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.18:507][445]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.20:657][574]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.20:657][574]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.21:191][606]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.25:474][863]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.25:474][863]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.28:457][ 42]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-12.30.30:858][186]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.30.30:858][186]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.30.32:458][282]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.32:458][282]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.33:324][334]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.36:022][495]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.36:023][495]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.36:539][526]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.30.36:539][526]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.30.37:557][587]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.30.37:573][588]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.30.38:174][624]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.38:174][624]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.38:708][656]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.43:007][914]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.43:007][914]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.45:158][ 43]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.45:158][ 43]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.45:690][ 75]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.47:608][190]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.47:608][190]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.49:758][319]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.49:758][319]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.50:291][351]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.52:524][485]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.55:508][664]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.55:508][664]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.30.57:724][797]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.57:741][798]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.30.58:457][841]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.30.59:719][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-12.30.59:720][914]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-12.30.59:720][914]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-12.30.59:720][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-12.30.59:765][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-12.30.59:769][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-12.30.59:787][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-12.30.59:788][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-12.30.59:788][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-12.30.59:806][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.02.17-12.30.59:815][914]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-12.30.59:978][915]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.02.17-12.34.30:205][677]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-12.34.46:622][726]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-12.34.46:628][726]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-12.47.11:271][ 79]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-12.47.17:346][232]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-12.47.17:358][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-12.47.17:358][232]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 12:47:17)
+[2021.02.17-12.47.17:358][232]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-12.47.17:360][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001909s)
+[2021.02.17-12.47.17:361][232]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-12.47.17:362][232]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2021.02.17-12.47.17:362][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003224s)
+[2021.02.17-12.47.17:382][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.02.17-12.47.17:385][232]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-12.47.17:385][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-12.47.17:385][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-12.47.17:386][232]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-12.47.17:386][232]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-12.47.17:390][232]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-12.47.17:390][232]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-12.47.17:409][232]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-12.47.17:409][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-12.47.17:409][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-12.47.17:410][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-12.47.17:410][232]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-12.47.17:410][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-12.47.17:410][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-12.47.17:424][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-12.47.17:424][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-12.47.17:424][232]LogInit: FAudioDevice initialized.
+[2021.02.17-12.47.17:424][232]LogAudio: Display: Audio Device (ID: 13) registered with world 'lvl_Breakout'.
+[2021.02.17-12.47.17:435][232]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-12.47.17:436][232]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-12.47.17
+[2021.02.17-12.47.17:436][232]LogWorld: Bringing up level for play took: 0.000856
+[2021.02.17-12.47.17:437][232]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.17-12.47.17:439][232]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-12.47.17:439][232]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-12.47.17:439][232]PIE: Server logged in
+[2021.02.17-12.47.17:440][232]PIE: Play in editor total start time 0.087 seconds.
+[2021.02.17-12.47.17:440][232]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-12.47.17:440][232]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.47.21:961][500]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.21:961][500]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.23:008][562]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.23:008][562]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.23:543][594]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.47.30:450][  8]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.30:466][  9]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.30:984][ 40]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.47.30:984][ 40]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.47.30:999][ 41]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.47.31:600][ 77]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.31:600][ 77]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.32:433][127]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.47.34:005][221]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.34:005][221]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.35:125][288]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.35:125][288]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.35:861][332]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.47.40:095][586]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.40:095][586]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.47.40:630][618]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.47.40:630][618]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-12.47.41:664][680]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-12.47.41:664][680]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-12.47.42:281][717]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.42:281][717]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.47.43:149][769]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.16:212][284]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.16:228][285]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.16:745][316]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.59.16:745][316]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.59.17:762][377]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-12.59.17:779][378]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-12.59.18:381][414]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.18:398][415]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.18:915][446]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.21:588][606]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.21:588][606]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.23:771][737]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.23:771][737]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.25:196][822]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.25:196][822]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.27:382][953]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.27:382][953]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.27:899][984]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.30:285][127]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.30:285][127]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.30:887][163]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-12.59.30:887][163]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-12.59.31:554][203]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.31:554][203]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.32:104][236]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.33:220][303]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.33:220][303]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.35:405][434]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.35:405][434]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.35:922][465]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.42:175][840]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.42:192][841]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.44:345][970]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.44:360][971]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.44:864][  1]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.47:067][133]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.47:067][133]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.48:251][204]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.48:251][204]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.48:945][245]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-12.59.51:053][371]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.51:054][371]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.52:237][442]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.52:237][442]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.53:521][519]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.53:521][519]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.54:705][590]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.54:706][590]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.55:992][667]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.55:992][667]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.57:175][738]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.57:175][738]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-12.59.57:592][763]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-12.59.58:075][792]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.58:075][792]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-12.59.59:660][887]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] Ball has Collided
+[2021.02.17-12.59.59:660][887]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] lol
+[2021.02.17-13.00.01:227][981]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.01:243][982]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.01:729][ 11]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.02:162][ 37]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.02:162][ 37]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.03:329][107]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.03:346][108]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.03:762][133]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.04:264][163]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.04:264][163]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.04:781][194]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] Ball has Collided
+[2021.02.17-13.00.04:799][195]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] lol
+[2021.02.17-13.00.05:832][257]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] Ball has Collided
+[2021.02.17-13.00.05:832][257]LogBlueprintUserMessages: [BP_BO_WoodenBarrier4_22] lol
+[2021.02.17-13.00.06:449][294]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.06:450][294]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.06:953][324]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.07:469][355]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.07:487][356]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.09:640][484]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.09:657][485]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.10:140][514]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.10:540][538]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.10:558][539]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.11:726][609]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.11:726][609]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.12:176][636]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.12:627][663]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.12:627][663]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.13:765][731]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.13:765][731]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.14:199][757]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.14:699][787]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.14:699][787]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.16:851][916]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.16:851][916]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.17:336][945]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.17:769][971]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.17:769][971]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.18:355][  6]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.00.18:355][  6]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.00.19:991][104]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.20:007][105]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.21:392][188]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.21:392][188]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.22:994][284]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.00.22:994][284]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.00.23:728][328]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.23:728][328]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.24:111][351]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.25:612][441]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.25:612][441]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.27:801][572]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.27:801][572]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.28:302][602]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.29:952][701]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.29:952][701]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.32:137][832]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.32:137][832]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.32:655][863]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.34:855][995]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.34:855][995]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.37:021][124]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.37:021][124]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.37:504][153]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.00.37:971][181]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.37:971][181]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.40:221][316]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.40:221][316]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.40:705][345]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.45:075][607]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.45:075][607]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.47:268][738]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.47:268][738]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.47:784][769]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.50:288][919]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.50:288][919]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.52:516][ 52]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.52:532][ 53]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.52:999][ 81]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.54:535][173]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.54:535][173]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.56:721][304]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.56:721][304]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.00.57:237][335]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.00.58:738][425]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.00.58:738][425]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.00:921][556]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.00:921][556]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.01:438][587]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.02:890][674]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.02:890][674]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.05:074][805]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.05:074][805]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.05:591][836]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.07:977][979]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.07:977][979]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.10:148][108]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.10:165][109]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.10:682][140]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.12:066][223]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.12:066][223]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.14:253][354]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.14:253][354]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.14:768][385]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.16:036][461]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.16:036][461]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.18:220][592]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.18:220][592]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.18:740][623]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.28:043][179]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.28:044][179]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.30:227][310]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.30:227][310]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.30:745][341]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.38:535][808]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.38:535][808]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.40:727][939]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.40:727][939]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.41:426][981]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.43:977][134]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.43:977][134]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.46:128][263]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.46:128][263]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.46:664][295]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.01.48:420][400]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.48:437][401]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.01.50:589][530]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.50:606][531]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.01.51:122][562]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.03:718][317]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.03:719][317]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.05:869][446]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.05:869][446]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.06:720][497]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.15:483][ 21]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.15:483][ 21]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.17:635][150]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.17:635][150]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.18:173][182]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.19:593][267]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.19:593][267]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.21:745][396]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.21:746][396]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.22:279][428]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.23:684][512]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.23:684][512]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.25:835][641]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.25:835][641]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.26:335][671]LogBlueprintUserMessages: [BP_Player_C_0] Swinged on the ball.
+[2021.02.17-13.02.26:819][700]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.26:819][700]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.29:174][841]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.29:174][841]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.30:394][914]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.30:395][914]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.32:661][ 50]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.32:661][ 50]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.33:177][ 81]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.34:619][167]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.34:635][168]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.36:790][297]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.36:790][297]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.37:539][342]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.41:446][576]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.41:446][576]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.43:602][705]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.43:602][705]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.44:135][737]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.45:338][809]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.45:338][809]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.47:491][938]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.47:491][938]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.48:358][990]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.50:002][ 88]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.50:002][ 88]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.52:152][217]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.52:153][217]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.52:686][249]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.53:993][327]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.53:994][327]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.56:143][456]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.56:144][456]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.02.57:011][508]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.02.58:395][591]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.02.58:395][591]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.03.00:548][720]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.00:548][720]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.01:414][772]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.03.02:618][844]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.03.02:618][844]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.03.04:771][973]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.04:771][973]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.05:638][ 25]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.03.07:739][151]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.03.07:739][151]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.03.09:889][280]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.09:889][280]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.03.10:740][331]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.09.24:409][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.09.24:409][710]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.09.24:409][710]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.09.24:410][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.09.24:463][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.09.24:466][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.09.24:485][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.09.24:485][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.09.24:486][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.09.24:503][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.02.17-13.09.24:512][710]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.09.24:533][710]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.09.24:732][711]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.17-13.09.42:866][776]LogEditorViewport: Clicking Background
+[2021.02.17-13.09.48:296][ 92]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.02.17-13.09.51:908][289]LogEditorViewport: Clicking Background
+[2021.02.17-13.10.08:676][291]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.10.17:684][818]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.10.17:730][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.02.17-13.10.17:732][818]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.023
+[2021.02.17-13.10.17:732][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.17-13.10.17:732][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.17-13.10.17:862][818]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto357AE5E114423095D7DA85C8B9413D2DA.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2021.02.17-13.10.17:863][818]LogFileHelpers: Auto-saving content packages took 0.131
+[2021.02.17-13.38.48:448][629]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.38.51:127][785]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.38.56:292][ 40]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.02.17-13.38.56:298][ 40]LogSlate: Window 'Editor Preferences' being destroyed
+[2021.02.17-13.38.57:920][122]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.38.59:114][190]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.38.59:865][190]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.17-13.39.57:440][446]Cmd: TRANSACTION UNDO
+[2021.02.17-13.39.57:440][446]LogEditorTransaction: Undo Add Action Mapping To Group
+[2021.02.17-13.39.57:444][446]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.41.57:039][292]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.17-13.41.57:049][292]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.17-13.42.01:740][398]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.42.01:751][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.42.01:751][398]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:42:01)
+[2021.02.17-13.42.01:751][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.42.01:753][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2021.02.17-13.42.01:756][398]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.42.01:756][398]LogPlayLevel: PIE: World Init took: (0.003015s)
+[2021.02.17-13.42.01:756][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.005062s)
+[2021.02.17-13.42.01:805][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.02.17-13.42.01:807][398]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.42.01:807][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.42.01:807][398]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.42.01:807][398]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.42.01:811][398]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.42.01:811][398]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.42.01:834][398]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.42.01:835][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.42.01:835][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.42.01:835][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.42.01:835][398]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.42.01:835][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.42.01:835][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.42.01:836][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.42.01:836][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.42.01:836][398]LogInit: FAudioDevice initialized.
+[2021.02.17-13.42.01:836][398]LogAudio: Display: Audio Device (ID: 14) registered with world 'lvl_Breakout'.
+[2021.02.17-13.42.01:853][398]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.42.01:855][398]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.42.01
+[2021.02.17-13.42.01:855][398]LogWorld: Bringing up level for play took: 0.000846
+[2021.02.17-13.42.01:855][398]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.02.17-13.42.01:857][398]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.42.01:857][398]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.42.01:858][398]PIE: Server logged in
+[2021.02.17-13.42.01:859][398]PIE: Play in editor total start time 0.113 seconds.
+[2021.02.17-13.42.01:859][398]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.42.01:859][398]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.42.05:596][621]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.05:596][621]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.06:113][652]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.42.06:113][652]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.42.06:646][684]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.06:646][684]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.08:096][771]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.08:096][771]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.08:612][802]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.42.08:612][802]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.42.09:647][864]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.42.09:647][864]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.42.10:247][900]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.10:247][900]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.10:781][932]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.42.12:414][ 30]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.12:430][ 31]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.12:964][ 63]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-13.42.12:964][ 63]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-13.42.13:513][ 96]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.13:531][ 97]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.42.14:916][180]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.14:916][180]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.42.15:467][213]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-13.42.15:467][213]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-13.42.15:658][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.42.15:658][222]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.42.15:659][222]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.42.15:659][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.42.15:711][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.42.15:715][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.42.15:739][222]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-13.42.15:739][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.42.15:740][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.42.15:754][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.42.15:760][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.02.17-13.42.15:770][222]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.42.15:934][223]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.02.17-13.42.17:258][297]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.42.17:263][297]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.42.34:871][344]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.42.37:710][510]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.42.37:975][510]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.17-13.43.00:520][794]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.43.00:530][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.43.00:530][794]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:43:00)
+[2021.02.17-13.43.00:531][794]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.43.00:532][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2021.02.17-13.43.00:533][794]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.43.00:534][794]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2021.02.17-13.43.00:534][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003051s)
+[2021.02.17-13.43.00:558][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.02.17-13.43.00:560][794]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.43.00:560][794]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.43.00:560][794]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.43.00:561][794]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.43.00:561][794]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.43.00:564][794]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.43.00:564][794]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.43.00:585][794]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.43.00:586][794]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.43.00:586][794]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.43.00:586][794]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.43.00:586][794]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.43.00:586][794]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.43.00:586][794]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.43.00:598][794]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.43.00:599][794]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.43.00:599][794]LogInit: FAudioDevice initialized.
+[2021.02.17-13.43.00:599][794]LogAudio: Display: Audio Device (ID: 15) registered with world 'lvl_Breakout'.
+[2021.02.17-13.43.00:605][794]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.43.00:606][794]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.43.00
+[2021.02.17-13.43.00:606][794]LogWorld: Bringing up level for play took: 0.000796
+[2021.02.17-13.43.00:607][794]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.02.17-13.43.00:608][794]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.00:609][794]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.00:609][794]PIE: Server logged in
+[2021.02.17-13.43.00:610][794]PIE: Play in editor total start time 0.085 seconds.
+[2021.02.17-13.43.00:610][794]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.43.00:610][794]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.11:269][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.43.11:269][390]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.43.11:269][390]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.43.11:269][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.43.11:312][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.43.11:316][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.43.11:339][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.43.11:339][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.43.11:340][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.43.11:357][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.02.17-13.43.11:367][390]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.11:392][390]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.11:575][391]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.02.17-13.43.12:990][464]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.43.12:996][464]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.43.17:020][683]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.22:677][ 16]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.24:813][139]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.43.24:883][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.02.17-13.43.25:760][179]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.43.25:770][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.43.25:770][179]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:43:25)
+[2021.02.17-13.43.25:770][179]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.43.25:772][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001685s)
+[2021.02.17-13.43.25:773][179]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.43.25:773][179]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2021.02.17-13.43.25:773][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002813s)
+[2021.02.17-13.43.25:799][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.02.17-13.43.25:800][179]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.43.25:800][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.43.25:800][179]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.43.25:800][179]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.43.25:804][179]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.43.25:804][179]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.43.25:825][179]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.43.25:825][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.43.25:825][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.43.25:826][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.43.25:826][179]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.43.25:826][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.43.25:826][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.43.25:839][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.43.25:839][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.43.25:839][179]LogInit: FAudioDevice initialized.
+[2021.02.17-13.43.25:839][179]LogAudio: Display: Audio Device (ID: 16) registered with world 'lvl_Breakout'.
+[2021.02.17-13.43.25:850][179]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.43.25:851][179]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.43.25
+[2021.02.17-13.43.25:851][179]LogWorld: Bringing up level for play took: 0.001120
+[2021.02.17-13.43.25:852][179]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.02.17-13.43.25:854][179]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.25:854][179]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.25:854][179]PIE: Server logged in
+[2021.02.17-13.43.25:855][179]PIE: Play in editor total start time 0.09 seconds.
+[2021.02.17-13.43.25:855][179]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.43.25:856][179]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.31:628][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.43.31:628][521]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.43.31:629][521]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.43.31:629][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.43.31:673][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.43.31:677][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.43.31:700][521]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-13.43.31:701][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.43.31:702][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.43.31:717][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.43.31:720][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.02.17-13.43.31:730][521]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.31:752][521]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.43.31:941][522]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.02.17-13.43.36:316][696]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.43.36:327][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.43.36:327][696]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:43:36)
+[2021.02.17-13.43.36:327][696]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.43.36:329][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001620s)
+[2021.02.17-13.43.36:330][696]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.43.36:330][696]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2021.02.17-13.43.36:330][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002601s)
+[2021.02.17-13.43.36:354][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.02.17-13.43.36:355][696]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.43.36:355][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.43.36:355][696]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.43.36:355][696]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.43.36:359][696]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.43.36:359][696]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.43.36:380][696]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.43.36:380][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.43.36:380][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.43.36:380][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.43.36:381][696]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.43.36:381][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.43.36:381][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.43.36:394][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.43.36:394][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.43.36:394][696]LogInit: FAudioDevice initialized.
+[2021.02.17-13.43.36:394][696]LogAudio: Display: Audio Device (ID: 17) registered with world 'lvl_Breakout'.
+[2021.02.17-13.43.36:401][696]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.43.36:402][696]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.43.36
+[2021.02.17-13.43.36:402][696]LogWorld: Bringing up level for play took: 0.000801
+[2021.02.17-13.43.36:403][696]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.02.17-13.43.36:405][696]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.36:405][696]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.43.36:405][696]PIE: Server logged in
+[2021.02.17-13.43.36:406][696]PIE: Play in editor total start time 0.084 seconds.
+[2021.02.17-13.43.36:406][696]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.43.36:406][696]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.39:903][905]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.39:903][905]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.40:455][938]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.43.40:456][938]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.43.41:039][973]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.41:039][973]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.41:606][  7]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.42:761][ 76]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.42:761][ 76]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.43:879][143]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.43:879][143]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.44:362][172]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.45:549][243]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.45:564][244]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.46:115][277]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-13.43.46:115][277]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-13.43.46:684][311]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.46:701][312]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.48:108][396]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.49:525][481]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.49:525][481]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.50:059][513]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.43.50:059][513]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.43.50:609][546]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.50:609][546]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.51:125][577]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.52:492][659]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.52:492][659]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.53:028][691]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.43.53:028][691]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.43.54:060][753]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.43.54:060][753]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.43.54:661][789]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.54:661][789]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.55:177][820]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.43.56:945][926]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.56:945][926]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.43.57:462][957]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-13.43.57:479][958]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-13.43.58:495][ 19]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] Ball has Collided
+[2021.02.17-13.43.58:495][ 19]LogBlueprintUserMessages: [BP_BO_WoodenBarrier3_20] lol
+[2021.02.17-13.43.59:096][ 55]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.59:096][ 55]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.43.59:629][ 87]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.44.00:904][162]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.44.00:904][162]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.44.03:057][291]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.44.03:057][291]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.44.03:823][337]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.44.06:591][503]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.44.06:608][504]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.44.08:760][633]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.44.08:760][633]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.44.09:293][665]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.44.11:878][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.44.11:878][818]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.44.11:878][818]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.44.11:878][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.44.11:931][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.44.11:936][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.44.11:959][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.44.11:959][818]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.44.11:960][818]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.44.11:978][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.02.17-13.44.11:988][818]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.44.12:158][819]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.02.17-13.44.13:659][902]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.44.13:664][902]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.44.15:176][992]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.17-13.44.15:182][992]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.17-13.45.46:755][268]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.45.46:776][268]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Assets/test_Characters/adventurer-v1_5-Sheet_Sprite_16.adventurer-v1_5-Sheet_Sprite_16
+[2021.02.17-13.45.46:991][269]LogRenderer: Reallocating scene render targets to support 1528x916 Format 10 NumSamples 1 (Frame:1).
+[2021.02.17-13.45.49:451][415]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.45.49:451][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.46.43:765][659]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.46.44:685][703]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.46.58:328][508]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.46.59:096][552]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.47.01:200][675]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.47.03:137][788]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.47.03:212][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.02.17-13.47.04:119][830]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.47.04:129][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.47.04:129][830]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:47:04)
+[2021.02.17-13.47.04:129][830]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.47.04:131][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001621s)
+[2021.02.17-13.47.04:132][830]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.47.04:132][830]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2021.02.17-13.47.04:132][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002670s)
+[2021.02.17-13.47.04:158][830]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.02.17-13.47.04:158][830]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.47.04:158][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.47.04:159][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.47.04:159][830]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.47.04:159][830]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.47.04:163][830]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.47.04:163][830]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.47.04:184][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.47.04:184][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.47.04:198][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.47.04:198][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.47.04:198][830]LogInit: FAudioDevice initialized.
+[2021.02.17-13.47.04:198][830]LogAudio: Display: Audio Device (ID: 18) registered with world 'lvl_Breakout'.
+[2021.02.17-13.47.04:212][830]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.47.04:213][830]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.47.04
+[2021.02.17-13.47.04:214][830]LogWorld: Bringing up level for play took: 0.000964
+[2021.02.17-13.47.04:214][830]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.02.17-13.47.04:216][830]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.47.04:216][830]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.47.04:217][830]PIE: Server logged in
+[2021.02.17-13.47.04:217][830]PIE: Play in editor total start time 0.094 seconds.
+[2021.02.17-13.47.04:218][830]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.47.04:218][830]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.47.12:557][329]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.12:557][329]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.13:090][361]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.47.13:090][361]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.47.13:640][394]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.13:640][394]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.15:061][479]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.15:077][480]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.15:594][511]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.47.15:594][511]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.47.16:644][574]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.47.16:644][574]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.47.17:260][611]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.17:277][612]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.17:794][643]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.47.19:280][732]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.19:280][732]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.47.21:430][861]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.21:430][861]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.47.22:077][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.47.22:077][898]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.47.22:078][898]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.47.22:078][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.47.22:125][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.47.22:130][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.47.22:154][898]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-13.47.22:154][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.47.22:155][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.47.22:169][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.47.22:172][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.02.17-13.47.22:183][898]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.47.22:203][898]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.47.22:386][899]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.02.17-13.47.24:416][ 13]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.47.24:421][ 13]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.48.12:883][878]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.13:661][923]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.21:577][374]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.21:581][374]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.27:530][714]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.27:534][714]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.32:716][  9]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.34:846][134]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.38:384][341]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.48.43:494][644]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.17:684][670]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.30:105][380]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.39:747][920]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.49.39:826][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.02.17-13.49.40:798][966]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.54:199][760]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.55:177][809]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.49.56:393][880]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.50.00:305][111]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.50.23:575][502]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.50.32:571][ 32]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.50.32:619][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.02.17-13.50.32:622][ 32]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.030
+[2021.02.17-13.50.32:622][ 32]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.17-13.50.32:622][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.17-13.50.32:759][ 32]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto42B98BBA5425D094351A824B8DAD37701.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto4.uasset'
+[2021.02.17-13.50.32:759][ 32]LogFileHelpers: Auto-saving content packages took 0.138
+[2021.02.17-13.51.43:153][189]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.15:805][114]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.16:717][159]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.29:213][898]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.33:244][134]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.37:519][386]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.52.51:567][202]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.52.51:642][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.02.17-13.52.53:932][325]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.52.53:943][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.52.53:943][325]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:52:53)
+[2021.02.17-13.52.53:943][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.52.53:945][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001817s)
+[2021.02.17-13.52.53:945][325]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.52.53:945][325]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2021.02.17-13.52.53:945][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002922s)
+[2021.02.17-13.52.53:971][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.02.17-13.52.53:971][325]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.02.17-13.52.53:971][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.52.53:971][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.52.53:972][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.52.53:972][325]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.52.53:972][325]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.52.53:976][325]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.52.53:976][325]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.52.53:998][325]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.52.53:999][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.52.53:999][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.52.53:999][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.52.53:999][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.52.53:999][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.52.53:999][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.52.54:013][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.52.54:013][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.52.54:013][325]LogInit: FAudioDevice initialized.
+[2021.02.17-13.52.54:013][325]LogAudio: Display: Audio Device (ID: 19) registered with world 'lvl_Breakout'.
+[2021.02.17-13.52.54:028][325]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.52.54:030][325]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.52.54
+[2021.02.17-13.52.54:030][325]LogWorld: Bringing up level for play took: 0.001302
+[2021.02.17-13.52.54:030][325]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.02.17-13.52.54:032][325]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.52.54:032][325]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.52.54:033][325]PIE: Server logged in
+[2021.02.17-13.52.54:034][325]PIE: Play in editor total start time 0.097 seconds.
+[2021.02.17-13.52.54:034][325]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.52.54:034][325]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.53.05:940][ 32]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.05:940][ 32]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.06:961][ 93]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.06:961][ 93]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.08:422][180]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.08:422][180]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.08:939][211]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.53.09:467][242]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.09:467][242]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.10:922][329]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.10:922][329]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.11:439][360]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.53.11:439][360]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.53.12:464][421]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-13.53.12:481][422]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-13.53.13:086][458]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.13:086][458]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.13:602][489]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.53.16:135][640]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.16:135][640]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.18:289][768]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.18:289][768]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.18:822][800]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.53.20:382][893]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.20:399][894]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.53.22:567][ 23]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.22:567][ 23]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.53.23:085][ 54]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.53.24:828][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.53.24:828][155]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.53.24:828][155]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.53.24:828][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.53.24:875][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.53.24:880][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.53.24:903][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-13.53.24:903][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.53.24:904][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.53.24:919][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.53.24:923][155]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.02.17-13.53.24:934][155]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.53.24:954][155]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.53.25:151][156]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.02.17-13.53.27:922][311]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.53.27:930][311]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.54.26:245][625]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.54.26:778][647]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.54.54:991][639]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.54.57:887][809]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.55.02:262][ 68]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.56.05:461][346]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.56.05:536][346]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.02.17-13.56.06:484][389]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.56.06:494][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.56.06:494][389]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:56:06)
+[2021.02.17-13.56.06:494][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.56.06:496][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2021.02.17-13.56.06:497][389]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.56.06:497][389]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2021.02.17-13.56.06:497][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003285s)
+[2021.02.17-13.56.06:523][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.02.17-13.56.06:524][389]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.56.06:524][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.56.06:524][389]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.56.06:524][389]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.56.06:529][389]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.56.06:529][389]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.56.06:550][389]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.56.06:551][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.56.06:551][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.56.06:551][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.56.06:551][389]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.56.06:551][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.56.06:551][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.56.06:564][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.56.06:564][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.56.06:564][389]LogInit: FAudioDevice initialized.
+[2021.02.17-13.56.06:564][389]LogAudio: Display: Audio Device (ID: 20) registered with world 'lvl_Breakout'.
+[2021.02.17-13.56.06:579][389]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.56.06:580][389]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.56.06
+[2021.02.17-13.56.06:581][389]LogWorld: Bringing up level for play took: 0.001118
+[2021.02.17-13.56.06:581][389]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.02.17-13.56.06:583][389]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.56.06:583][389]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.56.06:584][389]PIE: Server logged in
+[2021.02.17-13.56.06:584][389]PIE: Play in editor total start time 0.096 seconds.
+[2021.02.17-13.56.06:585][389]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.56.06:585][389]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.10:677][623]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.10:677][623]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.11:243][656]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.56.11:243][656]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.56.11:814][689]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.11:831][690]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.13:198][769]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.13:198][769]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.14:315][834]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.14:315][834]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.14:811][863]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.17:581][ 25]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.17:581][ 25]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.18:134][ 57]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.56.18:134][ 57]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.56.19:174][118]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.56.19:192][119]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.56.19:831][156]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.19:831][156]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.20:326][185]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.21:835][273]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.21:835][273]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.24:061][403]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.24:061][403]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.24:555][432]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.26:455][543]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.26:455][543]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.28:706][674]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.28:706][674]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.29:203][703]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.42:201][463]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.42:201][463]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.43:243][524]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.43:243][524]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.43:773][555]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.45:452][653]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.45:452][653]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.56.46:490][714]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.46:507][715]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.56.47:014][744]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.56.47:578][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.56.47:578][774]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.56.47:578][774]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-13.56.47:578][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.56.47:626][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-13.56.47:631][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-13.56.47:655][774]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-13.56.47:656][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.56.47:657][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-13.56.47:670][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-13.56.47:674][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.02.17-13.56.47:685][774]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.56.47:698][774]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.56.47:884][775]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.02.17-13.56.50:257][903]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.56.50:265][903]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-13.57.13:786][232]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.57.16:152][370]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.57.24:456][857]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.57.24:529][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.02.17-13.57.30:985][223]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.57.31:005][223]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Ball_2.BP_Ball_2
+[2021.02.17-13.58.31:086][445]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.58.42:603][ 80]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.58.46:733][324]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.59.33:987][ 59]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.59.34:684][ 91]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.59.39:145][341]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-13.59.41:108][456]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-13.59.41:190][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2021.02.17-13.59.43:149][561]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-13.59.43:159][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-13.59.43:159][561]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 13:59:43)
+[2021.02.17-13.59.43:159][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-13.59.43:161][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001693s)
+[2021.02.17-13.59.43:162][561]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-13.59.43:162][561]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2021.02.17-13.59.43:162][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002785s)
+[2021.02.17-13.59.43:192][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.02.17-13.59.43:192][561]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-13.59.43:192][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-13.59.43:192][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-13.59.43:193][561]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-13.59.43:193][561]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-13.59.43:197][561]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-13.59.43:197][561]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-13.59.43:218][561]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-13.59.43:219][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-13.59.43:219][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-13.59.43:219][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-13.59.43:219][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-13.59.43:219][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-13.59.43:219][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-13.59.43:232][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-13.59.43:232][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-13.59.43:233][561]LogInit: FAudioDevice initialized.
+[2021.02.17-13.59.43:233][561]LogAudio: Display: Audio Device (ID: 21) registered with world 'lvl_Breakout'.
+[2021.02.17-13.59.43:239][561]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-13.59.43:241][561]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-13.59.43
+[2021.02.17-13.59.43:241][561]LogWorld: Bringing up level for play took: 0.000800
+[2021.02.17-13.59.43:241][561]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.02.17-13.59.43:243][561]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.59.43:243][561]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-13.59.43:244][561]PIE: Server logged in
+[2021.02.17-13.59.43:245][561]PIE: Play in editor total start time 0.091 seconds.
+[2021.02.17-13.59.43:245][561]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-13.59.43:245][561]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.59.48:365][868]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.48:365][868]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.48:949][903]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.59.48:949][903]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.59.49:549][939]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.49:550][939]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.50:016][967]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.59.52:099][ 92]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.52:099][ 92]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.52:666][126]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.59.52:666][126]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.59.53:701][188]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.17-13.59.53:701][188]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.17-13.59.54:351][227]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.54:351][227]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.54:835][256]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-13.59.56:768][372]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.56:768][372]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-13.59.59:018][507]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.59:018][507]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-13.59.59:501][536]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.03:993][804]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.07:143][993]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.07:143][993]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.09:426][130]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.09:426][130]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.09:893][158]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.18:244][659]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.18:261][660]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.20:544][797]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.20:561][798]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.21:011][825]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.23:378][967]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.23:378][967]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.25:695][106]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.25:695][106]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.26:144][133]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.27:795][232]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.27:795][232]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.30:111][371]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.30:112][371]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.30:561][398]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.33:444][571]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.33:444][571]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.35:762][710]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.35:762][710]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.36:212][737]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.37:880][837]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.37:880][837]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.40:197][976]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.40:197][976]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.40:647][  3]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.42:047][ 87]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.42:047][ 87]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.44:363][226]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.44:363][226]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.44:813][253]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.00.57:737][ 25]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.57:754][ 26]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.00.59:971][159]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.00.59:988][160]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.00:471][189]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.02:738][325]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.02:755][326]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.04:972][459]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.04:988][460]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.05:471][489]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.19:014][300]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.19:032][301]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.21:248][434]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.21:265][435]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.21:749][464]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.23:015][540]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.23:032][541]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.25:248][674]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.25:265][675]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.26:615][756]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.26:632][757]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.28:848][890]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.28:865][891]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.29:349][920]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.31:565][ 53]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.31:582][ 54]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.33:798][187]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.33:815][188]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.34:299][217]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.39:899][553]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.39:916][554]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.42:132][687]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.42:149][688]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.42:632][717]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.44:782][846]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.44:799][847]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.01.47:016][980]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.47:032][981]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.01.47:516][ 10]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.01.48:859][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-14.01.48:859][ 88]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-14.01.48:859][ 88]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-14.01.48:860][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-14.01.48:915][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-14.01.48:920][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-14.01.48:947][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-14.01.48:947][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-14.01.48:948][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-14.01.48:964][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-14.01.48:967][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.02.17-14.01.48:978][ 88]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.01.48:990][ 88]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.01.49:171][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.02.17-14.01.51:343][214]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-14.01.51:349][214]LogSlate: Window 'Message Log' being destroyed
+[2021.02.17-14.01.57:929][589]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.01.58:359][605]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.03:081][876]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.04:747][973]BlueprintLog: New page: Compile BP_Player
+[2021.02.17-14.02.04:823][973]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.02.17-14.02.05:679][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-14.02.05:689][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-14.02.05:689][ 12]PIE: New page: PIE session: lvl_Breakout (17 Feb 2021, 14:02:05)
+[2021.02.17-14.02.05:689][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-14.02.05:691][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001676s)
+[2021.02.17-14.02.05:692][ 12]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.17-14.02.05:692][ 12]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2021.02.17-14.02.05:692][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002680s)
+[2021.02.17-14.02.05:722][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.02.17-14.02.05:722][ 12]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-14.02.05:722][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-14.02.05:722][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-14.02.05:723][ 12]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-14.02.05:723][ 12]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-14.02.05:727][ 12]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-14.02.05:727][ 12]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-14.02.05:748][ 12]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.17-14.02.05:749][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.17-14.02.05:761][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.17-14.02.05:761][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.17-14.02.05:761][ 12]LogInit: FAudioDevice initialized.
+[2021.02.17-14.02.05:761][ 12]LogAudio: Display: Audio Device (ID: 22) registered with world 'lvl_Breakout'.
+[2021.02.17-14.02.05:779][ 12]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.17-14.02.05:780][ 12]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.17-14.02.05
+[2021.02.17-14.02.05:780][ 12]LogWorld: Bringing up level for play took: 0.001101
+[2021.02.17-14.02.05:780][ 12]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.02.17-14.02.05:782][ 12]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-14.02.05:783][ 12]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.17-14.02.05:783][ 12]PIE: Server logged in
+[2021.02.17-14.02.05:784][ 12]PIE: Play in editor total start time 0.1 seconds.
+[2021.02.17-14.02.05:784][ 12]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.17-14.02.05:784][ 12]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.08:785][192]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.08:785][192]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.09:303][223]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-14.02.09:303][223]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-14.02.09:835][255]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.09:835][255]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.10:369][287]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.13:836][495]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.13:836][495]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.14:352][526]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-14.02.14:352][526]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-14.02.15:369][587]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.17-14.02.15:386][588]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.17-14.02.15:985][624]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.15:985][624]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.16:519][656]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.19:486][834]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.19:486][834]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.21:636][963]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.21:636][963]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.22:170][995]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.23:576][ 78]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.23:576][ 78]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.25:726][207]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.25:726][207]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.26:259][239]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.28:659][383]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.28:659][383]LogBlueprintUserMessages: [BP_Player_C_0] Left Recall Range
+[2021.02.17-14.02.30:810][512]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.30:810][512]LogBlueprintUserMessages: [BP_Player_C_0] Inside Recall Range
+[2021.02.17-14.02.31:343][544]LogBlueprintUserMessages: [BP_Player_C_0] Collided with Ball Catcher!
+[2021.02.17-14.02.35:138][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-14.02.35:138][769]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.17-14.02.35:138][769]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-14.02.35:138][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-14.02.35:192][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-14.02.35:196][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-14.02.35:224][769]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.17-14.02.35:224][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-14.02.35:225][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.17-14.02.35:239][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-14.02.35:242][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2021.02.17-14.02.35:253][769]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.35:275][769]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.35:459][770]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.02.17-14.02.37:221][870]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.38:441][942]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.40:563][ 48]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.41:542][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.02.17-14.02.41:547][103]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.41:562][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.17-14.02.41:617][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.02.17-14.02.41:636][103]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout4DAC72584FF37E2B7E6B7598D74A5D1D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.17-14.02.41:645][103]LogFileHelpers: Saving map 'lvl_Breakout' took 0.083
+[2021.02.17-14.02.41:645][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.17-14.02.41:776][103]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerF91D7C7A41E7E89B9590A89D631BD6C4.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.17-14.02.41:792][103]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.17-14.02.41:792][103]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.17-14.02.41:792][103]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.17-14.02.50:707][530]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.17-14.02.52:610][632]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
