@@ -2391,3 +2391,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.24-10.38.56:263][303]AssetCheck: New page: Asset Save: multiple assets
 [2021.02.24-10.38.56:263][303]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/lvl_Breakout_BuiltData.lvl_Breakout_BuiltData
 [2021.02.24-10.38.56:263][303]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.24-10.44.02:839][598]LogEditorViewport: Clicking Background
+[2021.02.24-10.44.04:142][669]LogSlate: Window 'Message Log' being destroyed
+[2021.02.24-10.44.04:148][669]LogSlate: Window 'Message Log' being destroyed
+[2021.02.24-10.44.09:628][745]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.24-10.44.10:978][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.02.24-10.44.10:982][801]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.24-10.44.11:006][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Headphones" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Headphones.uasset" SILENT=true
+[2021.02.24-10.44.11:046][801]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Headphones25E65FA7432243B12F4176A27519B40C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Headphones.uasset'
+[2021.02.24-10.44.11:047][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_InvisibleWall" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_InvisibleWall.uasset" SILENT=true
+[2021.02.24-10.44.11:052][801]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_InvisibleWall9F9F243A4F99D80A3EC1488B0CD446D1.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_InvisibleWall.uasset'
+[2021.02.24-10.44.11:072][801]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.24-10.44.11:072][801]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Headphones.BP_Headphones
+[2021.02.24-10.44.11:072][801]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_InvisibleWall.BP_InvisibleWall
