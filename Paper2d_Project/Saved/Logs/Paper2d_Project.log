@@ -2730,3 +2730,794 @@ Script Stack (0 frames):
 [2021.02.26-10.54.32:832][824]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2021.02.26-10.54.32:832][824]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
 [2021.02.26-10.54.32:832][824]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/ShakeTest.ShakeTest
+[2021.02.26-11.04.23:835][651]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.12.06:931][194]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.26-11.12.06:941][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.26-11.12.06:941][194]PIE: New page: PIE session: lvl_Breakout (26 Feb 2021, 11:12:06)
+[2021.02.26-11.12.06:942][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.12.06:944][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2021.02.26-11.12.06:945][194]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.26-11.12.06:945][194]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2021.02.26-11.12.06:945][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003274s)
+[2021.02.26-11.12.06:977][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.02.26-11.12.06:979][194]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-11.12.06:979][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-11.12.06:979][194]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-11.12.06:979][194]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-11.12.06:984][194]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-11.12.06:984][194]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-11.12.07:006][194]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.26-11.12.07:006][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-11.12.07:007][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-11.12.07:007][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-11.12.07:007][194]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-11.12.07:007][194]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-11.12.07:007][194]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.26-11.12.07:021][194]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-11.12.07:021][194]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-11.12.07:021][194]LogInit: FAudioDevice initialized.
+[2021.02.26-11.12.07:021][194]LogAudio: Display: Audio Device (ID: 25) registered with world 'lvl_Breakout'.
+[2021.02.26-11.12.07:028][194]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.26-11.12.07:029][194]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.26-11.12.07
+[2021.02.26-11.12.07:030][194]LogWorld: Bringing up level for play took: 0.000854
+[2021.02.26-11.12.07:030][194]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.02.26-11.12.07:032][194]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.07:032][194]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.07:033][194]PIE: Server logged in
+[2021.02.26-11.12.07:033][194]PIE: Play in editor total start time 0.097 seconds.
+[2021.02.26-11.12.07:034][194]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.26-11.12.08:623][289]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.08:623][289]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.10:390][395]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.26-11.12.10:390][395]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.26-11.12.12:623][529]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.26-11.12.12:623][529]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.26-11.12.13:640][590]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] Ball has Collided
+[2021.02.26-11.12.13:657][591]LogBlueprintUserMessages: [BP_BO_WoodenBarrier_16] lol
+[2021.02.26-11.12.14:607][648]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.14:607][648]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.21:326][ 51]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.21:326][ 51]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.28:312][470]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.28:313][470]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.35:078][876]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.35:078][876]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.12.37:770][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.12.37:770][ 34]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.12.37:770][ 34]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.12.37:771][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.12.37:834][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.26-11.12.37:839][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.12.37:863][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.12.37:863][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.12.37:864][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.12.37:883][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.02.26-11.12.37:895][ 34]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.12.37:916][ 34]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.12.38:133][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.02.26-11.12.46:711][447]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.12.46:723][447]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.13.02:770][392]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.13.23:097][575]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.13.23:182][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.02.26-11.13.47:337][980]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.13.50:398][160]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.13.52:721][297]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.14.10:994][372]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.14.11:078][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.02.26-11.14.18:273][775]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.14.18:294][775]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Headphones.BP_Headphones
+[2021.02.26-11.15.06:278][590]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.21:341][469]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.32:781][136]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.45:309][880]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.47:363][  1]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.48:485][ 50]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.15.50:409][161]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.16.33:385][488]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.16.34:107][513]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.16.43:750][ 79]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.16.46:799][257]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.16.49:513][414]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.17.04:111][269]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.17.04:217][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.02.26-11.17.05:120][308]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.26-11.17.05:131][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.26-11.17.05:131][308]PIE: New page: PIE session: lvl_Breakout (26 Feb 2021, 11:17:05)
+[2021.02.26-11.17.05:131][308]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.17.05:133][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001843s)
+[2021.02.26-11.17.05:133][308]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.26-11.17.05:134][308]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2021.02.26-11.17.05:134][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002936s)
+[2021.02.26-11.17.05:166][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.02.26-11.17.05:167][308]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-11.17.05:167][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-11.17.05:167][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-11.17.05:168][308]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-11.17.05:168][308]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-11.17.05:172][308]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-11.17.05:172][308]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-11.17.05:195][308]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.26-11.17.05:196][308]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-11.17.05:196][308]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-11.17.05:196][308]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-11.17.05:196][308]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-11.17.05:196][308]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-11.17.05:196][308]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.26-11.17.05:210][308]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-11.17.05:210][308]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-11.17.05:210][308]LogInit: FAudioDevice initialized.
+[2021.02.26-11.17.05:210][308]LogAudio: Display: Audio Device (ID: 26) registered with world 'lvl_Breakout'.
+[2021.02.26-11.17.05:230][308]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.26-11.17.05:231][308]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.26-11.17.05
+[2021.02.26-11.17.05:232][308]LogWorld: Bringing up level for play took: 0.001268
+[2021.02.26-11.17.05:232][308]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.02.26-11.17.05:234][308]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.17.05:234][308]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.17.05:235][308]PIE: Server logged in
+[2021.02.26-11.17.05:236][308]PIE: Play in editor total start time 0.111 seconds.
+[2021.02.26-11.17.05:236][308]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.26-11.17.07:387][436]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.17.07:387][436]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.17.10:453][620]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.17.10:453][620]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.17.12:954][770]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.17.12:954][770]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.17.13:981][830]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.17.13:998][831]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.17.28:035][673]Set new viewmode: Wireframe
+[2021.02.26-11.17.30:119][798]Set new viewmode: Wireframe
+[2021.02.26-11.17.30:519][822]Set new viewmode: Unlit
+[2021.02.26-11.18.02:839][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.18.02:840][701]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.18.02:840][701]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.18.02:840][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.18.02:903][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.26-11.18.02:909][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.18.02:937][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.18.02:937][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.18.02:938][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.18.02:959][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.02.26-11.18.02:971][701]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.18.02:994][701]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.18.03:205][702]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.02.26-11.18.04:608][780]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.18.04:622][780]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.18.25:757][ 14]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.18.28:601][178]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.18.52:299][555]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.18.54:691][680]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.18.54:717][680]LogBlueprint: Error: [AssetLog] D:\Projects\Unreal Engine\BreakoutDungeon\Paper2d_Project\Content\Blueprints\BP_Player.uasset: [Compiler] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2021.02.26-11.18.54:776][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.02.26-11.18.59:350][918]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.00:578][987]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.17:082][956]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.19.17:170][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.02.26-11.19.20:435][134]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.26-11.19.20:446][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.26-11.19.20:446][134]PIE: New page: PIE session: lvl_Breakout (26 Feb 2021, 11:19:20)
+[2021.02.26-11.19.20:446][134]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.19.20:448][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2021.02.26-11.19.20:449][134]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.26-11.19.20:449][134]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2021.02.26-11.19.20:449][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002752s)
+[2021.02.26-11.19.20:481][134]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.02.26-11.19.20:482][134]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-11.19.20:482][134]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-11.19.20:482][134]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-11.19.20:482][134]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-11.19.20:486][134]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-11.19.20:486][134]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-11.19.20:508][134]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.26-11.19.20:509][134]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-11.19.20:509][134]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-11.19.20:509][134]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-11.19.20:509][134]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-11.19.20:509][134]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-11.19.20:509][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.26-11.19.20:522][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-11.19.20:522][134]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-11.19.20:523][134]LogInit: FAudioDevice initialized.
+[2021.02.26-11.19.20:523][134]LogAudio: Display: Audio Device (ID: 27) registered with world 'lvl_Breakout'.
+[2021.02.26-11.19.20:542][134]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.26-11.19.20:544][134]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.26-11.19.20
+[2021.02.26-11.19.20:544][134]LogWorld: Bringing up level for play took: 0.001158
+[2021.02.26-11.19.20:544][134]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.02.26-11.19.20:546][134]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.19.20:546][134]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.19.20:547][134]PIE: Server logged in
+[2021.02.26-11.19.20:548][134]PIE: Play in editor total start time 0.107 seconds.
+[2021.02.26-11.19.20:548][134]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.26-11.19.22:909][275]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.19.22:909][275]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.19.25:430][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.19.25:431][424]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.19.25:431][424]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.19.25:431][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.19.25:490][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.26-11.19.25:495][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.19.25:522][424]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.26-11.19.25:523][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.19.25:524][424]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.19.25:539][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.19.25:542][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.02.26-11.19.25:553][424]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.25:564][424]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.25:775][425]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.02.26-11.19.27:108][501]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.19.27:121][501]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.19.29:173][617]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.38:187][140]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.19.38:273][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.02.26-11.19.40:305][246]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.26-11.19.40:315][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.26-11.19.40:315][246]PIE: New page: PIE session: lvl_Breakout (26 Feb 2021, 11:19:40)
+[2021.02.26-11.19.40:315][246]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.19.40:317][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001744s)
+[2021.02.26-11.19.40:318][246]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.02.26-11.19.40:318][246]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2021.02.26-11.19.40:318][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002728s)
+[2021.02.26-11.19.40:350][246]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.02.26-11.19.40:351][246]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-11.19.40:351][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-11.19.40:351][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-11.19.40:352][246]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-11.19.40:352][246]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-11.19.40:355][246]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-11.19.40:355][246]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-11.19.40:376][246]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.02.26-11.19.40:377][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-11.19.40:377][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-11.19.40:377][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-11.19.40:377][246]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-11.19.40:377][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-11.19.40:377][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.26-11.19.40:390][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-11.19.40:391][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-11.19.40:391][246]LogInit: FAudioDevice initialized.
+[2021.02.26-11.19.40:391][246]LogAudio: Display: Audio Device (ID: 28) registered with world 'lvl_Breakout'.
+[2021.02.26-11.19.40:408][246]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.02.26-11.19.40:409][246]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.02.26-11.19.40
+[2021.02.26-11.19.40:409][246]LogWorld: Bringing up level for play took: 0.001074
+[2021.02.26-11.19.40:409][246]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.02.26-11.19.40:412][246]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.19.40:412][246]PIE: Warning: Invalid Simulate Options: Body (BP_Player_C_0.Recall_CollisionSphere) is set to simulate physics but Collision Enabled is incompatible
+[2021.02.26-11.19.40:413][246]PIE: Server logged in
+[2021.02.26-11.19.40:413][246]PIE: Play in editor total start time 0.104 seconds.
+[2021.02.26-11.19.40:414][246]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.02.26-11.19.42:625][378]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.19.42:625][378]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.19.44:863][512]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.19.44:863][512]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.19.45:913][575]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] Ball has Collided
+[2021.02.26-11.19.45:913][575]LogBlueprintUserMessages: [BP_BO_WoodenBarrier2_18] lol
+[2021.02.26-11.19.48:330][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.19.48:330][718]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.02.26-11.19.48:330][718]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.19.48:330][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.19.48:395][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.26-11.19.48:400][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.19.48:428][718]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.26-11.19.48:428][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.19.48:429][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-11.19.48:444][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-11.19.48:448][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.02.26-11.19.48:458][718]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.48:480][718]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.19.48:689][719]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.02.26-11.20.27:053][ 46]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.20.36:096][ 73]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.20.36:146][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.02.26-11.20.36:154][ 73]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_Auto60240557648B224C873CECAB7FFB1E024.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/lvl_Breakout_Auto6.umap'
+[2021.02.26-11.20.36:155][ 73]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.039
+[2021.02.26-11.20.36:155][ 73]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2021.02.26-11.20.36:156][ 73]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.26-11.20.36:156][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.26-11.20.36:307][ 73]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto6AEA4B6484725A1EF4A9F2F8F92686406.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto6.uasset'
+[2021.02.26-11.20.36:307][ 73]LogFileHelpers: Auto-saving content packages took 0.153
+[2021.02.26-11.27.39:144][378]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.27.39:450][395]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.27.53:346][216]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.27.53:354][216]LogSlate: Window 'Message Log' being destroyed
+[2021.02.26-11.28.38:400][439]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.38:436][439]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\marco\Downloads\Elementals-Ground_monk\Ground_Monk-SpriteSheet_100x64.png)
+[2021.02.26-11.28.38:465][439]LogTexture: Display: Building textures: Ground_Monk-SpriteSheet_100x64 (AutoDXT, 2500X832)
+[2021.02.26-11.28.40:400][447]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.40:422][447]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\marco\Downloads\Elementals-Ground_monk\Monk_mode_centered_192x64.png)
+[2021.02.26-11.28.40:474][447]LogTexture: Display: Building textures: Monk_mode_centered_192x64 (AutoDXT, 4800X832)
+[2021.02.26-11.28.44:132][471]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.44:784][505]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.45:068][519]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.46:791][618]LogTexture: Display: Building textures: Ground_Monk-SpriteSheet_100x64 (BGRA8, 2500X832)
+[2021.02.26-11.28.47:956][685]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.48:284][700]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.49:101][740]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.50:160][802]LogTexture: Display: Building textures: Monk_mode_centered_192x64 (BGRA8, 4800X832)
+[2021.02.26-11.28.51:420][873]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.52:296][921]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.53:729][  3]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.28.55:580][  3]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.29.23:515][287]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.29.25:269][287]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.29.25:815][312]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.29.27:897][332]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.29.29:636][332]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.30.29:837][827]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.30.38:526][853]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.30.38:588][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.02.26-11.30.38:591][853]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.038
+[2021.02.26-11.30.38:591][853]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64] ([1] browsable assets)...
+[2021.02.26-11.30.38:595][853]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64.Ground_Monk-SpriteSheet_100x64]
+[2021.02.26-11.30.38:595][853]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64]
+[2021.02.26-11.30.38:599][853]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_ADC8FA24B44FC745A06E0CBA58E675A90.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Auto7.uasset'
+[2021.02.26-11.30.38:600][853]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/test_character2/Monk_mode_centered_192x64] ([1] browsable assets)...
+[2021.02.26-11.30.38:602][853]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/test_character2/Monk_mode_centered_192x64.Monk_mode_centered_192x64]
+[2021.02.26-11.30.38:602][853]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/test_character2/Monk_mode_centered_192x64]
+[2021.02.26-11.30.38:679][853]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Monk_mode_centered_192x64_Auto75D45B38B4CF463522E15AAA6B92ED748.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Assets/test_character2/Monk_mode_centered_192x64_Auto7.uasset'
+[2021.02.26-11.30.38:679][853]LogFileHelpers: Auto-saving content packages took 0.089
+[2021.02.26-11.33.24:851][534]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.33.32:646][534]LogSlate: Window 'Extract sprites' being destroyed
+[2021.02.26-11.35.36:499][475]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.36:973][498]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.37:647][524]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.37:656][524]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(745)].
+[2021.02.26-11.35.46:130][ 24]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.46:154][ 24]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/test_character2/mank_Idle.mank_Idle
+[2021.02.26-11.35.46:413][ 25]LogRenderer: Reallocating scene render targets to support 1528x788 Format 10 NumSamples 1 (Frame:1).
+[2021.02.26-11.35.53:223][429]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.58:010][714]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.35.58:041][714]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/mank_IdleC812990D494F5B43228DEC9651374DC5.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/mank_Idle.uasset'
+[2021.02.26-11.35.58:061][714]AssetCheck: New page: Asset Save: mank_Idle
+[2021.02.26-11.35.58:061][714]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/test_character2/mank_Idle.mank_Idle
+[2021.02.26-11.36.00:989][888]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.36.00:989][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.36.10:681][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.02.26-11.36.10:706][456]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.12:028][456]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.12:037][456]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.12:064][456]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.12:116][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.02.26-11.36.16:759][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.02.26-11.36.16:782][727]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.17:906][727]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.17:914][727]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.17:943][727]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.17:998][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.02.26-11.36.21:053][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.02.26-11.36.21:073][906]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.22:246][906]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.22:253][906]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.22:280][906]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.22:331][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.02.26-11.36.25:209][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.02.26-11.36.25:233][ 73]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.26:894][ 73]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.26:902][ 73]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.26:925][ 73]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.26:977][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.02.26-11.36.31:406][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.02.26-11.36.31:428][331]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.32:786][331]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.32:793][331]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.32:824][331]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.32:887][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.02.26-11.36.35:028][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.02.26-11.36.35:046][454]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.36:223][454]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.36:231][454]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.36:257][454]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.36:309][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.02.26-11.36.40:370][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.02.26-11.36.40:387][693]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.41:667][693]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.41:675][693]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.41:700][693]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.41:755][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.02.26-11.36.45:414][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.02.26-11.36.45:434][908]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.46:682][908]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.46:688][908]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.46:714][908]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.46:768][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.02.26-11.36.50:156][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.02.26-11.36.50:178][107]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.51:329][107]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.51:337][107]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.51:370][107]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.51:420][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.02.26-11.36.55:787][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.02.26-11.36.55:810][362]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.57:101][362]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.36.57:109][362]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.57:139][362]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.36.57:192][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.02.26-11.37.00:215][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.02.26-11.37.00:235][538]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.01:575][538]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.37.01:582][538]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.01:608][538]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.01:666][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.02.26-11.37.10:474][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.02.26-11.37.10:498][ 54]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.11:814][ 54]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.26-11.37.11:820][ 54]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.11:844][ 54]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.11:905][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.02.26-11.37.25:531][860]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.26:037][884]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.27:216][941]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.27:227][941]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(745)].
+[2021.02.26-11.37.32:536][256]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.39:042][643]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.39:063][643]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/test_character2/monk_movingUp.monk_movingUp
+[2021.02.26-11.37.47:175][120]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.50:261][304]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.37.50:283][304]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/monk_movingUp0B19B4E142F5AD956F2354A359EBDB0B.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/monk_movingUp.uasset'
+[2021.02.26-11.37.50:304][304]AssetCheck: New page: Asset Save: monk_movingUp
+[2021.02.26-11.37.50:304][304]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/test_character2/monk_movingUp.monk_movingUp
+[2021.02.26-11.37.53:861][515]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.37.53:861][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.38.02:445][ 21]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.03:003][ 52]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.03:826][ 90]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.03:838][ 90]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(745)].
+[2021.02.26-11.38.15:571][789]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.15:590][789]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/test_character2/monk_movingDown.monk_movingDown
+[2021.02.26-11.38.19:460][ 11]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.22:688][202]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.38.22:708][202]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/monk_movingDown582B2A6541DA6C1EBFA78C8736CAD649.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/monk_movingDown.uasset'
+[2021.02.26-11.38.22:727][202]AssetCheck: New page: Asset Save: monk_movingDown
+[2021.02.26-11.38.22:727][202]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/test_character2/monk_movingDown.monk_movingDown
+[2021.02.26-11.38.26:569][431]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.38.26:569][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.45.26:854][509]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.26:882][509]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.26:908][509]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/monk_Idle761F7B5E415B2CEAEA4E0291C69BDD3C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/monk_Idle.uasset'
+[2021.02.26-11.45.26:917][509]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.26:954][509]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.27:006][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.02.26-11.45.27:047][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.02.26-11.45.27:075][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.02.26-11.45.27:110][509]AssetCheck: New page: Asset Save: monk_Idle
+[2021.02.26-11.45.27:110][509]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/test_character2/monk_Idle.monk_Idle
+[2021.02.26-11.45.38:712][195]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.38:736][195]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.38:817][195]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/_Monk_mode_centered_192x64F45132F54AAB89B72F887B842890CD4C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/_Monk_mode_centered_192x64.uasset'
+[2021.02.26-11.45.38:831][195]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.38:867][195]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.45.38:917][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.02.26-11.45.38:955][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.02.26-11.45.38:983][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.02.26-11.45.39:015][195]AssetCheck: New page: Asset Save: _Monk_mode_centered_192x64
+[2021.02.26-11.45.39:015][195]LogContentValidation: Display: Validating Texture2D /Game/Assets/test_character2/_Monk_mode_centered_192x64._Monk_mode_centered_192x64
+[2021.02.26-11.46.05:372][716]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-11.46.05:373][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-11.47.21:980][341]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.47.24:106][466]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2021.02.26-11.47.45:404][856]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.47.54:454][883]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.47.54:502][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.02.26-11.47.54:507][883]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.039
+[2021.02.26-11.47.54:507][883]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2021.02.26-11.47.54:507][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.02.26-11.47.54:667][883]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto8AE0D9F274F732B51983555B42DF4BF25.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto8.uasset'
+[2021.02.26-11.47.54:668][883]LogFileHelpers: Auto-saving content packages took 0.161
+[2021.02.26-11.48.07:117][216]LogSlate: Window 'Color Picker' being destroyed
+[2021.02.26-11.48.21:829][ 57]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.48.22:198][ 59]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.49.01:226][366]BlueprintLog: New page: Compile BP_Player
+[2021.02.26-11.49.01:310][366]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.02.26-11.50.30:791][860]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.50.31:611][892]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.50.32:373][921]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.50.33:533][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.02.26-11.50.33:549][957]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.02.26-11.50.33:564][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.26-11.50.33:592][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.02.26-11.50.33:598][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout694114BC492E7B51701E1BAFA62CC360.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.02.26-11.50.33:604][957]LogFileHelpers: Saving map 'lvl_Breakout' took 0.040
+[2021.02.26-11.50.33:605][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.02.26-11.50.33:754][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerAF570C3240CC8CE895757EB888A9171F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.02.26-11.50.33:793][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64EB567984422DE11EB60BDC9B046BBAD9.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64.uasset'
+[2021.02.26-11.50.33:801][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S946C54B34E836941862A35B1F9A7A8B6.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_0.uasset'
+[2021.02.26-11.50.33:809][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SED63A5BD4053037FFEFA2F889CA79E27.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_1.uasset'
+[2021.02.26-11.50.33:817][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S84A7782948A0433CCDB7FEBEAF3DE511.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_2.uasset'
+[2021.02.26-11.50.33:825][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S0753CBFF43C5DEDDC14238BA45053AAE.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_3.uasset'
+[2021.02.26-11.50.33:833][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SEEA6C0CB4E70C9FB4E9EAAB3DFD81686.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_4.uasset'
+[2021.02.26-11.50.33:841][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF0279EC249A51D37E4D533AC6ED676EA.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_5.uasset'
+[2021.02.26-11.50.33:848][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S3FC833CB4FB2EE3486A0BA9C6597BC39.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_196.uasset'
+[2021.02.26-11.50.33:855][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SC345A28F4C5F43727825C29E88F9EF65.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_197.uasset'
+[2021.02.26-11.50.33:862][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF8CC3101421FB8AD5CF37CBB223C4CF6.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_198.uasset'
+[2021.02.26-11.50.33:870][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD55C716A4BC5AF79A986F1A0CC1A9422.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_199.uasset'
+[2021.02.26-11.50.33:877][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SDE13A28F4B20B57B4DB13C917225723A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_200.uasset'
+[2021.02.26-11.50.33:885][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S248CA6294DFA868BD56AA081278B0866.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_201.uasset'
+[2021.02.26-11.50.33:892][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S59E79FED4FCBD4B13EDED99B5107BD8D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_202.uasset'
+[2021.02.26-11.50.33:900][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD34112384CCFDF24BEC62B9F5F51D01E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_203.uasset'
+[2021.02.26-11.50.33:907][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S80D5F99A4CD1186CFA4DCB901F2D9682.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_215.uasset'
+[2021.02.26-11.50.33:951][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S20D48E15460816A3924668985EFADE99.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_315.uasset'
+[2021.02.26-11.50.33:959][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S3640B7724E8800D3071EDC925393B79F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_314.uasset'
+[2021.02.26-11.50.33:966][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S29C4AFFC4389ACE3DDE00497E7D1A696.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_313.uasset'
+[2021.02.26-11.50.33:974][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SC305AE9D42B397CA1E6AF28BDCA91CDA.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_312.uasset'
+[2021.02.26-11.50.33:982][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S2A7E45B84E081FC879A327B0A285B54B.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_311.uasset'
+[2021.02.26-11.50.33:991][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA0548333495A40D01F3684AC8C8C12EC.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_310.uasset'
+[2021.02.26-11.50.33:999][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S1E5C3F3E4FF626DE40BB2AA8063124D2.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_309.uasset'
+[2021.02.26-11.50.34:006][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S30DA968C43875BF246ADD6B756411D49.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_308.uasset'
+[2021.02.26-11.50.34:014][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S0DC7F968450D725353C078A1664BA3FD.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_307.uasset'
+[2021.02.26-11.50.34:022][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9802938F42FDE81629FBDF9FE91AFAE4.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_25.uasset'
+[2021.02.26-11.50.34:029][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8E469D3F45403FE556DE66AE425B1295.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_26.uasset'
+[2021.02.26-11.50.34:036][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SBB0954E24BF7EEBB385B4AA3F7B63376.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_27.uasset'
+[2021.02.26-11.50.34:044][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SECBF699E4057D03EC18EE9A3CAD3FBCA.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_28.uasset'
+[2021.02.26-11.50.34:052][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S1033B8F146FC119DFC3E62B3F1297C30.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_29.uasset'
+[2021.02.26-11.50.34:059][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S7623EE7E4D717CBB9A2B3EB2FA22FFEA.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_30.uasset'
+[2021.02.26-11.50.34:066][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SBE989078403D8D90CD24D5AC2E85CBD3.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_31.uasset'
+[2021.02.26-11.50.34:074][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SEE93A42D46BF5EF13D37CFB744374201.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_32.uasset'
+[2021.02.26-11.50.34:082][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S384CB3CA4D51B5809D2B91B8B8485C86.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_301.uasset'
+[2021.02.26-11.50.34:089][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S65E865C140A49D8BF9B4FE843A35CE2A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_300.uasset'
+[2021.02.26-11.50.34:097][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9A37E5254150A5BE7AEA44A3D0F8900E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_214.uasset'
+[2021.02.26-11.50.34:105][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S090995234BD76595244B52A1D23B671C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_213.uasset'
+[2021.02.26-11.50.34:113][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA4043C124372FFDB23C708ADE0A3F1F7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_212.uasset'
+[2021.02.26-11.50.34:120][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8F8ED04C4083C12356B2B79E89675B83.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_211.uasset'
+[2021.02.26-11.50.34:127][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD859B88544897279239EA3A4E05C804E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_150.uasset'
+[2021.02.26-11.50.34:135][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE6E7739846FD91DADEEFCFB3D55A8109.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_151.uasset'
+[2021.02.26-11.50.34:143][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SBA8D776545C452DD42296F8EBF17E806.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_152.uasset'
+[2021.02.26-11.50.34:151][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE65A5E5A499B5F04CA4481BA4DA6CA70.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_153.uasset'
+[2021.02.26-11.50.34:160][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SB15FAE34453709C964057AA3E2B481C4.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_154.uasset'
+[2021.02.26-11.50.34:211][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S96727CE540BFF0618DD1E8A1832D708A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_155.uasset'
+[2021.02.26-11.50.34:220][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S63C4F82C48CC3D745D59CFA015220063.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_306.uasset'
+[2021.02.26-11.50.34:228][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA86F2BD143DE0ACD1F85ADAAB568C89D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_305.uasset'
+[2021.02.26-11.50.34:236][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S952F3DCB4272ECA4C68A6BB9C707DE9A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_304.uasset'
+[2021.02.26-11.50.34:244][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S4772C621469C9DAB31DB7C9F3A10624F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_303.uasset'
+[2021.02.26-11.50.34:252][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S1BF1BE5C46EBC8B8BD2D8EA4402B21F7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_302.uasset'
+[2021.02.26-11.50.34:261][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S15D5C42948EB10A42631E0B206CC1DC6.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_50.uasset'
+[2021.02.26-11.50.34:269][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SB20CE919448698E8D712ECA2F6BAF153.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_51.uasset'
+[2021.02.26-11.50.34:278][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SFC51CF4F4C2E4132DEDBCABE2A3D6A55.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_52.uasset'
+[2021.02.26-11.50.34:286][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE78E1BA348449343010375B3905688C5.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_156.uasset'
+[2021.02.26-11.50.34:293][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE87B110C47EF5A5751115EBEC1B80327.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_157.uasset'
+[2021.02.26-11.50.34:301][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S14AA609042F395B3965285BE64A6C228.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_158.uasset'
+[2021.02.26-11.50.34:309][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S238C205C4B5C8726F4C34D99010FB504.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_159.uasset'
+[2021.02.26-11.50.34:317][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S5EB42CAC41CEAB2F31E28AB2A69590E6.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_160.uasset'
+[2021.02.26-11.50.34:325][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8E478E0B428DAA22C699E9A8CA3233D1.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_161.uasset'
+[2021.02.26-11.50.34:333][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S115D5EDC469278E05A3401A0877C4F7C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_162.uasset'
+[2021.02.26-11.50.34:341][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S0E570DF84A1CE1A6A52A23AFD6ADA897.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_163.uasset'
+[2021.02.26-11.50.34:349][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S4DF53DAE47CDAE4212F06B8600225415.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_281.uasset'
+[2021.02.26-11.50.34:357][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF3B31DAF4AB8A3B039A3B7AC20E9899A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_280.uasset'
+[2021.02.26-11.50.34:365][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF419E7B145CA75B0E67EFD99DA243C6E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_279.uasset'
+[2021.02.26-11.50.34:373][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S6CABEF0C491A679B21C9828A4405E625.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_278.uasset'
+[2021.02.26-11.50.34:381][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8777CD6E40016E66D603769CBADE547F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_277.uasset'
+[2021.02.26-11.50.34:389][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S7FB8A34B4D611E448CC09085AB2D6FD8.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_276.uasset'
+[2021.02.26-11.50.34:397][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S18F8BFE540E6DD9BB171899EF32A9675.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_275.uasset'
+[2021.02.26-11.50.34:405][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SAE01AAC34D0A1B5D47BAD68B1AE3DFB5.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_208.uasset'
+[2021.02.26-11.50.34:416][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8D383336461929A322F3308572C6A592.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_207.uasset'
+[2021.02.26-11.50.34:424][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S4E83997D4900A83B1E8FE3A00038EC18.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_206.uasset'
+[2021.02.26-11.50.34:432][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF10516FC4E8F9E5BF94E1C83B2B566AC.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_205.uasset'
+[2021.02.26-11.50.34:472][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SDDAF19E842C893D8561E2C850235C14C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_204.uasset'
+[2021.02.26-11.50.34:481][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE731AEA34948AAFB46632282A4364D44.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_175.uasset'
+[2021.02.26-11.50.34:488][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE31B97AC4CDE0C7635D764BAE523413D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_164.uasset'
+[2021.02.26-11.50.34:496][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S60AD9694427E397C13455B986F0C18B7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_75.uasset'
+[2021.02.26-11.50.34:504][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S16AC402842FFE800748D09B5E8C8A63A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_76.uasset'
+[2021.02.26-11.50.34:512][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SEFD445E344F7DB16F8E400914E17FE28.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_77.uasset'
+[2021.02.26-11.50.34:520][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SC3E69117459B29F743CDD6B396339493.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_165.uasset'
+[2021.02.26-11.50.34:528][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S57189DA74DF13B4052937EBA7315150D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_166.uasset'
+[2021.02.26-11.50.34:536][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9CFF341D440897E02F85B3BC85DDA8D8.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_167.uasset'
+[2021.02.26-11.50.34:544][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S2DE20A79410666EC447E528281FFF41F.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_210.uasset'
+[2021.02.26-11.50.34:552][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SDADCBA75460072753F8CA2B45F7437E2.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_209.uasset'
+[2021.02.26-11.50.34:560][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S8AC3C3FE46C036AED30FB9A21B26A01A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_262.uasset'
+[2021.02.26-11.50.34:568][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE4969B96494AFA0657BCE99C20300540.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_261.uasset'
+[2021.02.26-11.50.34:576][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S21EC035443BC39C566356EA6F1B2064C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_260.uasset'
+[2021.02.26-11.50.34:583][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9E91663343A189EC213163B3837182A7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_259.uasset'
+[2021.02.26-11.50.34:591][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD04EFF834781B26DFF3701BC251FA54C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_258.uasset'
+[2021.02.26-11.50.34:599][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SC89228F448F07898783012BDBBF9EB88.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_257.uasset'
+[2021.02.26-11.50.34:607][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S6E889C2E417119CA4AD311B0DDFE86F7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_256.uasset'
+[2021.02.26-11.50.34:616][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF97E6356402AA8AD31E0E98A93CE68EB.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_255.uasset'
+[2021.02.26-11.50.34:624][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S67E2558B497158C85F6CD8BC3AC4C96C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_254.uasset'
+[2021.02.26-11.50.34:633][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA2013B2C45F61EA708D208B3C948DC2C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_253.uasset'
+[2021.02.26-11.50.34:641][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SECB8DE0D4E16F69C625F67A9FBFA9767.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_252.uasset'
+[2021.02.26-11.50.34:650][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S08B51A79462C17386428C890221DC555.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_251.uasset'
+[2021.02.26-11.50.34:659][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S2CBA9A744CB1B84D1823338E0A1A0AD3.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_250.uasset'
+[2021.02.26-11.50.34:667][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SBFAD17A647780347E65145867C874765.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_176.uasset'
+[2021.02.26-11.50.34:675][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S59445F46476370DB5896C78D7CF213A1.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_177.uasset'
+[2021.02.26-11.50.34:682][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S415DED184B32DAB8DAF4B6BD209E0289.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_178.uasset'
+[2021.02.26-11.50.34:690][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S40DF6A854A9232AB5EE074B1E3BCA204.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_179.uasset'
+[2021.02.26-11.50.34:729][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SB2AC2BA6488542913C4C179F2E80C4DC.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_100.uasset'
+[2021.02.26-11.50.34:737][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S137073C74F9801388566EBAE09FADAA7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_101.uasset'
+[2021.02.26-11.50.34:745][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S11B80B034E874A4269773BBB6E033520.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_102.uasset'
+[2021.02.26-11.50.34:752][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SF0B1643E4B210F26177869BF43EC36F3.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_103.uasset'
+[2021.02.26-11.50.34:761][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S4DBEB9294C99FF7F038673AB1C832E13.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_104.uasset'
+[2021.02.26-11.50.34:769][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9BC239454A22A254B0542AAAE969BF0D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_105.uasset'
+[2021.02.26-11.50.34:777][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S1CE518EC43369A70B411B8967F1C206D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_180.uasset'
+[2021.02.26-11.50.34:784][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S55BF3E08420455DD99D3388C2CDF8672.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_181.uasset'
+[2021.02.26-11.50.34:792][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S0D4A7D394CFD9E7E6EE578AE758886B7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_182.uasset'
+[2021.02.26-11.50.34:800][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S387612594FE5E1EA05D58CA94BCBEFE1.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_183.uasset'
+[2021.02.26-11.50.34:807][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S44780F6748775B38B6B1ED87D382B34A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_184.uasset'
+[2021.02.26-11.50.34:816][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SCC9F5A784F82CA01C776B5B4C760EBF8.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_185.uasset'
+[2021.02.26-11.50.34:824][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SAE6A578A4E2B78D299B5939B942482D4.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_186.uasset'
+[2021.02.26-11.50.34:832][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S6F7F55E44C7919427E76E4B146C0AAD2.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_187.uasset'
+[2021.02.26-11.50.34:840][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SAD3CE0374F802ADB89DD0DBAC04DAC3B.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_188.uasset'
+[2021.02.26-11.50.34:848][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S911A3EA749D83507F38F8FBBB2B7218C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_189.uasset'
+[2021.02.26-11.50.34:856][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S7EC1112E4CFB5BD9A5723AA5F05B5DD8.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_190.uasset'
+[2021.02.26-11.50.34:864][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD50132634CFB259471BF0D8994754D0E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_191.uasset'
+[2021.02.26-11.50.34:872][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD278E16344E9E65D884E5487D3463940.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_192.uasset'
+[2021.02.26-11.50.34:880][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S9C5ED97E4C254656FB42C6A9EAB47D73.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_193.uasset'
+[2021.02.26-11.50.34:888][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SBF47EA7E4C86B4DBAD32FFB9DE032DC8.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_194.uasset'
+[2021.02.26-11.50.34:896][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SDC6A9365483F238042884287C03CCF25.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_230.uasset'
+[2021.02.26-11.50.34:904][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S3D8B848445CA24ED939C64BFD44397F6.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_229.uasset'
+[2021.02.26-11.50.34:911][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S498638D445C765EB1E058B847708EF80.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_228.uasset'
+[2021.02.26-11.50.34:919][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SB0EE779A4F7A28109E955BAF8E2FA0E7.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_227.uasset'
+[2021.02.26-11.50.34:927][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S14A0763E4B0D156C929FE99094424F87.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_125.uasset'
+[2021.02.26-11.50.34:935][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S425B6DF244342997CBD78A9F161AD6A9.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_126.uasset'
+[2021.02.26-11.50.34:942][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA2EB853F4C59B5A9503C9EBDDF54B469.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_127.uasset'
+[2021.02.26-11.50.34:976][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S21D4AEAD49A74776EDC070AE91AC2341.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_128.uasset'
+[2021.02.26-11.50.34:984][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S6827A3774413AC9393FFAE90C0D26929.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_129.uasset'
+[2021.02.26-11.50.34:992][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SA1995E5146ED543C983234912872AAE1.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_130.uasset'
+[2021.02.26-11.50.35:000][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S57F0478343A048260202AA95FDBC9112.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_131.uasset'
+[2021.02.26-11.50.35:008][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_S09C2CE004B3991441CBEB4A17B138C2D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_132.uasset'
+[2021.02.26-11.50.35:017][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SABB7F8B84DEF672BA656A1BD3C7E2DB9.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_133.uasset'
+[2021.02.26-11.50.35:025][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SE916F1F149E6A68E733F24864BE4DC91.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_226.uasset'
+[2021.02.26-11.50.35:033][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SCBA43BEC4376F387B86D7CAEFC611E3E.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_225.uasset'
+[2021.02.26-11.50.35:041][957]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Ground_Monk-SpriteSheet_100x64_SD7583300418F8770FD0C17BE464698F9.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_195.uasset'
+[2021.02.26-11.50.35:092][957]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_262.Ground_Monk-SpriteSheet_100x64_Sprite_262
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_261.Ground_Monk-SpriteSheet_100x64_Sprite_261
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_260.Ground_Monk-SpriteSheet_100x64_Sprite_260
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_259.Ground_Monk-SpriteSheet_100x64_Sprite_259
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_258.Ground_Monk-SpriteSheet_100x64_Sprite_258
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_257.Ground_Monk-SpriteSheet_100x64_Sprite_257
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_256.Ground_Monk-SpriteSheet_100x64_Sprite_256
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_255.Ground_Monk-SpriteSheet_100x64_Sprite_255
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_254.Ground_Monk-SpriteSheet_100x64_Sprite_254
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_253.Ground_Monk-SpriteSheet_100x64_Sprite_253
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_252.Ground_Monk-SpriteSheet_100x64_Sprite_252
+[2021.02.26-11.50.35:092][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_251.Ground_Monk-SpriteSheet_100x64_Sprite_251
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_250.Ground_Monk-SpriteSheet_100x64_Sprite_250
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_32.Ground_Monk-SpriteSheet_100x64_Sprite_32
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_31.Ground_Monk-SpriteSheet_100x64_Sprite_31
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_30.Ground_Monk-SpriteSheet_100x64_Sprite_30
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_29.Ground_Monk-SpriteSheet_100x64_Sprite_29
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_28.Ground_Monk-SpriteSheet_100x64_Sprite_28
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_27.Ground_Monk-SpriteSheet_100x64_Sprite_27
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_315.Ground_Monk-SpriteSheet_100x64_Sprite_315
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_314.Ground_Monk-SpriteSheet_100x64_Sprite_314
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_313.Ground_Monk-SpriteSheet_100x64_Sprite_313
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_312.Ground_Monk-SpriteSheet_100x64_Sprite_312
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_311.Ground_Monk-SpriteSheet_100x64_Sprite_311
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_310.Ground_Monk-SpriteSheet_100x64_Sprite_310
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_309.Ground_Monk-SpriteSheet_100x64_Sprite_309
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_308.Ground_Monk-SpriteSheet_100x64_Sprite_308
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_307.Ground_Monk-SpriteSheet_100x64_Sprite_307
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_306.Ground_Monk-SpriteSheet_100x64_Sprite_306
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_305.Ground_Monk-SpriteSheet_100x64_Sprite_305
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_304.Ground_Monk-SpriteSheet_100x64_Sprite_304
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_303.Ground_Monk-SpriteSheet_100x64_Sprite_303
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_302.Ground_Monk-SpriteSheet_100x64_Sprite_302
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_301.Ground_Monk-SpriteSheet_100x64_Sprite_301
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_26.Ground_Monk-SpriteSheet_100x64_Sprite_26
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_25.Ground_Monk-SpriteSheet_100x64_Sprite_25
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_300.Ground_Monk-SpriteSheet_100x64_Sprite_300
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_281.Ground_Monk-SpriteSheet_100x64_Sprite_281
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_280.Ground_Monk-SpriteSheet_100x64_Sprite_280
+[2021.02.26-11.50.35:093][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_279.Ground_Monk-SpriteSheet_100x64_Sprite_279
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_278.Ground_Monk-SpriteSheet_100x64_Sprite_278
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_277.Ground_Monk-SpriteSheet_100x64_Sprite_277
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_276.Ground_Monk-SpriteSheet_100x64_Sprite_276
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_275.Ground_Monk-SpriteSheet_100x64_Sprite_275
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_230.Ground_Monk-SpriteSheet_100x64_Sprite_230
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_229.Ground_Monk-SpriteSheet_100x64_Sprite_229
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_228.Ground_Monk-SpriteSheet_100x64_Sprite_228
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_227.Ground_Monk-SpriteSheet_100x64_Sprite_227
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_226.Ground_Monk-SpriteSheet_100x64_Sprite_226
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_225.Ground_Monk-SpriteSheet_100x64_Sprite_225
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_215.Ground_Monk-SpriteSheet_100x64_Sprite_215
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_214.Ground_Monk-SpriteSheet_100x64_Sprite_214
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_213.Ground_Monk-SpriteSheet_100x64_Sprite_213
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_212.Ground_Monk-SpriteSheet_100x64_Sprite_212
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_211.Ground_Monk-SpriteSheet_100x64_Sprite_211
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_210.Ground_Monk-SpriteSheet_100x64_Sprite_210
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_209.Ground_Monk-SpriteSheet_100x64_Sprite_209
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_208.Ground_Monk-SpriteSheet_100x64_Sprite_208
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_207.Ground_Monk-SpriteSheet_100x64_Sprite_207
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_206.Ground_Monk-SpriteSheet_100x64_Sprite_206
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_205.Ground_Monk-SpriteSheet_100x64_Sprite_205
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_204.Ground_Monk-SpriteSheet_100x64_Sprite_204
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_203.Ground_Monk-SpriteSheet_100x64_Sprite_203
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_202.Ground_Monk-SpriteSheet_100x64_Sprite_202
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_201.Ground_Monk-SpriteSheet_100x64_Sprite_201
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_200.Ground_Monk-SpriteSheet_100x64_Sprite_200
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_199.Ground_Monk-SpriteSheet_100x64_Sprite_199
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_198.Ground_Monk-SpriteSheet_100x64_Sprite_198
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_197.Ground_Monk-SpriteSheet_100x64_Sprite_197
+[2021.02.26-11.50.35:094][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_196.Ground_Monk-SpriteSheet_100x64_Sprite_196
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_195.Ground_Monk-SpriteSheet_100x64_Sprite_195
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_194.Ground_Monk-SpriteSheet_100x64_Sprite_194
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_193.Ground_Monk-SpriteSheet_100x64_Sprite_193
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_192.Ground_Monk-SpriteSheet_100x64_Sprite_192
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_191.Ground_Monk-SpriteSheet_100x64_Sprite_191
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_190.Ground_Monk-SpriteSheet_100x64_Sprite_190
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_189.Ground_Monk-SpriteSheet_100x64_Sprite_189
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_188.Ground_Monk-SpriteSheet_100x64_Sprite_188
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_187.Ground_Monk-SpriteSheet_100x64_Sprite_187
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_186.Ground_Monk-SpriteSheet_100x64_Sprite_186
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_185.Ground_Monk-SpriteSheet_100x64_Sprite_185
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_184.Ground_Monk-SpriteSheet_100x64_Sprite_184
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_183.Ground_Monk-SpriteSheet_100x64_Sprite_183
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_182.Ground_Monk-SpriteSheet_100x64_Sprite_182
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_181.Ground_Monk-SpriteSheet_100x64_Sprite_181
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_180.Ground_Monk-SpriteSheet_100x64_Sprite_180
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_179.Ground_Monk-SpriteSheet_100x64_Sprite_179
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_178.Ground_Monk-SpriteSheet_100x64_Sprite_178
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_177.Ground_Monk-SpriteSheet_100x64_Sprite_177
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_176.Ground_Monk-SpriteSheet_100x64_Sprite_176
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_175.Ground_Monk-SpriteSheet_100x64_Sprite_175
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_167.Ground_Monk-SpriteSheet_100x64_Sprite_167
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_166.Ground_Monk-SpriteSheet_100x64_Sprite_166
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_165.Ground_Monk-SpriteSheet_100x64_Sprite_165
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_164.Ground_Monk-SpriteSheet_100x64_Sprite_164
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_163.Ground_Monk-SpriteSheet_100x64_Sprite_163
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_162.Ground_Monk-SpriteSheet_100x64_Sprite_162
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_161.Ground_Monk-SpriteSheet_100x64_Sprite_161
+[2021.02.26-11.50.35:095][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_160.Ground_Monk-SpriteSheet_100x64_Sprite_160
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_159.Ground_Monk-SpriteSheet_100x64_Sprite_159
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_158.Ground_Monk-SpriteSheet_100x64_Sprite_158
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_157.Ground_Monk-SpriteSheet_100x64_Sprite_157
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_156.Ground_Monk-SpriteSheet_100x64_Sprite_156
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_155.Ground_Monk-SpriteSheet_100x64_Sprite_155
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_154.Ground_Monk-SpriteSheet_100x64_Sprite_154
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_153.Ground_Monk-SpriteSheet_100x64_Sprite_153
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_152.Ground_Monk-SpriteSheet_100x64_Sprite_152
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_151.Ground_Monk-SpriteSheet_100x64_Sprite_151
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_150.Ground_Monk-SpriteSheet_100x64_Sprite_150
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_133.Ground_Monk-SpriteSheet_100x64_Sprite_133
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_132.Ground_Monk-SpriteSheet_100x64_Sprite_132
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_131.Ground_Monk-SpriteSheet_100x64_Sprite_131
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_130.Ground_Monk-SpriteSheet_100x64_Sprite_130
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_129.Ground_Monk-SpriteSheet_100x64_Sprite_129
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_128.Ground_Monk-SpriteSheet_100x64_Sprite_128
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_127.Ground_Monk-SpriteSheet_100x64_Sprite_127
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_126.Ground_Monk-SpriteSheet_100x64_Sprite_126
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_125.Ground_Monk-SpriteSheet_100x64_Sprite_125
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_105.Ground_Monk-SpriteSheet_100x64_Sprite_105
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_104.Ground_Monk-SpriteSheet_100x64_Sprite_104
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_103.Ground_Monk-SpriteSheet_100x64_Sprite_103
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_102.Ground_Monk-SpriteSheet_100x64_Sprite_102
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_101.Ground_Monk-SpriteSheet_100x64_Sprite_101
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_100.Ground_Monk-SpriteSheet_100x64_Sprite_100
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_77.Ground_Monk-SpriteSheet_100x64_Sprite_77
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_76.Ground_Monk-SpriteSheet_100x64_Sprite_76
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_75.Ground_Monk-SpriteSheet_100x64_Sprite_75
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_52.Ground_Monk-SpriteSheet_100x64_Sprite_52
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_51.Ground_Monk-SpriteSheet_100x64_Sprite_51
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_50.Ground_Monk-SpriteSheet_100x64_Sprite_50
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_5.Ground_Monk-SpriteSheet_100x64_Sprite_5
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_4.Ground_Monk-SpriteSheet_100x64_Sprite_4
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_3.Ground_Monk-SpriteSheet_100x64_Sprite_3
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_2.Ground_Monk-SpriteSheet_100x64_Sprite_2
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_1.Ground_Monk-SpriteSheet_100x64_Sprite_1
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating PaperSprite /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64_Sprite_0.Ground_Monk-SpriteSheet_100x64_Sprite_0
+[2021.02.26-11.50.35:096][957]LogContentValidation: Display: Validating Texture2D /Game/Assets/test_character2/Ground_Monk-SpriteSheet_100x64.Ground_Monk-SpriteSheet_100x64
