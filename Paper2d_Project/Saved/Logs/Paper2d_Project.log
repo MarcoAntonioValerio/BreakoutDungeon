@@ -3540,3 +3540,57 @@ Make sure 'AC_Spells_C' has been compiled for  Inside Recall Range
 [2021.03.01-13.29.08:080][151]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AC_Spells]
 [2021.03.01-13.29.08:114][151]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_Spells_Auto2EE2BDA614360102FAD775DBF1CA98F2D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/AC_Spells_Auto2.uasset'
 [2021.03.01-13.29.08:115][151]LogFileHelpers: Auto-saving content packages took 0.034
+[2021.03.01-13.30.21:958][575]BlueprintLog: New page: Compile AC_Spells
+[2021.03.01-13.30.22:016][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.03.01-13.30.50:143][ 52]LogEditorViewport: Clicking Background
+[2021.03.01-13.31.24:845][ 77]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.31.25:773][122]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.31.27:156][202]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.31.28:888][304]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.31.28:901][304]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-13.31.34:935][662]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.31.49:672][510]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.11:005][762]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.20:810][325]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.23:853][503]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.25:664][610]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.29:115][811]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.32.37:989][331]BlueprintLog: New page: Compile BP_Player
+[2021.03.01-13.32.38:093][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.03.01-13.33.12:406][310]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.14:656][442]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.17:938][636]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.25:065][ 58]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.29:343][307]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.33:294][540]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.33:982][580]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.34:518][611]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.39:472][904]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.33.53:286][725]BlueprintLog: New page: Compile BP_Player
+[2021.03.01-13.33.53:368][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.03.01-13.34.01:938][213]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.34.03:741][316]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.34.05:735][433]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.34.09:449][650]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.34.14:598][951]BlueprintLog: New page: Compile BP_Player
+[2021.03.01-13.34.14:680][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.03.01-13.34.15:278][973]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.34.15:293][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.03.01-13.34.15:444][973]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player4288E5D84925E3C2E6944B950ADB626C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.03.01-13.34.15:460][973]AssetCheck: New page: Asset Save: BP_Player
+[2021.03.01-13.34.15:460][973]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.03.01-13.34.50:442][  3]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.35.13:236][311]BlueprintLog: New page: Compile BP_Player
+[2021.03.01-13.35.13:320][311]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2021.03.01-13.35.13:956][335]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.35.13:967][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.03.01-13.35.14:122][335]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerEEB77F364851D80EB40774A16DFC9C3B.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.03.01-13.35.14:136][335]AssetCheck: New page: Asset Save: BP_Player
+[2021.03.01-13.35.14:136][335]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.03.01-13.35.20:801][527]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.35.22:032][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.03.01-13.35.22:036][588]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.01-13.35.22:058][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Spells" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset" SILENT=true
+[2021.03.01-13.35.22:089][588]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_SpellsDB62D2ED4885E0FAB5F197AE9E1B9012.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset'
+[2021.03.01-13.35.22:101][588]AssetCheck: New page: Asset Save: AC_Spells
+[2021.03.01-13.35.22:101][588]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Spells.AC_Spells
