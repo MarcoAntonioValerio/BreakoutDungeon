@@ -4329,3 +4329,1185 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.08-13.26.38:976][ 79]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
 [2021.03.08-13.26.58:671][138]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
 [2021.03.08-13.27.00:193][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.03.08-13.29.54:051][746]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-13.29.54:135][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.03.08-13.29.54:753][767]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.29.54:766][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.03.08-13.29.54:932][767]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerF32D12EA4611F6B394FAC88C3304497D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.03.08-13.29.54:955][767]AssetCheck: New page: Asset Save: BP_Player
+[2021.03.08-13.29.54:955][767]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.03.08-13.46.52:591][946]LogEditorViewport: Clicking Background
+[2021.03.08-13.47.59:890][741]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.47.59:902][741]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.08-13.47.59:906][741]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2021.03.08-13.48.00:056][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.08-13.48.00:057][741]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (1 blueprints)
+[2021.03.08-13.48.00:058][741]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:48:00)
+[2021.03.08-13.48.00:058][741]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.48.00:059][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001690s)
+[2021.03.08-13.48.00:060][741]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.48.00:060][741]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2021.03.08-13.48.00:061][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002836s)
+[2021.03.08-13.48.00:085][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.03.08-13.48.00:086][741]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.48.00:086][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.48.00:086][741]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.48.00:086][741]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.48.00:091][741]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.48.00:091][741]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.48.00:114][741]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.48.00:114][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.48.00:114][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.48.00:114][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.48.00:114][741]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.48.00:115][741]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.48.00:115][741]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.48.00:115][741]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.48.00:115][741]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.48.00:115][741]LogInit: FAudioDevice initialized.
+[2021.03.08-13.48.00:115][741]LogAudio: Display: Audio Device (ID: 14) registered with world 'lvl_Breakout'.
+[2021.03.08-13.48.00:133][741]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.48.00:134][741]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.48.00
+[2021.03.08-13.48.00:135][741]LogWorld: Bringing up level for play took: 0.000950
+[2021.03.08-13.48.00:135][741]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.03.08-13.48.00:137][741]PIE: Server logged in
+[2021.03.08-13.48.00:138][741]PIE: Play in editor total start time 0.242 seconds.
+[2021.03.08-13.48.00:138][741]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.48.00:138][741]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.48.03:825][950]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.03:825][950]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.13:580][535]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.13:580][535]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.18:284][817]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.18:284][817]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.48.21:330][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.48.21:330][997]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.48.21:330][997]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.48.21:330][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.48.21:387][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.48.21:392][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.48.21:416][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.48.21:417][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.48.21:418][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.48.21:436][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.03.08-13.48.21:447][997]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.48.21:472][997]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.48.21:721][998]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.03.08-13.48.32:951][667]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-13.48.32:956][667]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-13.48.40:904][121]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.48.40:929][121]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AC_Spells.AC_Spells
+[2021.03.08-13.49.32:902][196]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.49.38:958][553]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.49.41:262][687]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.49.43:990][846]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.50.16:734][805]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.50.25:723][338]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.50.25:771][338]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.03.08-13.50.25:771][338]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/lvl_Breakout' took 0.031
+[2021.03.08-13.50.25:772][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Player] ([1] browsable assets)...
+[2021.03.08-13.50.25:772][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2021.03.08-13.50.25:939][338]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player_Auto393C67273428286E9FA132C84ECE09352.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/BP_Player_Auto3.uasset'
+[2021.03.08-13.50.25:940][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AC_Spells] ([1] browsable assets)...
+[2021.03.08-13.50.25:940][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AC_Spells]
+[2021.03.08-13.50.25:971][338]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_Spells_Auto31B4713654275E5529D8FA7A5B6AF9B6A.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/Autosaves/Game/Blueprints/AC_Spells_Auto3.uasset'
+[2021.03.08-13.50.25:987][338]LogFileHelpers: Auto-saving content packages took 0.215
+[2021.03.08-13.51.23:428][764]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.51.28:452][ 60]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.51.33:468][359]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-13.51.33:586][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.03.08-13.51.34:355][401]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.51.34:365][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.51.34:365][401]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:51:34)
+[2021.03.08-13.51.34:365][401]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.51.34:367][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001697s)
+[2021.03.08-13.51.34:368][401]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.51.34:368][401]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2021.03.08-13.51.34:368][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002762s)
+[2021.03.08-13.51.34:399][401]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.03.08-13.51.34:399][401]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.03.08-13.51.34:399][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.51.34:399][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.51.34:400][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.51.34:400][401]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.51.34:400][401]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.51.34:404][401]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.51.34:404][401]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.51.34:426][401]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.51.34:426][401]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.51.34:427][401]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.51.34:427][401]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.51.34:427][401]LogInit: FAudioDevice initialized.
+[2021.03.08-13.51.34:427][401]LogAudio: Display: Audio Device (ID: 15) registered with world 'lvl_Breakout'.
+[2021.03.08-13.51.34:455][401]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.51.34:457][401]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.51.34
+[2021.03.08-13.51.34:458][401]LogWorld: Bringing up level for play took: 0.001525
+[2021.03.08-13.51.34:458][401]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.03.08-13.51.34:461][401]PIE: Server logged in
+[2021.03.08-13.51.34:461][401]PIE: Play in editor total start time 0.101 seconds.
+[2021.03.08-13.51.34:462][401]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.51.34:462][401]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.51.35:934][489]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.51.35:934][489]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.51.45:380][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.51.45:380][ 53]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.51.45:380][ 53]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.51.45:381][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.51.45:390][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.51.45:396][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.51.45:423][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.51.45:424][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.51.45:425][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.51.45:442][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.03.08-13.51.45:453][ 53]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.51.45:480][ 53]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.51.45:538][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.03.08-13.51.52:514][464]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.51.53:574][523]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.52.06:316][259]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.52.09:811][466]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.52.12:426][621]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-13.52.12:493][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.03.08-13.52.13:455][673]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.52.13:466][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.52.13:466][673]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:52:13)
+[2021.03.08-13.52.13:466][673]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.52.13:468][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001599s)
+[2021.03.08-13.52.13:468][673]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.52.13:469][673]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2021.03.08-13.52.13:469][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002539s)
+[2021.03.08-13.52.13:500][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.03.08-13.52.13:501][673]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.52.13:501][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.52.13:501][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.52.13:502][673]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.52.13:502][673]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.52.13:505][673]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.52.13:506][673]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.52.13:527][673]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.52.13:527][673]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.52.13:527][673]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.52.13:527][673]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.52.13:528][673]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.52.13:528][673]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.52.13:528][673]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.52.13:528][673]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.52.13:528][673]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.52.13:528][673]LogInit: FAudioDevice initialized.
+[2021.03.08-13.52.13:529][673]LogAudio: Display: Audio Device (ID: 16) registered with world 'lvl_Breakout'.
+[2021.03.08-13.52.13:555][673]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.52.13:557][673]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.52.13
+[2021.03.08-13.52.13:557][673]LogWorld: Bringing up level for play took: 0.001334
+[2021.03.08-13.52.13:558][673]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.03.08-13.52.13:561][673]PIE: Server logged in
+[2021.03.08-13.52.13:562][673]PIE: Play in editor total start time 0.102 seconds.
+[2021.03.08-13.52.13:562][673]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.52.13:562][673]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.52.14:582][734]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.52.14:582][734]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.52.16:665][859]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:681][860]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:698][861]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:715][862]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:731][863]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:748][864]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:765][865]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:782][866]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:799][867]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:815][868]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:832][869]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:849][870]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:865][871]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:882][872]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:898][873]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:915][874]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:932][875]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:948][876]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:965][877]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:982][878]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.16:998][879]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.17:016][880]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.17:032][881]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.17:049][882]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.17:065][883]LogBlueprintUserMessages: [AC_Spells] X=0.972 Y=0.000 Z=-0.236
+[2021.03.08-13.52.17:881][932]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:898][933]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:915][934]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:931][935]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:948][936]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:965][937]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:981][938]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.17:998][939]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:015][940]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:032][941]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:048][942]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:065][943]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:082][944]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:098][945]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:115][946]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:132][947]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:149][948]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:166][949]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:182][950]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:199][951]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:214][952]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:231][953]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:248][954]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:265][955]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:281][956]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:298][957]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:315][958]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:332][959]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:348][960]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:365][961]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:382][962]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:398][963]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:415][964]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:433][965]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:449][966]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:465][967]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:482][968]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:498][969]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:515][970]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:531][971]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:576][972]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:587][973]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:605][974]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:621][975]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:637][976]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:654][977]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:671][978]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:688][979]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:704][980]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:721][981]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:738][982]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:755][983]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:771][984]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:787][985]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:804][986]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:821][987]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:838][988]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:855][989]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:871][990]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:888][991]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:905][992]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:921][993]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:938][994]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:954][995]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:971][996]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.18:988][997]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:005][998]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:022][999]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:038][  0]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:055][  1]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:071][  2]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:087][  3]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:105][  4]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:120][  5]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:137][  6]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:154][  7]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:171][  8]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:187][  9]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:204][ 10]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:221][ 11]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:238][ 12]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:255][ 13]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:272][ 14]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:288][ 15]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:304][ 16]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:321][ 17]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:338][ 18]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:355][ 19]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:371][ 20]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:388][ 21]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:405][ 22]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:421][ 23]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:438][ 24]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:455][ 25]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:471][ 26]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:488][ 27]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:505][ 28]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:522][ 29]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:538][ 30]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:555][ 31]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:571][ 32]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:587][ 33]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:605][ 34]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:621][ 35]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:637][ 36]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:654][ 37]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:671][ 38]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:688][ 39]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:704][ 40]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:721][ 41]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:737][ 42]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:754][ 43]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:771][ 44]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:788][ 45]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:804][ 46]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:821][ 47]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:838][ 48]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:855][ 49]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:871][ 50]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:888][ 51]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:905][ 52]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:921][ 53]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:938][ 54]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:954][ 55]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:971][ 56]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.19:988][ 57]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:005][ 58]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:022][ 59]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:038][ 60]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:055][ 61]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:072][ 62]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:088][ 63]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:105][ 64]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:121][ 65]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:138][ 66]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:154][ 67]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:171][ 68]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:188][ 69]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:204][ 70]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:221][ 71]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:238][ 72]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:254][ 73]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:271][ 74]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:287][ 75]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:304][ 76]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:321][ 77]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:337][ 78]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:355][ 79]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:371][ 80]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:388][ 81]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:404][ 82]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:421][ 83]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:438][ 84]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:454][ 85]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:471][ 86]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:487][ 87]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:504][ 88]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:521][ 89]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:537][ 90]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:554][ 91]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:571][ 92]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:588][ 93]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:605][ 94]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:621][ 95]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:638][ 96]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:655][ 97]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:671][ 98]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:688][ 99]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:705][100]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:722][101]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:738][102]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:755][103]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:772][104]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:787][105]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:804][106]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:821][107]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:838][108]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.20:855][109]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=-0.124
+[2021.03.08-13.52.21:505][148]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:522][149]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:538][150]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:555][151]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:571][152]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:587][153]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:604][154]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:621][155]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:637][156]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:654][157]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:671][158]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:687][159]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:704][160]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:721][161]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:738][162]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:754][163]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:771][164]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:788][165]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:805][166]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.21:821][167]LogBlueprintUserMessages: [AC_Spells] X=0.970 Y=0.000 Z=-0.245
+[2021.03.08-13.52.23:238][252]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:255][253]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:272][254]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:288][255]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:305][256]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:321][257]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:338][258]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:355][259]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:371][260]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:388][261]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:405][262]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:421][263]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:437][264]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:454][265]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:472][266]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:488][267]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:505][268]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:522][269]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:538][270]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:554][271]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:571][272]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:587][273]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:604][274]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:621][275]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:638][276]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:654][277]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:671][278]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:688][279]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:704][280]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:721][281]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:738][282]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:754][283]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:771][284]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:787][285]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.23:804][286]LogBlueprintUserMessages: [AC_Spells] X=0.973 Y=0.000 Z=0.233
+[2021.03.08-13.52.25:288][375]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:305][376]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:321][377]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:338][378]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:355][379]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:372][380]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:388][381]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:404][382]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:421][383]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:438][384]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:454][385]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:471][386]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:488][387]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:504][388]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:521][389]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:538][390]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:554][391]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:571][392]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:588][393]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:605][394]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:621][395]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:638][396]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:654][397]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:671][398]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:688][399]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:705][400]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:721][401]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:738][402]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:755][403]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:772][404]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:788][405]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:805][406]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:822][407]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:838][408]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:855][409]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:872][410]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:888][411]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:904][412]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:921][413]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:938][414]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:954][415]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:971][416]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.25:988][417]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:004][418]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:022][419]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:038][420]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:054][421]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:071][422]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:088][423]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.26:105][424]LogBlueprintUserMessages: [AC_Spells] X=0.967 Y=0.000 Z=-0.253
+[2021.03.08-13.52.27:539][510]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:554][511]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:571][512]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:587][513]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:604][514]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:621][515]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:638][516]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:654][517]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:671][518]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:688][519]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:705][520]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:721][521]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:738][522]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:755][523]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:771][524]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:788][525]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:805][526]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:822][527]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:838][528]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:855][529]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:871][530]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:887][531]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:904][532]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:921][533]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:938][534]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:954][535]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:971][536]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.27:988][537]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:004][538]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:021][539]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:038][540]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:055][541]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:071][542]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:088][543]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:105][544]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:121][545]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:138][546]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:155][547]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:171][548]LogBlueprintUserMessages: [AC_Spells] X=0.981 Y=0.000 Z=0.193
+[2021.03.08-13.52.28:538][570]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:555][571]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:571][572]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:588][573]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:606][574]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:622][575]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:638][576]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:655][577]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:672][578]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:688][579]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:705][580]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:722][581]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:738][582]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:755][583]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:772][584]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:788][585]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:805][586]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.28:821][587]LogBlueprintUserMessages: [AC_Spells] X=0.992 Y=0.000 Z=0.128
+[2021.03.08-13.52.31:150][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.52.31:150][724]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.52.31:150][724]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.52.31:150][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.52.31:160][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.52.31:165][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.52.31:192][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-13.52.31:192][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.52.31:193][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.52.31:208][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.52.31:211][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.03.08-13.52.31:222][724]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.52.31:252][725]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.03.08-13.52.55:135][141]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.52.55:838][167]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.53.24:863][879]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.53.25:291][900]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.08:656][489]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.14:963][865]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.15:698][905]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.20:648][200]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.21:490][246]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.22:718][319]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.25:088][460]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.27:893][627]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-13.54.27:959][627]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.03.08-13.54.28:855][677]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.54.28:865][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.54.28:865][677]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:54:28)
+[2021.03.08-13.54.28:865][677]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.54.28:867][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001691s)
+[2021.03.08-13.54.28:868][677]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.54.28:868][677]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2021.03.08-13.54.28:868][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002689s)
+[2021.03.08-13.54.28:900][677]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.03.08-13.54.28:900][677]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.54.28:900][677]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.54.28:900][677]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.54.28:901][677]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.54.28:901][677]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.54.28:905][677]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.54.28:905][677]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.54.28:927][677]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.54.28:927][677]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.54.28:928][677]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.54.28:928][677]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.54.28:928][677]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.54.28:928][677]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.54.28:928][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.54.28:941][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.54.28:941][677]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.54.28:941][677]LogInit: FAudioDevice initialized.
+[2021.03.08-13.54.28:941][677]LogAudio: Display: Audio Device (ID: 17) registered with world 'lvl_Breakout'.
+[2021.03.08-13.54.28:962][677]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.54.28:964][677]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.54.28
+[2021.03.08-13.54.28:964][677]LogWorld: Bringing up level for play took: 0.001039
+[2021.03.08-13.54.28:964][677]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.03.08-13.54.28:967][677]PIE: Server logged in
+[2021.03.08-13.54.28:968][677]PIE: Play in editor total start time 0.108 seconds.
+[2021.03.08-13.54.28:968][677]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.54.28:968][677]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.54.38:030][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.54.38:030][218]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.54.38:030][218]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.54.38:030][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.54.38:044][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.54.38:049][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.54.38:077][218]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-13.54.38:078][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.54.38:079][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.54.38:092][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.54.38:097][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.03.08-13.54.38:118][219]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.03.08-13.54.39:686][312]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.54.43:995][568]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-13.54.44:061][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.03.08-13.54.45:060][624]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.54.45:071][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.54.45:071][624]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:54:45)
+[2021.03.08-13.54.45:071][624]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.54.45:073][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2021.03.08-13.54.45:073][624]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.54.45:073][624]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2021.03.08-13.54.45:073][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002658s)
+[2021.03.08-13.54.45:106][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.03.08-13.54.45:106][624]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.54.45:106][624]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.54.45:106][624]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.54.45:107][624]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.54.45:107][624]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.54.45:111][624]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.54.45:111][624]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.54.45:133][624]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.54.45:133][624]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.54.45:133][624]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.54.45:133][624]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.54.45:134][624]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.54.45:134][624]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.54.45:134][624]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.54.45:147][624]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.54.45:147][624]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.54.45:147][624]LogInit: FAudioDevice initialized.
+[2021.03.08-13.54.45:147][624]LogAudio: Display: Audio Device (ID: 18) registered with world 'lvl_Breakout'.
+[2021.03.08-13.54.45:163][624]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.54.45:164][624]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.54.45
+[2021.03.08-13.54.45:165][624]LogWorld: Bringing up level for play took: 0.000856
+[2021.03.08-13.54.45:165][624]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.03.08-13.54.45:168][624]PIE: Server logged in
+[2021.03.08-13.54.45:168][624]PIE: Play in editor total start time 0.103 seconds.
+[2021.03.08-13.54.45:168][624]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.54.45:169][624]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.54.55:889][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.54.55:889][264]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.54.55:890][264]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.54.55:890][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.54.55:904][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.54.55:909][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.54.55:936][264]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-13.54.55:937][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.54.55:937][264]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.54.55:952][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.54.55:955][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.03.08-13.54.55:975][265]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.03.08-13.55.29:555][273]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.29:570][273]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.55.31:768][394]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.32:982][464]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.33:180][473]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.33:341][480]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.33:476][485]LogEditorTransaction: Undo Add Node
+[2021.03.08-13.55.33:724][497]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.33:874][503]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.34:035][510]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.34:287][522]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.34:431][528]LogEditorTransaction: Undo Resize Node
+[2021.03.08-13.55.34:533][531]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.34:678][537]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.34:940][550]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.35:123][558]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.35:270][564]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.35:367][567]LogEditorTransaction: Undo Move Nodes
+[2021.03.08-13.55.35:538][574]LogEditorTransaction: Undo Add Node
+[2021.03.08-13.55.35:687][580]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.35:874][588]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.36:021][594]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.36:206][602]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.36:388][610]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.36:668][624]LogEditorTransaction: Undo Move Nodes
+[2021.03.08-13.55.36:869][633]LogEditorTransaction: Undo Move Nodes
+[2021.03.08-13.55.37:064][642]LogEditorTransaction: Undo Add Node
+[2021.03.08-13.55.37:264][651]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.37:450][659]LogEditorTransaction: Undo Create Reroute Node
+[2021.03.08-13.55.37:662][669]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-13.55.38:044][689]LogEditorTransaction: Undo Recombine Struct Pin
+[2021.03.08-13.55.38:228][697]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.38:324][700]LogEditorTransaction: Undo Break Pin Links
+[2021.03.08-13.55.38:471][706]LogEditorTransaction: Undo Break Pin Links
+[2021.03.08-13.55.38:615][712]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.38:829][722]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.38:975][728]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.40:635][825]LogEditorTransaction: Undo Recombine Struct Pin
+[2021.03.08-13.55.40:884][837]LogEditorTransaction: Undo Break Pin Links
+[2021.03.08-13.55.41:517][872]LogEditorTransaction: Undo Delete current selection
+[2021.03.08-13.55.42:938][954]LogEditorTransaction: Undo Promote To Variable
+[2021.03.08-13.55.44:314][ 33]LogEditorTransaction: Undo Move Node
+[2021.03.08-13.55.47:722][232]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-13.55.47:809][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.03.08-13.55.49:520][330]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.55.49:531][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.55.49:531][330]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:55:49)
+[2021.03.08-13.55.49:531][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.55.49:533][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001722s)
+[2021.03.08-13.55.49:533][330]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.55.49:533][330]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2021.03.08-13.55.49:534][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002741s)
+[2021.03.08-13.55.49:564][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.03.08-13.55.49:565][330]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.55.49:565][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.55.49:565][330]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.55.49:565][330]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.55.49:569][330]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.55.49:569][330]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.55.49:590][330]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.55.49:591][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.55.49:591][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.55.49:591][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.55.49:591][330]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.55.49:591][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.55.49:591][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.55.49:604][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.55.49:604][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.55.49:605][330]LogInit: FAudioDevice initialized.
+[2021.03.08-13.55.49:605][330]LogAudio: Display: Audio Device (ID: 19) registered with world 'lvl_Breakout'.
+[2021.03.08-13.55.49:613][330]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.55.49:615][330]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.55.49
+[2021.03.08-13.55.49:615][330]LogWorld: Bringing up level for play took: 0.000714
+[2021.03.08-13.55.49:615][330]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.03.08-13.55.49:617][330]PIE: Server logged in
+[2021.03.08-13.55.49:617][330]PIE: Play in editor total start time 0.092 seconds.
+[2021.03.08-13.55.49:617][330]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.55.49:617][330]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.56.31:950][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.56.31:950][865]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.56.31:950][865]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.56.31:950][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.56.31:960][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.56.31:966][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.56.31:993][865]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-13.56.31:994][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.56.31:995][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.56.32:010][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.56.32:014][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.03.08-13.56.32:041][866]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.03.08-13.56.36:740][146]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.03.08-13.56.51:959][990]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.56.51:970][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.56.51:970][990]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:56:51)
+[2021.03.08-13.56.51:970][990]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.56.51:972][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001716s)
+[2021.03.08-13.56.51:972][990]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.56.51:973][990]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2021.03.08-13.56.51:973][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002777s)
+[2021.03.08-13.56.52:002][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.03.08-13.56.52:005][990]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.56.52:005][990]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.56.52:005][990]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.56.52:005][990]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.56.52:009][990]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.56.52:009][990]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.56.52:031][990]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.56.52:031][990]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.56.52:045][990]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.56.52:045][990]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.56.52:045][990]LogInit: FAudioDevice initialized.
+[2021.03.08-13.56.52:045][990]LogAudio: Display: Audio Device (ID: 20) registered with world 'lvl_Breakout'.
+[2021.03.08-13.56.52:049][990]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.56.52:051][990]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.56.52
+[2021.03.08-13.56.52:051][990]LogWorld: Bringing up level for play took: 0.000710
+[2021.03.08-13.56.52:051][990]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.03.08-13.56.52:054][990]PIE: Server logged in
+[2021.03.08-13.56.52:054][990]PIE: Play in editor total start time 0.09 seconds.
+[2021.03.08-13.56.52:055][990]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.56.52:055][990]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.56.54:721][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.56.54:721][147]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.56.54:721][147]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.56.54:721][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.56.54:732][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.56.54:774][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.56.54:802][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.56.54:803][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.56.54:803][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.56.54:822][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.03.08-13.56.54:870][148]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.03.08-13.56.56:260][224]LogEditorViewport: Clicking on Actor (LMB): BP_InvisibleWall_C (BP_InvisibleWall3)
+[2021.03.08-13.56.57:064][270]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.56.59:374][407]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.57.06:792][851]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2021.03.08-13.57.09:440][  3]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.57.10:982][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.57.13:919][265]Cmd: TRANSACTION UNDO
+[2021.03.08-13.57.13:919][265]LogEditorTransaction: Undo Scale Actors
+[2021.03.08-13.57.13:922][265]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.57.15:163][329]Cmd: DUPLICATE
+[2021.03.08-13.57.15:163][329]Cmd: ACTOR DUPLICATE
+[2021.03.08-13.57.20:535][639]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.57.25:299][919]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.08-13.57.27:462][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.57.27:472][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.57.27:472][ 48]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:57:27)
+[2021.03.08-13.57.27:472][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.57.27:474][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001688s)
+[2021.03.08-13.57.27:475][ 48]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.57.27:475][ 48]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2021.03.08-13.57.27:475][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002753s)
+[2021.03.08-13.57.27:507][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.08-13.57.27:511][ 48]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.57.27:511][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.57.27:511][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.57.27:512][ 48]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.57.27:512][ 48]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.57.27:516][ 48]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.57.27:516][ 48]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.57.27:539][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.57.27:553][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.57.27:553][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.57.27:553][ 48]LogInit: FAudioDevice initialized.
+[2021.03.08-13.57.27:553][ 48]LogAudio: Display: Audio Device (ID: 21) registered with world 'lvl_Breakout'.
+[2021.03.08-13.57.27:563][ 48]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.57.27:565][ 48]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.57.27
+[2021.03.08-13.57.27:565][ 48]LogWorld: Bringing up level for play took: 0.000798
+[2021.03.08-13.57.27:565][ 48]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.03.08-13.57.27:567][ 48]PIE: Server logged in
+[2021.03.08-13.57.27:568][ 48]PIE: Play in editor total start time 0.101 seconds.
+[2021.03.08-13.57.27:569][ 48]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.57.27:569][ 48]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.57.34:100][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.57.34:100][438]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.57.34:100][438]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.57.34:100][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.57.34:114][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.57.34:129][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.57.34:157][438]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-13.57.34:157][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.57.34:158][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.57.34:173][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.57.34:177][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.03.08-13.57.34:211][439]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.03.08-13.57.36:601][581]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.57.37:590][639]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_InvisibleWall_C (BP_InvisibleWall3)
+[2021.03.08-13.57.38:289][680]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_InvisibleWall_C (BP_InvisibleWall2)
+[2021.03.08-13.57.39:651][761]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_InvisibleWall_C (BP_InvisibleWall4)
+[2021.03.08-13.57.40:964][839]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_InvisibleWall_C (BP_InvisibleWall)
+[2021.03.08-13.57.44:349][ 41]Cmd: TRANSACTION UNDO
+[2021.03.08-13.57.44:349][ 41]LogEditorTransaction: Undo Scale Actors
+[2021.03.08-13.57.44:354][ 41]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.57.52:029][482]Cmd: MODE ROTGRID=0
+[2021.03.08-13.57.52:545][513]Cmd: MODE ROTGRID=1
+[2021.03.08-13.57.55:300][678]Cmd: MODE ROTGRID=0
+[2021.03.08-13.58.01:634][ 57]Cmd: TRANSACTION UNDO
+[2021.03.08-13.58.01:634][ 57]LogEditorTransaction: Undo Scale Actors
+[2021.03.08-13.58.01:639][ 57]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.58.02:736][112]LogEditorViewport: Clicking Background
+[2021.03.08-13.58.04:103][194]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-13.58.10:885][599]LogEditorViewport: Clicking on Actor (LMB): BP_InvisibleWall_C (BP_InvisibleWall3)
+[2021.03.08-13.58.19:668][124]LogEditorViewport: Clicking on Actor (LMB): BP_InvisibleWall_C (BP_InvisibleWall4)
+[2021.03.08-13.58.28:902][676]LogEditorViewport: Clicking on Actor (LMB): BP_InvisibleWall_C (BP_InvisibleWall)
+[2021.03.08-13.58.32:384][884]LogEditorViewport: Clicking on Actor (LMB): BP_InvisibleWall_C (BP_InvisibleWall2)
+[2021.03.08-13.58.38:684][261]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2021.03.08-13.58.41:207][411]Cmd: DELETE
+[2021.03.08-13.58.41:207][411]Cmd: ACTOR DELETE
+[2021.03.08-13.58.41:319][411]LogEditorActor: Deleted Actor: DirectionalLight
+[2021.03.08-13.58.41:350][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.03.08-13.58.41:354][411]LogEditorActor: Deleted 1 Actors (0.147 secs)
+[2021.03.08-13.58.42:536][482]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-13.58.42:547][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-13.58.42:547][482]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 13:58:42)
+[2021.03.08-13.58.42:547][482]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.58.42:549][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001728s)
+[2021.03.08-13.58.42:550][482]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-13.58.42:550][482]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2021.03.08-13.58.42:550][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002749s)
+[2021.03.08-13.58.42:579][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.03.08-13.58.42:580][482]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-13.58.42:580][482]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-13.58.42:580][482]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-13.58.42:580][482]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-13.58.42:584][482]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-13.58.42:584][482]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-13.58.42:608][482]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-13.58.42:608][482]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-13.58.42:622][482]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-13.58.42:622][482]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-13.58.42:622][482]LogInit: FAudioDevice initialized.
+[2021.03.08-13.58.42:622][482]LogAudio: Display: Audio Device (ID: 22) registered with world 'lvl_Breakout'.
+[2021.03.08-13.58.42:630][482]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-13.58.42:632][482]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-13.58.42
+[2021.03.08-13.58.42:632][482]LogWorld: Bringing up level for play took: 0.000753
+[2021.03.08-13.58.42:632][482]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.03.08-13.58.42:634][482]PIE: Server logged in
+[2021.03.08-13.58.42:635][482]PIE: Play in editor total start time 0.094 seconds.
+[2021.03.08-13.58.42:635][482]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-13.58.42:635][482]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-13.58.44:238][578]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.58.44:238][578]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.58.56:221][297]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.58.56:221][297]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.59.05:056][827]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.59.05:057][827]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.59.20:492][753]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.59.20:492][753]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-13.59.29:390][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.59.29:391][283]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-13.59.29:391][283]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-13.59.29:391][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.59.29:405][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-13.59.29:410][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-13.59.29:439][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-13.59.29:439][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.59.29:440][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-13.59.29:458][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.03.08-13.59.29:469][283]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.59.29:507][284]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.03.08-13.59.30:596][340]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.59.31:433][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.03.08-13.59.31:437][387]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-13.59.31:454][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.08-13.59.31:491][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.03.08-13.59.31:497][387]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout4498706C43A08E01857A6E940F77E6CE.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.03.08-13.59.31:507][387]LogFileHelpers: Saving map 'lvl_Breakout' took 0.053
+[2021.03.08-13.59.31:507][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.03.08-13.59.31:675][387]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_PlayerC08DC4D4474CB155FA676A94DA82A3FC.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.03.08-13.59.31:675][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Spells" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset" SILENT=true
+[2021.03.08-13.59.31:706][387]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_Spells1B50E5094AE5ECD61D4C60BBE195B222.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset'
+[2021.03.08-13.59.31:722][387]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.08-13.59.31:722][387]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Spells.AC_Spells
+[2021.03.08-13.59.31:722][387]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2021.03.08-13.59.31:722][387]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.03.08-13.59.48:010][543]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-13.59.48:017][543]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-14.00.22:073][556]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.00.37:041][446]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.00.54:817][506]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.00.57:095][640]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.00.58:484][719]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.00.58:722][732]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.01.01:088][872]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.01.01:507][893]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.01.25:618][329]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.01.27:455][438]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-14.01.27:522][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.03.08-14.01.28:410][487]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.01.28:421][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.01.28:421][487]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:01:28)
+[2021.03.08-14.01.28:421][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.01.28:423][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001658s)
+[2021.03.08-14.01.28:424][487]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.01.28:424][487]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2021.03.08-14.01.28:424][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002683s)
+[2021.03.08-14.01.28:455][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.03.08-14.01.28:456][487]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.01.28:456][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.01.28:456][487]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.01.28:456][487]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.01.28:460][487]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.01.28:460][487]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.01.28:481][487]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.01.28:481][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.01.28:481][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.01.28:481][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.01.28:481][487]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.01.28:482][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.01.28:482][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.01.28:495][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.01.28:495][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.01.28:495][487]LogInit: FAudioDevice initialized.
+[2021.03.08-14.01.28:495][487]LogAudio: Display: Audio Device (ID: 23) registered with world 'lvl_Breakout'.
+[2021.03.08-14.01.28:513][487]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.01.28:515][487]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.01.28
+[2021.03.08-14.01.28:515][487]LogWorld: Bringing up level for play took: 0.001366
+[2021.03.08-14.01.28:516][487]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.03.08-14.01.28:519][487]PIE: Server logged in
+[2021.03.08-14.01.28:519][487]PIE: Play in editor total start time 0.104 seconds.
+[2021.03.08-14.01.28:519][487]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.01.28:519][487]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.01.53:980][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.01.53:980][ 12]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.01.53:980][ 12]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.01.53:981][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.01.53:990][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.01.53:995][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.01.54:021][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.01.54:022][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.01.54:023][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.01.54:037][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.01.54:040][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.03.08-14.01.54:068][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.03.08-14.02.14:973][260]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.15:654][300]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.16:844][370]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.17:464][406]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.18:391][461]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.18:594][472]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.20:722][596]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.21:179][622]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.22:009][671]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.22:613][707]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.25:393][873]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.56:869][755]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.58:803][870]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.02.59:300][895]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.03.06:747][338]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.03.06:767][338]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2021.03.08-14.03.26:720][506]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.03.27:322][537]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.03.54:705][174]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.03.55:136][195]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.04.01:670][584]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.04.03:304][680]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.04.44:650][152]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.04.45:069][173]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.05.01:635][161]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.05.28:276][751]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.05.31:256][928]LogEditorTransaction: Undo Create Pin Link
+[2021.03.08-14.05.31:272][928]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.05.35:244][158]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.06.27:157][267]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-14.06.27:227][267]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.03.08-14.06.37:216][857]BlueprintLog: New page: Compile AC_Spells
+[2021.03.08-14.06.37:286][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.03.08-14.06.37:878][889]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.06.37:888][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.06.37:889][889]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:06:37)
+[2021.03.08-14.06.37:889][889]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.06.37:891][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001745s)
+[2021.03.08-14.06.37:891][889]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.06.37:892][889]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2021.03.08-14.06.37:892][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003556s)
+[2021.03.08-14.06.37:926][889]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.03.08-14.06.37:927][889]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.06.37:927][889]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.06.37:927][889]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.06.37:927][889]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.06.37:932][889]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.06.37:932][889]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.06.37:954][889]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.06.37:954][889]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.06.37:954][889]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.06.37:954][889]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.06.37:955][889]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.06.37:955][889]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.06.37:955][889]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.06.37:968][889]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.06.37:968][889]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.06.37:968][889]LogInit: FAudioDevice initialized.
+[2021.03.08-14.06.37:968][889]LogAudio: Display: Audio Device (ID: 24) registered with world 'lvl_Breakout'.
+[2021.03.08-14.06.37:990][889]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.06.37:992][889]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.06.37
+[2021.03.08-14.06.37:992][889]LogWorld: Bringing up level for play took: 0.000967
+[2021.03.08-14.06.37:992][889]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.03.08-14.06.37:995][889]PIE: Server logged in
+[2021.03.08-14.06.37:996][889]PIE: Play in editor total start time 0.112 seconds.
+[2021.03.08-14.06.37:996][889]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.06.37:996][889]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.06.39:128][957]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.06.39:128][957]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.06.57:131][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.06.57:131][ 35]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.06.57:131][ 35]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.06.57:131][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.06.57:146][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.06.57:151][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.06.57:181][ 35]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.06.57:181][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.06.57:182][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.06.57:197][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.06.57:201][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.08-14.06.57:212][ 35]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.06.57:232][ 35]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.06.57:291][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.03.08-14.06.58:713][114]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-14.06.58:720][114]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-14.07.00:487][220]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.07.01:322][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.03.08-14.07.01:326][268]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.07.01:346][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Spells" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset" SILENT=true
+[2021.03.08-14.07.01:377][268]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_SpellsED67C7C9485CA77817E2A0A65079713D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset'
+[2021.03.08-14.07.01:391][268]AssetCheck: New page: Asset Save: AC_Spells
+[2021.03.08-14.07.01:391][268]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Spells.AC_Spells
