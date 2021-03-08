@@ -5511,3 +5511,412 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.08-14.07.01:377][268]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_SpellsED67C7C9485CA77817E2A0A65079713D.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset'
 [2021.03.08-14.07.01:391][268]AssetCheck: New page: Asset Save: AC_Spells
 [2021.03.08-14.07.01:391][268]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Spells.AC_Spells
+[2021.03.08-14.10.07:411][885]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.14.47:631][724]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Gym_Sprite)
+[2021.03.08-14.14.54:327][110]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.14.54:338][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.14.54:338][110]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:14:54)
+[2021.03.08-14.14.54:338][110]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.14.54:340][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001901s)
+[2021.03.08-14.14.54:341][110]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.14.54:341][110]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2021.03.08-14.14.54:341][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.003068s)
+[2021.03.08-14.14.54:376][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.03.08-14.14.54:377][110]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.14.54:377][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.14.54:377][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.14.54:378][110]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.14.54:378][110]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.14.54:382][110]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.14.54:382][110]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.14.54:405][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.14.54:405][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.14.54:418][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.14.54:418][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.14.54:418][110]LogInit: FAudioDevice initialized.
+[2021.03.08-14.14.54:418][110]LogAudio: Display: Audio Device (ID: 25) registered with world 'lvl_Breakout'.
+[2021.03.08-14.14.54:426][110]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.14.54:427][110]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.14.54
+[2021.03.08-14.14.54:428][110]LogWorld: Bringing up level for play took: 0.000788
+[2021.03.08-14.14.54:428][110]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.03.08-14.14.54:430][110]PIE: Server logged in
+[2021.03.08-14.14.54:431][110]PIE: Play in editor total start time 0.099 seconds.
+[2021.03.08-14.14.54:431][110]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.14.54:431][110]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.14.55:566][178]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.14.55:566][178]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.05:408][767]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.05:408][767]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.15:325][362]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.15:325][362]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.22:541][795]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.22:541][795]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.15.24:972][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.15.24:972][938]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.15.24:972][938]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.15.24:972][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.15.24:981][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.15.24:997][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.15.25:025][938]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.15.25:026][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.15.25:026][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.15.25:041][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.15.25:045][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.03.08-14.15.25:055][938]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.15.25:073][938]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.15.25:146][939]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.03.08-14.15.40:136][794]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.15.57:935][765]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.15.57:946][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.15.57:946][765]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:15:57)
+[2021.03.08-14.15.57:947][765]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.15.57:948][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001716s)
+[2021.03.08-14.15.57:949][765]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.15.57:949][765]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2021.03.08-14.15.57:949][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002787s)
+[2021.03.08-14.15.57:981][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.03.08-14.15.57:982][765]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.15.57:982][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.15.57:982][765]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.15.57:982][765]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.15.57:986][765]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.15.57:986][765]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.15.58:008][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.15.58:008][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.15.58:021][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.15.58:021][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.15.58:021][765]LogInit: FAudioDevice initialized.
+[2021.03.08-14.15.58:021][765]LogAudio: Display: Audio Device (ID: 26) registered with world 'lvl_Breakout'.
+[2021.03.08-14.15.58:031][765]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.15.58:032][765]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.15.58
+[2021.03.08-14.15.58:033][765]LogWorld: Bringing up level for play took: 0.000731
+[2021.03.08-14.15.58:033][765]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.03.08-14.15.58:035][765]PIE: Server logged in
+[2021.03.08-14.15.58:036][765]PIE: Play in editor total start time 0.095 seconds.
+[2021.03.08-14.15.58:037][765]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.15.58:037][765]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.15.59:066][826]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-14.15.59:078][826]LogSlate: Window 'Message Log' being destroyed
+[2021.03.08-14.16.10:523][512]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.16.10:523][512]PIE: Warning: Invalid Simulate Options: Body (BP_Headphones_5.Headphones_Flipbook anim_HeadphonesOnHead) is set to simulate physics but Collision Enabled is incompatible
+[2021.03.08-14.16.19:871][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.16.19:871][ 70]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.16.19:871][ 70]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.16.19:871][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.16.19:933][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.16.19:948][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.16.19:977][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.16.19:978][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.16.19:979][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.16.19:997][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.03.08-14.16.20:008][ 70]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.16.20:031][ 70]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.16.20:271][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.03.08-14.16.39:514][128]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.22:116][468]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.17.22:231][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.03.08-14.17.27:774][780]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.28:513][814]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.30:062][905]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.33:287][ 89]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.39:773][473]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.43:229][674]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.17.55:743][412]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.18.02:078][784]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.18.14:684][519]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.18.26:903][247]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.18.36:855][833]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.18.38:834][948]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.18.38:928][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.03.08-14.18.39:885][989]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.18.39:896][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.18.39:896][989]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:18:39)
+[2021.03.08-14.18.39:896][989]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.18.39:898][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001700s)
+[2021.03.08-14.18.39:899][989]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.18.39:899][989]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2021.03.08-14.18.39:899][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002696s)
+[2021.03.08-14.18.39:934][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.03.08-14.18.39:935][989]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.18.39:935][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.18.39:935][989]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.18.39:935][989]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.18.39:939][989]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.18.39:940][989]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.18.39:962][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.18.39:962][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.18.39:976][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.18.39:976][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.18.39:976][989]LogInit: FAudioDevice initialized.
+[2021.03.08-14.18.39:976][989]LogAudio: Display: Audio Device (ID: 27) registered with world 'lvl_Breakout'.
+[2021.03.08-14.18.39:996][989]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.18.39:997][989]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.18.39
+[2021.03.08-14.18.39:997][989]LogWorld: Bringing up level for play took: 0.000830
+[2021.03.08-14.18.39:998][989]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.03.08-14.18.40:000][989]PIE: Server logged in
+[2021.03.08-14.18.40:001][989]PIE: Play in editor total start time 0.11 seconds.
+[2021.03.08-14.18.40:001][989]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.18.40:001][989]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.18.48:822][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.18.48:822][515]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.18.48:822][515]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.18.48:822][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.18.48:888][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.18.48:902][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.18.48:932][515]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.18.48:933][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.18.48:934][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.18.48:949][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.18.48:952][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.03.08-14.18.49:154][516]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.03.08-14.19.03:413][363]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.06:153][524]LogEditorTransaction: Undo Move Node
+[2021.03.08-14.19.06:220][524]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.09:032][674]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.20:413][335]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.25:793][653]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.30:280][907]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.31:579][970]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.32:633][ 19]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.33:007][ 38]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.33:861][ 87]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.34:714][131]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.37:547][295]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.44:103][685]LogEditorTransaction: Undo Move Node
+[2021.03.08-14.19.44:180][685]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.19.45:356][739]LogEditorTransaction: Undo Create Reroute Node
+[2021.03.08-14.19.57:769][445]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.20.26:275][146]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.20.26:286][146]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.08-14.20.26:290][146]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2021.03.08-14.20.26:456][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.03.08-14.20.26:457][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2021.03.08-14.20.26:457][146]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:20:26)
+[2021.03.08-14.20.26:457][146]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.20.26:459][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2021.03.08-14.20.26:460][146]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.20.26:460][146]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2021.03.08-14.20.26:460][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002710s)
+[2021.03.08-14.20.26:491][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.03.08-14.20.26:492][146]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.20.26:492][146]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.20.26:492][146]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.20.26:492][146]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.20.26:497][146]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.20.26:497][146]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.20.26:518][146]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.20.26:519][146]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.20.26:519][146]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.20.26:519][146]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.20.26:519][146]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.20.26:519][146]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.20.26:519][146]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.20.26:533][146]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.20.26:533][146]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.20.26:533][146]LogInit: FAudioDevice initialized.
+[2021.03.08-14.20.26:533][146]LogAudio: Display: Audio Device (ID: 28) registered with world 'lvl_Breakout'.
+[2021.03.08-14.20.26:544][146]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.20.26:546][146]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.20.26
+[2021.03.08-14.20.26:546][146]LogWorld: Bringing up level for play took: 0.000847
+[2021.03.08-14.20.26:546][146]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.03.08-14.20.26:549][146]PIE: Server logged in
+[2021.03.08-14.20.26:550][146]PIE: Play in editor total start time 0.269 seconds.
+[2021.03.08-14.20.26:550][146]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.20.26:550][146]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.20.54:141][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.20.54:142][786]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.20.54:142][786]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.20.54:142][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.20.54:208][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.20.54:223][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.20.54:253][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.20.54:253][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.20.54:255][786]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.20.54:273][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.08-14.20.54:476][787]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.03.08-14.21.04:197][349]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.21.08:173][582]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.21.08:263][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.03.08-14.21.45:566][775]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.21.45:663][775]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.03.08-14.21.55:681][329]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.21.56:603][373]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.10:722][208]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.14:132][405]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.16:001][513]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.42:028][ 45]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.53:076][686]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.55:970][855]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.22.58:357][994]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.22.58:453][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.03.08-14.23.01:617][167]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.23.01:628][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.23.01:628][167]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:23:01)
+[2021.03.08-14.23.01:628][167]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.23.01:630][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001690s)
+[2021.03.08-14.23.01:630][167]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.23.01:631][167]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2021.03.08-14.23.01:631][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002675s)
+[2021.03.08-14.23.01:665][167]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.03.08-14.23.01:666][167]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.23.01:666][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.23.01:666][167]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.23.01:666][167]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.23.01:671][167]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.23.01:671][167]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.23.01:693][167]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.23.01:693][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.23.01:706][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.23.01:706][167]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.23.01:706][167]LogInit: FAudioDevice initialized.
+[2021.03.08-14.23.01:706][167]LogAudio: Display: Audio Device (ID: 29) registered with world 'lvl_Breakout'.
+[2021.03.08-14.23.01:712][167]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.23.01:714][167]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.23.01
+[2021.03.08-14.23.01:714][167]LogWorld: Bringing up level for play took: 0.000788
+[2021.03.08-14.23.01:714][167]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.03.08-14.23.01:717][167]PIE: Server logged in
+[2021.03.08-14.23.01:718][167]PIE: Play in editor total start time 0.096 seconds.
+[2021.03.08-14.23.01:718][167]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.23.01:718][167]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.23.05:752][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.23.05:752][407]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.23.05:752][407]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.23.05:752][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.23.05:818][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.23.05:833][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.23.05:865][407]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.23.05:866][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.23.05:867][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.23.05:884][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.23.05:888][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.03.08-14.23.06:093][408]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.03.08-14.23.28:141][616]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.23.28:697][639]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.23.51:048][941]BlueprintLog: New page: Compile BP_Player
+[2021.03.08-14.23.51:155][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.03.08-14.23.52:001][971]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.08-14.23.52:012][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.08-14.23.52:012][971]PIE: New page: PIE session: lvl_Breakout (8 Mar 2021, 14:23:52)
+[2021.03.08-14.23.52:012][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.23.52:015][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001936s)
+[2021.03.08-14.23.52:015][971]LogAIModule: Creating AISystem for world lvl_Breakout
+[2021.03.08-14.23.52:015][971]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2021.03.08-14.23.52:015][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/lvl_Breakout.lvl_Breakout to /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout (0.002989s)
+[2021.03.08-14.23.52:051][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.03.08-14.23.52:051][971]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.08-14.23.52:051][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.08-14.23.52:051][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.08-14.23.52:052][971]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.08-14.23.52:052][971]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.08-14.23.52:055][971]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.08-14.23.52:055][971]LogAudioMixer: Display: 1: FrontRight
+[2021.03.08-14.23.52:076][971]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.08-14.23.52:077][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.08-14.23.52:077][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.08-14.23.52:077][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.08-14.23.52:077][971]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.08-14.23.52:077][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.08-14.23.52:077][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.08-14.23.52:090][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.08-14.23.52:090][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.08-14.23.52:090][971]LogInit: FAudioDevice initialized.
+[2021.03.08-14.23.52:090][971]LogAudio: Display: Audio Device (ID: 30) registered with world 'lvl_Breakout'.
+[2021.03.08-14.23.52:106][971]LogLoad: Game class is 'BP_MyGameMode_C'
+[2021.03.08-14.23.52:108][971]LogWorld: Bringing World /Game/UEDPIE_0_lvl_Breakout.lvl_Breakout up for play (max tick rate 60) at 2021.03.08-14.23.52
+[2021.03.08-14.23.52:108][971]LogWorld: Bringing up level for play took: 0.001067
+[2021.03.08-14.23.52:108][971]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.03.08-14.23.52:111][971]PIE: Server logged in
+[2021.03.08-14.23.52:112][971]PIE: Play in editor total start time 0.105 seconds.
+[2021.03.08-14.23.52:112][971]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis VerticalMovement
+[2021.03.08-14.23.52:112][971]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Horizontal Moving
+[2021.03.08-14.24.25:891][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.24.25:891][898]LogWorld: BeginTearingDown for /Game/UEDPIE_0_lvl_Breakout
+[2021.03.08-14.24.25:892][898]LogWorld: UWorld::CleanupWorld for lvl_Breakout, bSessionEnded=true, bCleanupResources=true
+[2021.03.08-14.24.25:892][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.24.25:958][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.08-14.24.25:973][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.08-14.24.26:002][898]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.08-14.24.26:002][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.24.26:003][898]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.08-14.24.26:019][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.08-14.24.26:023][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.03.08-14.24.26:233][899]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.03.08-14.24.45:521][920]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.24.45:545][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.08-14.24.45:577][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.03.08-14.24.45:584][920]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout670265A245FC3167097DB28F28860CB2.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout.umap'
+[2021.03.08-14.24.45:593][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lvl_Breakout_BuiltData" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout_BuiltData.uasset" SILENT=true
+[2021.03.08-14.24.45:594][920]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/lvl_Breakout_BuiltDataD8F9DEFD4B0000B535C76D8C3F229E1C.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/lvl_Breakout_BuiltData.uasset'
+[2021.03.08-14.24.45:612][920]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.08-14.24.45:612][920]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/lvl_Breakout_BuiltData.lvl_Breakout_BuiltData
+[2021.03.08-14.24.45:612][920]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.03.08-14.24.53:379][301]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.24.54:304][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.08-14.24.54:309][342]LogD3D11RHI: CreateSwapChainForHwnd failed with result 'DXGI_ERROR_INVALID_CALL' (0x887A0001), falling back to legacy CreateSwapChain.
+[2021.03.08-14.24.54:320][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2021.03.08-14.24.54:493][342]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/BP_Player4B3DFAD84F0B56EFB056998539B355B0.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/BP_Player.uasset'
+[2021.03.08-14.24.54:494][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AC_Spells" FILE="../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset" SILENT=true
+[2021.03.08-14.24.54:526][342]LogSavePackage: Moving '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Saved/AC_Spells468700F046A631C822D947B77C7C7EA2.tmp' to '../../../../../Projects/Unreal Engine/BreakoutDungeon/Paper2d_Project/Content/Blueprints/AC_Spells.uasset'
+[2021.03.08-14.24.54:543][342]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.08-14.24.54:543][342]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/AC_Spells.AC_Spells
+[2021.03.08-14.24.54:543][342]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
