@@ -1,0 +1,12 @@
+Things to do:
+
+- fix bracing bug.
+- implement money and fix destrectible object actor.
+
+- Create "Burst" spell - press spell button, time slows down (maybe), quickly give it a direction with controller, 
+  and then an impulse is added to the ball toward that direction.
+- Implement dodgeball field
+
+- Block out enemy 1 which is a Gobloon, a throwing trash guy that is a mux of a goblin and a racoon.
+- blockout enemy 2 which is the Beowlder, a eye-lasing guy which is a mix of beholder and a owl
+- blockout the boss which is a mix of enemy 1 and 2 mechanically.
