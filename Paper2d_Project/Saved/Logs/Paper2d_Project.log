@@ -3666,3 +3666,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.23-13.30.19:299][827]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Headphones.BP_Headphones
 [2021.03.23-13.30.19:299][827]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Player.BP_Player
 [2021.03.23-13.30.19:300][827]LogContentValidation: Display: Validating World /Game/lvl_Breakout.lvl_Breakout
+[2021.03.23-13.37.08:893][  6]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\marco\Downloads\Ticket.png)
+[2021.03.23-13.37.08:898][  6]LogTexture: Display: Building textures: Ticket (AutoDXT, 32X32)
+[2021.03.23-13.37.38:928][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.03.23-13.37.38:946][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ticket" FILE="../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Assets/Ticket.uasset" SILENT=true
+[2021.03.23-13.37.38:950][775]LogSavePackage: Moving '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Saved/Ticket13630C5C4793593063DA74B057E14577.tmp' to '../../../../../../Users/marco/OneDrive/Documents/Projects/BreakoutDungeon/Paper2d_Project/Content/Assets/Ticket.uasset'
+[2021.03.23-13.37.38:958][775]AssetCheck: New page: Asset Save: Ticket
+[2021.03.23-13.37.38:958][775]LogContentValidation: Display: Validating Texture2D /Game/Assets/Ticket.Ticket
