@@ -1,6 +1,6 @@
 Things to do:
 
-- fix bracing bug.
+- sorting out the headphones ejection.
 - implement money and fix destrectible object actor.
 
 - Create "Burst" spell - press spell button, time slows down (maybe), quickly give it a direction with controller, 
