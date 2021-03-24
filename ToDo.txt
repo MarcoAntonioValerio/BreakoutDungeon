@@ -1,7 +1,7 @@
 Things to do:
 
 
-- implement money and fix destrectible object actor.
+- implement "money" and fix destrectible object actor.
 
 - Create "Burst" spell - press spell button, time slows down (maybe), quickly give it a direction with controller, 
   and then an impulse is added to the ball toward that direction.
